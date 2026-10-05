@@ -1,0 +1,204 @@
+unit,cohort,birth_year,threshold,score_at_release,score_at_release_system,headroom_logit,gap_pp,T,E,cause
+AA-Omniscience,2025,2025.0,90,4.8,Claude 4.1 Opus (index; 'one of only three models to score above zero'),5.184588601219694,85.2,10.0,0,
+ActivityNet-QA,≤2019,2019.0,90,31.8,"E-SA (creators' baseline; overall accuracy on test, AAAI 2019 paper)",2.9602028523995045,58.20000000000001,77.0,0,
+Agent's Last Exam,2026,2026.0,90,"22.7 (Full-Spectrum tier pass rate; Near-Term tier 38.1, Last-Exam tier 0.0)",Codex harness with GPT-5.5 (strongest configuration in paper; mean score 36.0 Full-Spectrum),3.422553608442239,67.3,3.0,0,
+AGIEval,2023,2023.0,90,61.3,"GPT-4, few-shot chain-of-thought, average over tasks (zero-shot CoT 58.4)",1.73728433442979,28.700000000000003,41.0,0,
+AI2D,≤2019,2016.0,90,38.47,"DQA-Net (creators' model, AI2D test set)",2.6668707213244147,51.53,98.0,1,threshold
+Aider Polyglot,2024,2024.0,90,61.7,"o1-2024-12-17 (high reasoning), diff edit format, official leaderboard 2024-12-21",1.7203905426114778,28.299999999999997,4.0,1,threshold
+AIME 2025,2025,2025.0,90,93.3,"Grok 3 (Think) beta, cons@64, xAI self-report 2025-02-19 (best independent within 2 weeks: o3-mini (high) 86.7 pass@1 on MathArena, Feb 2025, per metadata hint)",-0.4364880041201573,-3.299999999999997,0.0,1,threshold
+AIME 2026,2026,2026.0,90,98.33,"GPT-5.2 (high), MathArena pass@1 avg of 4 runs (Feb 2026); Claude Opus 4.6 96.67, Gemini 3 Pro 91.67 in the same release-window evaluation",-1.8782809650271788,-8.329999999999998,0.0,1,threshold
+AlignBench,2023,2023.0,9.0,8.01,"gpt-4-1106-preview (GPT-4-0613 judge), initial README leaderboard 2023-12",0.8046684549923531,9.900000000000002,18.0,1,threshold
+AlpacaEval,2024,2024.0,90,29.66,Yi-34B-Chat raw win rate on first AlpacaEval 2.0 leaderboard (2024-01-09); reference gpt4_turbo = 50 by construction,3.06076586767227,60.34,9.0,1,defects
+AndroidWorld,2024,2024.0,90,30.6,M3A agent with GPT-4 Turbo (accessibility-tree input),3.016111435890643,59.4,17.0,1,threshold
+ANLI,≤2019,2019.0,90,53.7,RoBERTa-Large trained on SNLI+MNLI+FEVER+ANLI (combined test; A1 73.8 / A2 48.9 / A3 44.4),2.0489535369135887,36.3,43.0,0,
+APEX,2025,2025.0,90,5.2,"Qwen3-235B-A22B-2507-Think ('The highest scoring model ... achieves only 5.2% accuracy', Apex blog 2025-08-18)",5.100335361009813,84.8,13.0,0,
+APEX-Agents,2026,2026.0,90,24.0,"Gemini 3 Flash (Thinking=High) (GPT-5.2 23.0, Claude Opus 4.5 18.4, Gemini 3 Pro 18.4)",3.349904087274605,66.0,8.0,1,defects
+APPS,2020–2022,2021.0,90,1.12,"GPT-Neo 2.7B fine-tuned, top-1 strict accuracy averaged over test set (test case average 10.15%)",6.677802885738597,88.88,34.0,0,
+ARC-AGI-2,2025,2025.0,90,4 (in-progress estimate),o3-preview-low (launch post: 'Pure LLMs score 0% ... public AI reasoning systems achieve only single-digit percentage scores'; ARChitects 3%),5.375278407684165,86.0,13.0,1,threshold
+ARC-AGI-3,2026,2026.0,90,0.51,"best frontier AI at full launch 2026-03-25 ('Humans score 100%. Frontier AI scores 0.51%'; tech report: Opus 4.6 0.50, Gemini 3.1 Pro 0.40, GPT-5.4 0.20); preview competition winner StochasticGoose 12.58% on preview private games (2025-08)",6.792344427470809,89.49,6.0,1,threshold
+ARC-Challenge,≤2019,2018.0,90,27.11,DGEM (best baseline on Challenge test in the ARC paper),3.186273369219767,62.89,60.0,1,threshold
+ARC-Easy,≤2019,2018.0,90,77.82,PMI (dataset-definition solver); best non-definitional baseline = IR using ARC Corpus 62.55,0.9420170917020336,12.180000000000007,26.0,1,threshold
+Arena-Hard,2024,2024.0,90,82.6,GPT-4-Turbo-2024-04-09 (launch blog 2024-04-19; GPT-4-0125-preview 78.0; baseline gpt-4-0314 = 50; authors note possible GPT-4 judge self-bias),0.6396851030297708,7.400000000000005,6.0,1,threshold
+ArXivMath,2026,2026.0,90,60,"GPT-5.2 on the December 2025 edition (40 problems), MathArena launch blog 2026-02-04 (Gemini 3 Pro 56.5)",1.7917594692280554,30.0,7.0,1,declared_saturation
+ASDiv,2020–2022,2020.0,90,37,"UnitDep (statistical MWP solver), 5-fold cross-validation on full ASDiv (LCA++ 36, GTS 36; ASDiv-A subset best 78)",2.729441391083528,53.0,34.0,1,threshold
+AutoLogi,2025,2025.0,90,70.39,"Claude-3.5-Sonnet overall (EN 72.53, CN 68.24); GPT-4o EN 72.61 - official README leaderboard / paper",1.3312855118296794,19.61,5.0,0,
+AutomationBench,2026,2026.0,90,9.9,"Claude Opus 4.7 (white paper; Gemini 3.1 Pro 9.6, GPT-5.4 high 7.6: 'State-of-the-art models all score below 10%')",4.405609984809967,80.1,5.0,0,
+BabyVision,2026,2026.0,94.1,49.7,"Gemini3-Pro-Preview (thinking, highest reasoning budget, Avg@3)",2.7814058396827694,44.39999999999999,8.0,0,
+BFCL v3,2024,2024.0,90,59.49,"GPT-4-turbo-2024-04-09 (FC) - top of V3 leaderboard data file data_combined_Sep_20_2024.csv (gh-pages commit e82d424, 2024-09-20)",1.8129652033510046,30.509999999999998,10.0,1,declared_saturation
+BFCL v4,2025,2025.0,90,70.85,"GLM-4.5 (FC) - top of first V4 leaderboard data update (gh-pages data_overall.csv, 2025-08-28; V4 blogs were posted 2025-07-17 before leaderboard data)",1.309114523996032,19.150000000000006,14.0,0,
+BIG-Bench Hard,2020–2022,2022.0,90,73.9,"Codex (code-davinci-002), 3-shot CoT, all-task average (answer-only 56.6; InstructGPT CoT 68.4; PaLM 540B CoT 63.3 in v1 Table 3)",1.1564470637107107,16.099999999999994,20.0,1,threshold
+BioLP-bench,2024,2024.0,90,17,"GPT-4o (Mistral Large 16; most other models ~7), bioRxiv paper",3.782851841076601,73.0,25.0,0,
+BioMysteryBench,2026,2026.0,90,78.9,"Claude Opus 4.7, BioMysteryBench Verified (Hard subset 20.9), system card 2026-04-16",0.8783163899664115,11.099999999999994,3.0,1,threshold
+BixBench,2025,2025.0,90,17,"best frontier model (Claude 3.5 Sonnet) open-answer accuracy, arXiv v1 abstract; MCQ 'no better than random' (v3 text: Claude 3.5 Sonnet 21 vs GPT-4o 15)",3.782851841076601,73.0,19.0,0,
+BLINK,2024,2024.0,95.7 (95.67 on val),51.26,GPT-4V (test; 51.14 on val) - best model in paper,3.052192603020529,44.440000000000005,29.0,0,
+Blueprint Bench,2026,2026.0,90,36.2,"GPT-5.5 (as listed in Google's Gemini 3.5 Flash model card, 2026-05-19; Gemini 3.5 Flash 33.6, Gemini 3.1 Pro 26.5)",2.7639186488552383,53.79999999999999,4.0,0,
+BoolQ,≤2019,2019.0,90,80.43,"BERT-large pre-trained on MultiNLI then fine-tuned on BoolQ (authors), test accuracy",0.7838351178282266,9.569999999999993,5.0,1,threshold
+BrowseComp,2025,2025.0,90,51.5,"OpenAI Deep Research (paper Table 3 / blog; o1 9.9, GPT-4o w/ browsing 1.9); Deep Research best-of-64 aggregation ~75",2.1372065676099665,38.5,12.0,1,threshold
+BrowseComp-ZH,2025,2025.0,90,42.9,"OpenAI DeepResearch (paper Table 1 / README; next o1 29.1, Gemini-2.5-Pro 27.3)",2.4831568680642127,47.1,17.0,0,
+C-Eval,2023,2023.0,90,68.7,"GPT-4, 5-shot test average (zero-shot 66.4), paper/README initial leaderboard 2023-05",1.411093475654023,21.299999999999997,13.0,1,threshold
+ChartQA,2020–2022,2022.0,90,45.52,"VisionTaPas with extracted data tables (creators' best, test overall; 59.3 with gold tables)",2.3769064493594008,44.48,27.0,1,threshold
+CharXiv,2024,2024.0,90,60.2,"Claude 3.5 Sonnet (official val leaderboard at launch, commit 2024-06-25; paper v1 text cites GPT-4o 47.1 as strongest)",1.7834191373118364,29.799999999999997,27.0,0,
+Claw-Eval,2026,2026.0,90,68.3,"Claude Opus 4.6 (launch leaderboard 2026-03-12, single-trial pass rate on 104 tasks, avg score 0.759); first Pass^3 board 2026-03-17: Opus 4.6 66.3",1.4296314916427102,21.700000000000003,6.0,0,
+CLUEWSC,2020–2022,2020.0,90,81.38,"RoBERTa-wwm-ext-large (fine-tuned), CLUE paper Table (test)",0.7223313066115968,8.620000000000005,19.0,1,threshold
+CMMLU,2023,2023.0,90,55.51,"ChatGPT (five-shot average), CMMLU paper v1 Table 1",1.9759258374521003,34.49,12.0,1,threshold
+CommonsenseQA,≤2019,2018.0,90,55.9,"BERT-large (fine-tuned), random-split test",1.9601199796279665,34.1,37.0,1,threshold
+CoQA,≤2019,2018.0,88.8,65.1,"DrQA+PGNet (authors' baseline), test F1",1.4470351516909337,23.700000000000003,7.0,1,threshold
+CritPt,2025,2025.0,90,5.7,"GPT-5 (high), no tools (arXiv v1 / GitHub README); 10.6 with code, 12.6 with code & web",5.003239592135127,84.3,12.0,1,defects
+CRUXEval,2024,2024.0,90,81 (O) / 75 (I),"GPT-4 with CoT, pass@1 (paper abstract); official leaderboard: gpt-4-0613+cot o@1 77.1, i@1 75.5",0.7472144018302209,9.0,15.0,1,threshold
+CVE-Bench,2025,2025.0,90,13,"T-Agent (teams of GPT-4o agents), one-day setting, success@5 (zero-day best 10%, T-Agent/AutoGPT; Cy-Agent 2.5%)",4.0981833385292665,77.0,18.0,0,
+Cybench,2024,2024.0,90,17.5,"Claude 3.5 Sonnet agent (end-to-end % solved on 40 tasks; paper/leaderboard; GPT-4o 12.5, o1-preview 10)",3.7478219897473863,72.5,23.0,1,threshold
+CyberGym,2025,2025.0,90,11.9,OpenHands + Claude-3.7-Sonnet (arXiv v1: 'The most effective combination (OpenHands and Claude-3.7-Sonnet) achieves a vulnerability reproduction success rate of only 11.9%'),4.199158710160869,78.1,15.0,0,
+DeepSearchQA,2025,2025.0,90,81.90,"Gemini Deep Research Agent (F1 81.90; Fully Correct 66.09%), Table 4 'independently evaluated by Kaggle'; GPT-5 Pro high reasoning F1 78.98",0.6876375247489754,8.099999999999994,2.0,1,threshold
+DeepSWE,2026,2026.0,90,70,"Claude Fable 5 (xhigh), mini-swe-agent, v1.1 launch leaderboard 2026-06-15 (8 launch models; GPT-5.5 67%, Claude Opus 4.8 59%); OpenAI GPT-6 Sol post quotes Fable 5's best as 69.9% at xhigh",1.3499267169490161,20.0,3.0,0,
+DocVQA,2020–2022,2020.0,98.11,66.5,"BERT-large (SQuAD) fine-tuned on DocVQA, test ANLS 0.665 (paper baseline); 2020 challenge winner PingAn-OneConnect-Gammalab-DQA 0.85 (May 2020)",3.263855960272959,31.61,78.0,0,
+DROP,≤2019,2019.0,96.42,47.01,"NAQANet (augmented QANet), test F1 (EM 44.07)",3.4130937200335003,49.410000000000004,90.0,0,
+ECLeKTic,2025,2025.0,90,41.6,Gemini 2.0 Pro (overall success; transfer 65.0); GPT-4o 38.8 overall / 67.0 transfer,2.5364402999031834,48.4,19.0,0,
+EgoSchema,2023,2023.0,90,32.1,"InternVideo (478M, 90 frames) - best model in the paper (random 20%)",2.9464045817648996,57.9,37.0,0,
+ERQA,2025,2025.0,90,54.8,Gemini 2.0 Pro Experimental with chain-of-thought (48.3 without CoT; GPT-4o 50.5 CoT) - Gemini Robotics tech report,2.0046314702204353,35.2,18.0,0,
+EvalPlus,2023,2023.0,90,76.2,"GPT-4, HumanEval+ pass@1 greedy (EvalPlus paper v1 Table 4; HumanEval base 88.4)",1.033548695321048,13.799999999999999,19.0,1,threshold
+ExploitBench,2026,2026.0,90,78,"Claude Mythos Preview with AutoNudge, Cap% 78% (exploitbench.ai leaderboard; entry undated, leaderboard lists only models released before the 2026-05 launch)",0.9315582040049435,12.0,4.0,1,threshold
+ExploitGym,2026,2026.0,90,17.5,"Claude Mythos Preview, 157 of 898 instances in the paper snapshot (abstract: 'Claude Mythos Preview and OpenAI's GPT-5.5, which produce working exploits for 157 and 120 instances, respectively')",3.7478219897473863,72.5,4.0,0,
+FACTS Grounding,2024,2024.0,90,83.6,"Gemini 2.0 Flash Experimental (top of initial Kaggle leaderboard, DeepMind blog 2024-12-17)",0.5684623920757168,6.400000000000006,21.0,0,
+FActScore,2023,2023.0,90,71.5,"PerplexityAI (human-annotated FActScore, 183 labeled entities; best LM without retrieval: ChatGPT 58.3, InstructGPT 42.5)",1.2774312149108624,18.5,27.0,1,threshold
+Finance Agent v1,2025,2025.0,90,46.8,OpenAI o3 (paper abstract: 'even the best-performing model (OpenAI o3) achieved only 46.8% accuracy at an average cost of $3.79 per query'),2.3253997707602174,43.2,9.0,1,declared_saturation
+Finance Agent v1.1,2026,2026.0,90,60.05,Claude Opus 4.6 (Thinking) on v1.1 (v1.1 leaderboard; quoted in Anthropic Sonnet 4.6 card 2026-02-17 alongside GPT-5.2 58.53%); Sonnet 4.6 then reached 63.30% (2026-02-17),1.789675701022511,29.950000000000003,7.0,0,
+Finance Agent v2,2026,2026.0,90,57.9,"Gemini 3.5 Flash (Finance Agent v2, 2026-05-19 model card, first public v2 report); Claude Opus 4.8 53.9% (2026-05-28)",1.878554933445606,32.1,4.0,0,
+FRAMES,2024,2024.0,90,66,Gemini-Pro-1.5 with the authors' multi-step retrieval pipeline (abstract: 0.66; 0.40 with no retrieval),1.5339303599259553,24.0,12.0,1,threshold
+FrontierCode,2026,2026.0,90,53.4,"Claude Opus 5, FrontierCode 1.1 Main, mean@5 53.4% (Anthropic Opus 5 system card, 2026-07-24, the first v1.1 lab report); v1.0 launch best was Claude Opus 4.8 Extended Score 51.8% (2026-06-08)",2.0610143725016705,36.6,2.0,0,
+FrontierMath Tier 4,2025,2025.0,90,6.3,"o4-mini (high), Epoch launch results 2025-07-11 (as reported in https://x.com/rohanpaul_ai/status/1943926160750260510; Epoch later described launch-time best as ~5%)",4.896773133183109,83.7,10.0,1,defects
+FrontierSWE,2026,2026.0,90,56.29,"Claude Fable 5.1 (mean@5 56.29%), v2 launch leaderboard 2026-09-03 (frontierswe.com/blog/v2; GPT-5.6 Sol 32.2%, GLM-5.3 30.2%)",1.9442845867355076,33.71,0.0,0,
+GDP-PDF,2026,2026.0,90,15,"Gemini 3.1 Pro, 15% strict pass rate (paper arXiv:2607.11192 v1: 'The best model passed only 15% of the items'); blog launch leaderboard showed GPT-5.5 xHigh 25% as #1 ('Every frontier model scored under 30%')",3.931825632724326,75.0,3.0,0,
+GDPval,2025,2025.0,90,47.6,"Claude Opus 4.1 (gold subset, wins+ties)",2.2932984074258416,42.4,12.0,0,
+GLUE,≤2019,2018.0,90,60.3,"Single-task BiLSTM + ELMo (authors' baseline), v1 Table 5 Avg (best multi-task/sentence-encoder baseline GenSen 59.2)",1.7792436612962246,29.700000000000003,13.0,1,declared_saturation
+GPQA Diamond,2023,2023.0,90,38.8,GPT-4 few-shot CoT on Diamond (strongest GPT-4 baseline ~39% per abstract),2.6529515202252725,51.2,24.0,1,threshold
+Graphwalks,2025,2025.0,90,72.3,"GPT-4.5 (bfs <128k; creators' launch post 2025-04-14; GPT-4.1 61.7, o1 62.0)",1.2378328613647933,17.700000000000003,8.0,1,threshold
+GSM8K,2020–2022,2021.0,90,55,"GPT-3 175B fine-tuned generator + trained verifier (best-of-100), OpenAI blog: 'our system scored 55% on those same problems'; ~56.25 on full test per metadata pass (computed from released solutions)",1.9965538818740682,35.0,17.0,1,threshold
+HealthBench,2025,2025.0,90,60,"OpenAI o3 (paper/blog 2025-05; GPT-4.1 48, GPT-4o 32, GPT-3.5 Turbo 16)",1.7917594692280554,30.0,14.0,1,declared_saturation
+HealthBench Professional,2026,2026.0,90,59.0,GPT-5.4 in ChatGPT for Clinicians (product system); base GPT-5.4 48.1; Claude Opus 4.7 ~45; Gemini 3.1 Pro ~44; physicians 43.7,1.833259200134808,31.0,5.0,0,
+HellaSwag,≤2019,2019.0,90,47.3,BERT-Large (test; paper Table 1 and creator leaderboard),2.305329737385649,42.7,22.0,1,threshold
+HLE-Verified,2026,2026.0,90,48.2,"Gemini 3 Pro (arXiv v1 Table 2, 'HLE-Verified Full'; raw HLE 40.42); Claude Opus 4.6 46.8, GPT-5.2-High 43.3",2.269255705545102,41.8,7.0,0,
+HMMT Feb 2025,2025,2025.0,90,67.50,"o3-mini (high), MathArena evaluation right after the exam (HMMT added 2025-02-17)",1.466337068793427,22.5,5.0,1,threshold
+HMMT Feb 2026,2026,2026.0,90,96.97,"GPT-5.2 (high), MathArena (first results ~2026-02-19); Claude Opus 4.6 96.21; Gemini 3.1 Pro (2026-02-19) 94.70",-1.268614455458958,-6.969999999999999,0.0,1,threshold
+HMMT Nov 2025,2025,2025.0,90,93.33,"Gemini 3 Pro (preview) (2025-11-18) and Grok 4.1 Fast (2025-11-20), MathArena; GPT-5.1 high 91.67, Grok 4 Fast 90.83, GPT-5 high 89.17, Kimi K2 Thinking 89.17",-0.4412971623139037,-3.3299999999999983,0.0,1,threshold
+HumanEval,2020–2022,2021.0,90,37.7,"Codex-S 12B, single sample (paper: 'Codex-S ... solves 37.7% of the problems'); Codex-12B 28.8; mean-logp reranking of 100 samples 44.5",2.699525908675662,52.300000000000004,22.0,1,threshold
+Humanity's Last Exam,2025,2025.0,90,9.1,"OpenAI o1 (full multimodal set, arXiv v1 table; DeepSeek-R1 9.4 on text-only subset only)",4.498710164996849,80.9,19.0,1,defects
+IFEval,2023,2023.0,90,76.89,"GPT-4 (prompt-level strict; inst-strict 83.57, prompt-loose 79.30, inst-loose 85.37); PaLM 2 S 43.07",0.9951141725784192,13.11,17.0,1,threshold
+IMO-AnswerBench,2025,2025.0,90,80.0,"Gemini Deep Think (IMO-gold version), paper abstract; best non-Gemini model 6.9 points lower",0.8109302162163288,10.0,6.0,1,threshold
+INCLUDE,2024,2024.0,90,77.1,"GPT-4o, 5-shot, INCLUDE-base (arXiv v1 HTML); Llama-3.1-70B-Instruct 70.6",0.9832582073271303,12.900000000000006,19.0,1,threshold
+InfoVQA,2020–2022,2020.0,98.0,27.2,LayoutLM-based baseline (test ANLS 0.272; paper); 2021 challenge winner TILT 0.612 (2021-04-11),4.876319280011314,70.8,69.0,0,
+JobBench,2026,2026.0,90,45.9,"Claude Opus 4.7 under Claude Code (arXiv v1 abstract, 2026-05-25)",2.3615936461221563,44.1,5.0,0,
+LAMBADA,≤2019,2016.0,90,7.3,"baseline 'random capitalized word from passage' (best trained model: N-gram w/ cache 0.1% accuracy, ppl 768)",4.738718701753683,82.7,109.0,0,
+LifeSciBench,2026,2026.0,90,36.1 pass rate (57.6 normalized rubric score),"GPT-Rosalind (OpenAI); next GPT-5.5 25.7 / 51.9, Gemini 3.1 Pro 23.6 / 51.5",2.7682510733808736,53.900000000000006,3.0,0,
+LingoQA,2023,2023.0,96.6,60.8,"LingoQA baseline model, 5 frames (GPT-4V 59.6) - paper Table 5",2.907890267420651,35.8,33.0,0,
+LiveBench,2024,2024.0,90,61.2,claude-3-5-sonnet-20240620 (paper v1 2024-06-27; next gpt-4o-2024-05-13 55.0); leaderboard file table_2024_06_24 gives 61.16,1.7414976344471669,28.799999999999997,27.0,0,
+LiveCodeBench,2024,2024.0,90,35.8,"GPT-4-Turbo-1106 (paper v1, code generation, problems Sep 2023-Feb 2024; Easy 81.9/Medium 24.5/Hard 1.1; next Claude-3-Opus 32.5, GPT-4-0613 32.2)",2.7812798946254804,54.2,30.0,0,
+LOFT,2024,2024.0,90,"75.9 (LOFT-hard <=128K value for Gemini 1.5 Pro as later reported in the Gemini 2.5 report); the 2024-06 paper gives only per-task 128k averages: text retrieval 0.77, visual retrieval 0.83, audio retrieval 1.00, RAG 0.53, SQL 0.38, many-shot ICL 0.68 (Claude 3 Opus 0.74)",Gemini 1.5 Pro,1.0500197334312444,14.099999999999993,12.0,0,
+LongBench v2,2024,2024.0,90,57.7,o1-preview (w/ CoT); best direct-answer GPT-4o 50.1; human experts 53.7,1.8867544898743978,32.3,21.0,0,
+LVBench,2024,2024.0,90,33.1,Gemini 1.5 Pro (paper v1 / leaderboard entry 2024-06-11),2.900890262087385,56.89999999999999,27.0,0,
+MATH,2020–2022,2021.0,90,6.9,GPT-2 1.5B pretrained on AMPS then fine-tuned on MATH (GPT-3 175B few-shot 5.2),4.799377350016027,83.1,38.0,1,threshold
+MATH-500,2023,2023.0,90,78.2,"GPT-4-based generator + process reward model (PRM), best-of-1860",0.9198648995799974,11.799999999999997,16.0,1,threshold
+MATH-Vision,2024,2024.0,90,22.76,"GPT-4V (full test, paper v1; README news later cites 23.98)",3.419137425638403,67.24,26.0,1,threshold
+MathVista,2023,2023.0,90,34.8 (testmini),"Multimodal Bard (v1, 2023-10-03); GPT-4V 49.9 added in v2 (2023-10-25)",2.825066659488398,55.2,27.0,1,threshold
+MAWPS,≤2019,2016.0,90,72.2 (SingleEq subset only),Koncel-Kedziorski et al. (2015) equation-tree solver on SingleEq; Kushman et al. (2014) 68.7 on SimulEq-S (MAWPS paper reports per-subset baselines only),1.2428205521340305,17.799999999999997,69.0,1,threshold
+MBPP,2020–2022,2021.0,90,59.6,"137B decoder-only LM (Google), few-shot; metric = share of problems solved by any of 80 samples (not pass@1)",1.80839878823202,30.4,39.0,1,threshold
+MCP Atlas,2025,2025.0,90,44.5,"GPT-5 (Scale leaderboard launch, 2025-09-19)",2.418118408916414,45.5,12.0,0,
+MCPMark,2025,2025.0,90,52.56,"GPT-5 (medium reasoning), pass@1 (arXiv v1 abstract; legacy leaderboard 52.6%)",2.0947349578493344,37.44,9.0,1,defects
+MedQA,2020–2022,2020.0,90,36.7 (English),best retrieval + reading-comprehension baseline in creators' paper (2020-09),2.7423331514258256,53.29999999999999,38.0,1,threshold
+MGSM,2020–2022,2022.0,90,55.0,"PaLM-540B, Translate-EN chain-of-thought (Native-CoT 48.1; GPT-3 text-davinci-002 45.6); Flan-PaLM 540B CoT+SC 72.0 two weeks later (2022-10-20)",1.9965538818740682,35.0,17.0,1,threshold
+MILU,2024,2024.0,90,74,GPT-4o (best of 42+ LLMs evaluated in the paper),1.151256022153532,16.0,15.0,1,threshold
+Mind2Web,2025,2025.0,90,61.3,"OpenAI Operator (Computer-Using Agent), human eval (leaderboard row dated 2025-03-22)",1.73728433442979,28.700000000000003,12.0,1,threshold
+MLE-bench,2024,2024.0,90,16.9,"o1-preview + AIDE scaffold (any medal, arXiv v1 abstract; leaderboard lists 17.12)",3.789955657268594,73.1,18.0,1,defects
+MLS-Bench,2026,2026.0,90,27.8,"Claude Opus 4.6 agent (full 140-task set, arXiv v1 Table 3 as extracted; Lite-specific release score not found)",3.1516286025384086,62.2,4.0,0,
+MLVU,2024,2024.0,90,64.6,"GPT-4o (dev M-Avg, official mini-leaderboard; on the 6-option test set GPT-4o 54.9)",1.5957219866873924,25.400000000000006,26.0,1,threshold
+MMBench,2023,2023.0,90,60.2,"Shikra (test split, CircularEval; 58.8 on dev) - paper v1",1.7834191373118364,29.799999999999997,22.0,1,threshold
+MMLU,2020–2022,2020.0,90,43.9,"GPT-3 175B (X-Large), few-shot (5 examples per subject); UnifiedQA reported in later versions (48.9)",2.4424460697837445,46.1,39.0,1,threshold
+MMLU-Pro,2024,2024.0,90,72.6,"GPT-4o (5-shot CoT; next Gemini-1.5-Pro 69.0, Claude-3-Opus 68.5)",1.2228026688994937,17.400000000000006,21.0,1,threshold
+MMLU-ProX,2025,2025.0,90,75.5,"DeepSeek-R1 (29-language average, paper v2 2025-05; next GPT-4.1 72.7, DeepSeek-V3 70.5)",1.0717650386319217,14.499999999999998,18.0,0,
+MMMLU,2024,2024.0,90,"86.7 (mean of 14 per-language scores computed by coder; OpenAI listed per-language only, English 90.8 excluded)","o1-preview (simple-evals, 2024-09-11)",0.3225347287774314,3.299999999999997,14.0,1,threshold
+MMMU,2023,2023.0,90,55.7 (test) / 56.8 (val),GPT-4V(ision) (Playground),1.968229107454071,34.3,10.0,1,defects
+MMMU-Pro,2024,2024.0,90,51.9,GPT-4o (0513) (v1 paper; 54.0 in v3 with updated setting),2.121187964276092,38.1,24.0,0,
+MMStar,2024,2024.0,90,57.1,GPT-4V (high-resolution),1.911292286608226,32.9,30.0,0,
+MMVU,2025,2025.0,86.8,77.0 (test) / 79.0 (val),"o1 (o1*, leaderboard 2025-01-22; revised to 76.1 test / 75.5 val on 2025-02-21)",0.675078586149445,9.799999999999997,20.0,0,
+MRCR,2025,2025.0,90,57.2 (2-needle 128k),"GPT-4.1 (OpenAI, 2025-04-14)",1.9072087815382184,32.8,4.0,1,threshold
+MT-Bench,2023,2023.0,9.0,8.99,GPT-4 (paper v1 / LMSYS blog 2023-06-22),0.011062059705858385,0.09999999999999788,5.0,1,threshold
+MultiChallenge,2025,2025.0,90,41.4,"Claude 3.5 Sonnet (June 2024) (creators' paper, 2025-01)",2.544678393087918,48.6,20.0,0,
+Natural Questions,≤2019,2019.0,90,55.0,"DecAtt + DocReader, official NQ test long-answer F1 (short-answer F1 31.5), TACL 2019 paper",1.9965538818740682,35.0,92.0,0,
+Needle-in-a-Haystack,2023,2023.0,90,"92.0 (exact-cell share; 94.1 mean score; 100% for all lengths <=64.5K, 80% at 128K)","GPT-4-1106-preview (Kamradt, 2023-11-08 run)",-0.2451224580329856,-2.0,0.0,1,threshold
+NL2Repo,2025,2025.0,90,40.2,Claude Code + Claude Sonnet 4.5 (paper Table 3),2.5943632426678302,49.8,9.0,0,
+OCRBench,2024,2024.0,900,659,Gemini (Pro) (arXiv v5 Table 3; GPT4V 645),1.538383520117229,24.099999999999998,11.0,1,declared_saturation
+OfficeQA,2025,2025.0,90,43.5,"Claude Opus 4.5 agent, full corpus, 0% allowable error (Databricks launch blog, approximate)",2.4587042773939762,46.5,9.0,0,
+OJBench,2025,2025.0,90,38.91 (Python pass@1),"Gemini-2.5-pro-exp-03-25 (creators' paper, 2025-06)",2.648321477001433,51.09,15.0,0,
+OmniDocBench,2025,2025.0,90,90.67,MinerU2.5 (top of v1.5 leaderboard at release; best general VLM Gemini-2.5 Pro 88.03),-0.07676694946249363,-0.6700000000000017,0.0,1,threshold
+OpenBookQA,≤2019,2018.0,91.7,50.2,"Question Match (best non-oracle model, test; oracle model with gold facts f+k reached 76.9)",2.3942668217927907,41.5,49.0,1,threshold
+OSWorld,2024,2024.0,90,12.24,"GPT-4 (a11y-tree input), arXiv v1 abstract",4.167121116219015,77.76,15.0,1,defects
+OSWorld 2.0,2026,2026.0,90,20.6,"Claude Opus 4.8 (max thinking, batched tool calls), 20.6% binary / 54.8% partial (paper)",3.546431869793774,69.4,3.0,0,
+OSWorld-Verified,2025,2025.0,90,53.1,"GTA1 w/ o3 (agentic framework), verified row dated 2025-07-28 (launch blog later lists CoACT-1 60.76%, row dated 2025-08-04)",2.07306532454056,36.9,11.0,1,declared_saturation
+PaperBench,2025,2025.0,90,26.0,"IterativeAgent o1-high, 36h limit (README leaderboard 2025-04-02); abstract headline: Claude 3.5 Sonnet (New) BasicAgent 21.0%",3.243193132518907,64.0,17.0,0,
+Perception Test,2020–2022,2022.0,91.4,46.2 (best baseline cited in abstract); 62.0 SeViLA fine-tuned (val) in paper v2,best video-QA baseline per arXiv 2305.13786 (abstract: '91.4% vs 46.2%'),2.515776944280688,45.2,47.0,0,
+PerceptionBench,2026,2026.0,90,59.7,"GPT-5.6-Sol (paper/README leaderboard of 16 MLLMs, highest reasoning budget; 'no model reaches 60% accuracy')",1.8042440258903005,30.3,2.0,0,
+PIQA,≤2019,2019.0,90,77.1,"RoBERTa-large (355M), test (paper Table 1)",0.9832582073271303,12.900000000000006,16.0,1,threshold
+PolyMath,2025,2025.0,90,43.4,"DeepSeek-R1-671B (arXiv v1 abstract 2025-04-25; leaderboard later lists R1 47.0, Qwen3-235B-A22B-Thinking 54.6 on 2025-04-29)",2.462774121438998,46.6,17.0,0,
+PostTrainBench,2026,2026.0,90,23.2,best agent in paper (abstract: '23.2% for the best agent' vs '51.1% for official instruction-tuned models'),3.3942769388175815,66.8,6.0,0,
+ProgramBench,2026,2026.0,90,0,"None of 9 models fully resolved any task; best model 'passing 95% of tests on only 3% of tasks' (paper abstract; official board: Claude Opus 4.7 0% resolved / 3.0% almost, mini-SWE-agent, 2026-04-29)",6.792344427470809,90.0,4.0,0,
+QuAC,≤2019,2018.0,90,60.1,"BiDAF++ w/ 2-context (authors' baseline; test F1 60.1, dev 60.6)",1.7875910596908755,29.9,73.0,0,
+QuALITY,2020–2022,2021.0,90,55.4,"DPR extraction + DeBERTaV3-large with RACE intermediate training (authors' baseline, test)",1.980378842609,34.6,27.0,1,threshold
+RACE,≤2019,2017.0,90,44.1,"Gated-Attention Reader (authors' baseline; RACE-M 43.7, RACE-H 44.2)",2.4343291750444727,45.9,35.0,1,threshold
+RealWorldQA,2024,2024.0,90,68.7,"Grok-1.5V (Gemini 1.5 Pro 67.5, GPT-4V 61.4)",1.411093475654023,21.299999999999997,29.0,0,
+RULER,2024,2024.0,90,89.0 wAvg(inc) (Avg 91.6; 4K 96.6 ... 128K 81.2),"GPT-4-1106-preview (arXiv v1 Table 3, 2024-04-09)",0.10648348040245015,1.0,0.0,1,threshold
+SciCode,2024,2024.0,90,4.6,"Claude 3.5 Sonnet (main problems, no background; arXiv v1 abstract)",5.229246852295411,85.4,26.0,0,
+ScreenSpot-Pro,2025,2025.0,90,18.9 (best single model); 48.1 with authors' ScreenSeekeR agentic search,best baseline model (single) / ScreenSeekeR (GPT-4o planner + OS-Atlas-7B grounder),3.6537456163919906,71.1,15.0,1,threshold
+SealQA,2025,2025.0,90,17.1,"OpenAI o3 with search, best reasoning effort (arXiv v1 abstract; o4-mini 6.3)",3.7757811759688544,72.9,15.0,0,
+SEC-Bench,2026,2026.0,90,47.6,"GPT-5.5 (xhigh) + Codex on V8 leaderboard (49/103), version 260505; overall 58.4% (201/344) once SpiderMonkey and Linux boards added",2.2932984074258416,42.4,4.0,0,
+SimpleQA,2024,2024.0,90,42.7,"OpenAI o1-preview, no browsing (Correct 42.7; F-score 44.8); GPT-4o 38.2, Claude 3.5 Sonnet 28.9",2.491326280822334,47.3,23.0,0,
+SimpleQA Verified,2025,2025.0,90,55.6,"Gemini 2.5 Pro (F1; GPT-5 52.3, o3 51.9)",1.9722808455178618,34.4,12.0,0,
+SimpleVQA,2025,2025.0,90,54.4 (F-score; Correct 52.8),Gemini-2.0-flash,2.020768139994663,35.6,19.0,0,
+Social IQa,≤2019,2019.0,90,64.5,BERT-large fine-tuned (test; dev 66.0) in final EMNLP version,1.6000920500158626,25.5,89.0,0,
+SpreadsheetBench,2024,2024.0,90,18.35,GPT-4o (soft restriction overall; hard restriction overall 15.02),3.6900368222521145,71.65,27.0,0,
+SQuAD 1.1,≤2019,2016.0,91.221,51.0,Logistic regression with hand-engineered features (authors' baseline; test F1 51.0 / EM 40.4),2.3009172931739186,40.221000000000004,24.0,1,declared_saturation
+SQuAD 2.0,≤2019,2018.0,90,66.3,"DocQA + ELMo (BiDAF + self-attention + ELMo, retrained by Stanford); test F1 66.3 / EM 63.4",1.5205325175027191,23.700000000000003,13.0,1,threshold
+StoryCloze,≤2019,2016.0,90,58.5,"DSSM (authors' baseline, test)",1.8538912503350615,31.5,27.0,1,defects
+SuperGLUE,≤2019,2019.0,90,71.5,"BERT++ (BERT-large with intermediate MNLI-style training), authors' baseline; BERT 69.0",1.2774312149108624,18.5,20.0,1,threshold
+SuperGPQA,2025,2025.0,90,61.82,DeepSeek-R1 (o1-2024-12-17 60.24),1.715309458929851,28.18,19.0,0,
+SVAMP,2020–2022,2021.0,90,43.8,Graph2Tree with RoBERTa embeddings (trained on MAWPS+ASDiv-A),2.446507516853465,46.2,25.0,1,threshold
+SWE-bench,2023,2023.0,90,1.96,Claude 2 with BM25 retrieval (paper baseline),6.109655662753706,88.04,10.0,1,defects
+SWE-bench Multilingual,2025,2025.0,90,43,"SWE-agent + Claude 3.7 Sonnet ($2.50 cost limit), creators' blog",2.4790757294772074,47.0,14.0,1,threshold
+SWE-bench Multimodal,2024,2024.0,90,12,SWE-agent (best system in paper; next best 6%),4.189654742026426,78.0,23.0,0,
+SWE-bench Pro,2025,2025.0,90,23.3,"OpenAI GPT-5 with SWE-Agent scaffold (public set), per arXiv 2509.16941",3.388672925137775,66.7,12.0,1,defects
+SWE-bench Verified,2024,2024.0,90,33.2,"GPT-4o with best-performing open-source scaffold (Agentless), reported in the OpenAI release post",2.8963777819563763,56.8,18.0,1,defects
+SWE-Lancer,2025,2025.0,90,26.2,Claude 3.5 Sonnet (IC SWE Diamond pass@1; $58k of $236k). Full Diamond: 36.1% / $208k of $501k,3.232823898175595,63.800000000000004,19.0,0,
+SWE-Marathon,2026,2026.0,90,28,"Claude Code + Claude Opus 4.7 (approx., read from paper Figure 2; abstract: 'current frontier coding agents solve fewer than 30% of tasks')",3.1416861861770706,62.0,3.0,0,
+tau-bench airline,2024,2024.0,90,35,gpt-4o function-calling agent (paper: '~35% on τ-airline' pass^1),2.816263785742443,55.00000000000001,13.0,1,defects
+tau-bench retail,2024,2024.0,90,61,gpt-4o function-calling agent (paper: '~61% on τ-retail' pass^1; pass^8 ~25%),1.7499123592925547,28.999999999999996,13.0,1,defects
+tau2-bench airline,2025,2025.0,90,64.2,"claude-3.7-sonnet, Sierra baseline run dated 2025-06-09 (taubench.com leaderboard entry, τ² v0.1.3)",1.6131692600469587,25.799999999999994,8.0,1,defects
+tau2-bench retail,2025,2025.0,90,74.0,"GPT-4.1, Sierra baseline run dated 2025-06-09 (taubench.com leaderboard entry, τ² v0.1.3); claude-3.7-sonnet 72.1",1.151256022153532,16.0,8.0,1,threshold
+tau2-bench telecom,2025,2025.0,90,49,"claude-3.7-sonnet (paper abstract: 'pass^1 of 34% for gpt-4.1, 42% for o4-mini, and 49% for claude-3.7-sonnet on new tasks')",2.237229911949919,41.0,2.0,1,threshold
+tau3-bench banking,2026,2026.0,90,25.5,best frontier model with high reasoning budget (τ-Knowledge abstract: 'even frontier models with high reasoning budgets achieve only ~25.5% pass'),3.269345250557353,64.5,6.0,0,
+Terminal-Bench 1.0,2025,2025.0,90,43.2,"Claude Opus 4 (announced by creators as new SOTA on Terminal-Bench-Core, https://www.tbench.ai/news/claude-4, 2025-05-23, 4 days after launch; launch-day chart values not available as text)",2.4709204078132605,46.8,6.0,1,declared_saturation
+Terminal-Bench 2.0,2025,2025.0,90,49.6,"Codex CLI + GPT-5 (official TB 2.0 leaderboard entry dated 2025-11-04, best at launch)",2.213224918682661,40.4,6.0,1,defects
+Terminal-Bench 2.1,2026,2026.0,90,79.1,GPT-5.3-Codex + Codex CLI (creators' TB 2.0 vs 2.1 re-run table in the 2.1 launch post; 2.0 score 73.3),0.8662608615333771,10.900000000000006,2.0,1,declared_saturation
+Terminal-Bench 3.0,2026,2026.0,90,34.4,GPT-5.6 Sol + Codex (creators' launch table in TB 3.0 post; next Fable 5 + Claude Code 33.8),2.8427437089069105,55.60000000000001,1.0,1,defects
+Terminal-Bench 4.0,2026,2026.0,90,51.8,"Claude Opus 5 (max effort) + Claude Code, official leaderboard at launch (leaderboard/submissions added 2026-08-28, 330 trials)",2.1251934491273365,38.2,1.0,0,
+Terminal-Bench Science,2026,2026.0,90,30.0,Claude Opus 5 + Claude Code (launch post table; next GPT-5.6 Sol + Codex 22.4),3.044522437723423,60.0,1.0,0,
+TextVQA,≤2019,2019.0,90,27.63 (test) / 26.56 (val),LoRRA (Pythia),3.1601142872789305,62.370000000000005,73.0,0,
+TheoremQA,2023,2023.0,90,52.4,GPT-4 with Program-of-Thoughts (51% in abstract; leaderboard 52.4; GPT-4 CoT 43.8),2.101150747246597,37.6,19.0,0,
+Toolathlon,2025,2025.0,90,38.6,"Claude-4.5-Sonnet (Toolathlon default agent scaffold; paper Table 3, avg of 3 runs +/-2.7)",2.6613821360185312,51.4,8.0,1,defects
+TriviaQA,≤2019,2017.0,90,40.32,"BiDAF (authors' baseline), Wikipedia full test EM 40.32 / F1 45.91 (Web 40.74 EM)",2.5893739094686117,49.68,86.0,1,threshold
+TyDiQA,2020–2022,2020.0,90.9,79.0,mBERT fine-tuned on TyDi QA GoldP (paper Table 7); primary tasks mBERT: SelectP 63.1 / MinSpan 50.5 F1,0.9765601729170303,11.900000000000006,62.0,0,
+USAMO 2025,2025,2025.0,90,24,"Gemini 2.5 Pro (MathArena, 10.1/42 ≈ 24%, 'non-trivial score of 25%'; all other models <5%), evaluated within ~1-2 weeks of the exam (arXiv 2503.21934)",3.349904087274605,66.0,4.0,0,
+USAMO 2026,2026,2026.0,90,95.2,"GPT-5.4 (xhigh), MathArena, published 2026-03-28 (6 days after the exam)",-0.7901394465472564,-5.200000000000003,0.0,1,threshold
+V*Bench,2023,2023.0,90,75.39,SEAL (authors' VQA LLM + visual search model); GPT-4V 54.97,1.0777028015155734,14.610000000000001,11.0,1,threshold
+VCT,2025,2025.0,90,43.8,OpenAI o3 (arXiv v1 abstract; 'outperforming 94% of expert virologists'),2.446507516853465,46.2,17.0,0,
+Video-MME,2024,2024.0,90,75.0 (w/o subs) / 81.3 (w/ subs),Gemini 1.5 Pro (best model in paper/leaderboard; leaderboard entry dated 2024-06-15 after evaluation refresh),1.0986122886681098,15.0,23.0,1,declared_saturation
+VideoMMMU,2025,2025.0,90,65.78,Claude-3.5-Sonnet (best model in paper; GPT-4o 61.22),1.5437190050393559,24.22,20.0,0,
+VitaBench,2025,2025.0,90,30.0,"o3 (high), cross-scenario Avg@4 (paper Table 3; single-scenario best 53.5 delivery / 53.5 in-store / 37.8 OTA)",3.044522437723423,60.0,12.0,0,
+VQAv2,≤2019,2016.0,90,62.27 (test-std),"MCB (Multimodal Compact Bilinear pooling), paper Table 2",1.696200342428078,27.73,100.0,0,
+WebArena,2023,2023.0,90,10.59,GPT-4-based agent (arXiv v1 abstract); 14.41 in v2+ after annotation fixes/better prompts (gpt-4-0613 14.9 without 'not achievable' hint on leaderboard),4.330546950470131,79.41,38.0,0,
+WebVoyager,2024,2024.0,90,55.7,"WebVoyager agent (GPT-4V, screenshots + set-of-marks), arXiv v1 abstract (59.1 in later versions)",1.968229107454071,34.3,15.0,1,threshold
+WideSearch,2025,2025.0,90,5.1,"OpenAI o3, multi-agent framework (SR Avg@4; Row F1 37.8, Item F1 57.3) - paper Table 2",5.120807743221821,84.9,13.0,0,
+WildBench,2024,2024.0,90,59.3,"GPT-4o-2024-05-13 (WB-Score; WB-Reward mix 35.7), arXiv v1 Table 2",1.8208433637810892,30.700000000000006,28.0,0,
+WinoGrande,≤2019,2019.0,90,79.1,RoBERTa-large fine-tuned on WinoGrande XL (test; dev 79.3),0.8662608615333771,10.900000000000006,20.0,1,threshold
+WorldVQA,2026,2026.0,90,47.4,Gemini-3-Pro (Kimi K2.5 46.3); paper: 'No model surpasses the 50% threshold',2.3013184683788532,42.6,8.0,0,
+WritingBench,2025,2025.0,90,85.5 (8.55/10),"DeepSeek-R1, critic-model judge, original 1,239-query version (arXiv v1 Table 3; Qwen-Max 8.37, ChatGPT-4o-latest 8.16)",0.4228568508200339,4.5,18.0,0,
+XCOPA,2020–2022,2020.0,90,76.05,"RoBERTa-large, translate-test (authors' best; XLM-R Large zero-shot transfer 68.69)",1.0418018824878423,13.950000000000005,36.0,1,threshold
+ZebraLogic,2024,2024.0,90,33.4,"Claude 3.5 Sonnet (2024-06-20), per the July 2024 blog ('can only solve 33.4% of all puzzles')",2.8873732548999085,56.60000000000001,9.0,1,threshold
+ZeroBench,2025,2025.0,90,0 (pass@1 and pass^5; best pass@5 ~5),all frontier LMMs at release (adversarially filtered); v3: 'SotA pass@5 score increased from 5%->19% (Gemini 3 Pro)',6.792344427470809,90.0,19.0,0,

@@ -1,0 +1,199 @@
+{
+ "n_units": 224,
+ "dropped_out": 50,
+ "dropped_by_status": {
+  "sum": {
+   "abandoned": 14,
+   "alive": 8,
+   "saturated": 28
+  },
+  "count": {
+   "abandoned": 14,
+   "alive": 94,
+   "saturated": 116
+  }
+ },
+ "dead_n": 116,
+ "dead_reported_after_death": 102,
+ "dead_reported_12m_after_death": 43,
+ "dead_reported_24m_after_death": 22,
+ "postmortem_km_median_months": 57.0,
+ "postmortem_km_S12": 0.825,
+ "postmortem_km_S24": 0.745,
+ "dropped_before_death": 1,
+ "examples_longest_postmortem": [
+  {
+   "unit": "SQuAD 1.1",
+   "primary_date": "2018-06",
+   "last_report": "2024-09",
+   "postmortem_months": 75.0,
+   "releases_reporting_after_death": 7
+  },
+  {
+   "unit": "StoryCloze",
+   "primary_date": "2018-07",
+   "last_report": "2024-02",
+   "postmortem_months": 67.0,
+   "releases_reporting_after_death": 5
+  },
+  {
+   "unit": "HellaSwag",
+   "primary_date": "2021-03",
+   "last_report": "2026-09",
+   "postmortem_months": 66.0,
+   "releases_reporting_after_death": 31
+  },
+  {
+   "unit": "PIQA",
+   "primary_date": "2021-03",
+   "last_report": "2026-06",
+   "postmortem_months": 63.0,
+   "releases_reporting_after_death": 21
+  },
+  {
+   "unit": "WinoGrande",
+   "primary_date": "2021-03",
+   "last_report": "2026-04",
+   "postmortem_months": 61.0,
+   "releases_reporting_after_death": 22
+  },
+  {
+   "unit": "BoolQ",
+   "primary_date": "2019-10",
+   "last_report": "2024-07",
+   "postmortem_months": 57.0,
+   "releases_reporting_after_death": 11
+  },
+  {
+   "unit": "RACE",
+   "primary_date": "2020-03",
+   "last_report": "2024-12",
+   "postmortem_months": 57.0,
+   "releases_reporting_after_death": 14
+  },
+  {
+   "unit": "ARC-Easy",
+   "primary_date": "2020-05",
+   "last_report": "2024-12",
+   "postmortem_months": 55.0,
+   "releases_reporting_after_death": 14
+  },
+  {
+   "unit": "CLUEWSC",
+   "primary_date": "2021-10",
+   "last_report": "2026-04",
+   "postmortem_months": 54.0,
+   "releases_reporting_after_death": 8
+  },
+  {
+   "unit": "SQuAD 2.0",
+   "primary_date": "2019-07",
+   "last_report": "2023-05",
+   "postmortem_months": 46.0,
+   "releases_reporting_after_death": 4
+  },
+  {
+   "unit": "GSM8K",
+   "primary_date": "2023-03",
+   "last_report": "2026-09",
+   "postmortem_months": 42.0,
+   "releases_reporting_after_death": 46
+  },
+  {
+   "unit": "HumanEval",
+   "primary_date": "2023-05",
+   "last_report": "2026-09",
+   "postmortem_months": 40.0,
+   "releases_reporting_after_death": 54
+  }
+ ],
+ "zombie_share_by_year": {
+  "2018": {
+   "pairs": 6,
+   "dead": 1,
+   "share": 0.167
+  },
+  "2019": {
+   "pairs": 11,
+   "dead": 4,
+   "share": 0.364
+  },
+  "2020": {
+   "pairs": 17,
+   "dead": 5,
+   "share": 0.294
+  },
+  "2021": {
+   "pairs": 11,
+   "dead": 4,
+   "share": 0.364
+  },
+  "2022": {
+   "pairs": 54,
+   "dead": 25,
+   "share": 0.463
+  },
+  "2023": {
+   "pairs": 206,
+   "dead": 88,
+   "share": 0.427
+  },
+  "2024": {
+   "pairs": 570,
+   "dead": 252,
+   "share": 0.442
+  },
+  "2025": {
+   "pairs": 923,
+   "dead": 309,
+   "share": 0.335
+  },
+  "2026": {
+   "pairs": 1132,
+   "dead": 318,
+   "share": 0.281
+  }
+ },
+ "zombie_share_2026_by_lab": {
+  "Alibaba (Qwen)": {
+   "pairs": 249,
+   "dead": 80,
+   "share": 0.321
+  },
+  "Anthropic": {
+   "pairs": 329,
+   "dead": 91,
+   "share": 0.277
+  },
+  "DeepSeek": {
+   "pairs": 89,
+   "dead": 38,
+   "share": 0.427
+  },
+  "Google": {
+   "pairs": 81,
+   "dead": 23,
+   "share": 0.284
+  },
+  "Meta": {
+   "pairs": 56,
+   "dead": 14,
+   "share": 0.25
+  },
+  "Moonshot AI (Kimi)": {
+   "pairs": 108,
+   "dead": 21,
+   "share": 0.194
+  },
+  "OpenAI": {
+   "pairs": 165,
+   "dead": 40,
+   "share": 0.242
+  },
+  "xAI": {
+   "pairs": 55,
+   "dead": 11,
+   "share": 0.2
+  }
+ }
+}

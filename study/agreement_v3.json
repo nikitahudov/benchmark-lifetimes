@@ -1,0 +1,32 @@
+{
+ "n_double_coded": 24,
+ "status_agreement": 20,
+ "kappa_status": 0.706,
+ "release_month_equal": "24/24",
+ "primary_date_pairs": 12,
+ "primary_date_abs_diff_median": 0,
+ "primary_date_within_1m": 0.917,
+ "primary_date_max_diff": 4,
+ "disagreements": [
+  {
+   "unit": "CommonsenseQA",
+   "A": "abandoned",
+   "B": "saturated"
+  },
+  {
+   "unit": "HealthBench",
+   "A": "saturated",
+   "B": "alive"
+  },
+  {
+   "unit": "WMDP",
+   "A": "alive",
+   "B": "saturated"
+  },
+  {
+   "unit": "ruMMLU",
+   "A": "saturated",
+   "B": "alive"
+  }
+ ]
+}
