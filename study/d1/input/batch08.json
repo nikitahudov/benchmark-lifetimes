@@ -1,0 +1,479 @@
+[
+ {
+  "unit": "SVAMP",
+  "family": "SVAMP",
+  "labs_reporting": [
+   "DeepSeek",
+   "Google",
+   "Meta"
+  ],
+  "n_releases": 3,
+  "first_lab_report": "2022-04-04",
+  "last_lab_report": "2023-11-02",
+  "raw_names": [
+   "SVAMP",
+   "Program-Aid Math Reasoning: SVAMP"
+  ],
+  "lab_reports": [
+   "2022-04-04 | Google | PaLM | SVAMP  | 8-shot CoT; PaLM 540B | score= | paper/main",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | SVAMP  | Llama 2-Chat with tool use (calculator), Toolformer math dat | score=69.2 | paper/main",
+   "2023-11-02 | DeepSeek | DeepSeek Coder (1.3B-33B) | Program-Aid Math Reasoning: SVAMP [PAL] |  | score=71.6% | github/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "SciCode",
+  "family": "SciCode",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Google",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 7,
+  "first_lab_report": "2025-11-06",
+  "last_lab_report": "2026-07-16",
+  "raw_names": [
+   "SciCode"
+  ],
+  "lab_reports": [
+   "2025-11-06 | Moonshot AI (Kimi) | Kimi K2 Thinking | SciCode [no tools] | Kimi K2 Thinking (INT4); temperature 0.0 | score=44.8 | hf_card/main",
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | SciCode  | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=48.7 | github/main",
+   "2026-02-19 | Google | Gemini 3.1 Pro | SciCode  | Gemini 3.1 Pro Thinking (High) | score=59% | model_card/main",
+   "2026-04 | Moonshot AI (Kimi) | Kimi K2.6 | SciCode  | Kimi K2.6 (thinking) | score=52.2 | hf_card/main",
+   "2026-05-20 | Alibaba (Qwen) | Qwen3.7-Max | SciCode  | Qwen3.7-Max | score=53.5 | blog/main",
+   "2026-06-01 | Alibaba (Qwen) | Qwen3.7-Plus | SciCode  | Qwen3.7-Plus | score=51.3 | blog/main",
+   "2026-07-16 | Moonshot AI (Kimi) | Kimi K3 | SciCode [Coding] | Kimi K3 (max effort); temp 1.0 | score=58.7 | github/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "SealQA",
+  "family": "SealQA",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 3,
+  "first_lab_report": "2025-11-06",
+  "last_lab_report": "2026-02-16",
+  "raw_names": [
+   "Seal-0"
+  ],
+  "lab_reports": [
+   "2025-11-06 | Moonshot AI (Kimi) | Kimi K2 Thinking | Seal-0 [w/ tools] | Kimi K2 Thinking (INT4); avg@4 | score=56.3 | hf_card/main",
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | Seal-0 [avg@4] | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=57.4 | github/main",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | Seal-0  | Qwen3.5-397B-A17B (thinking, default) | score=46.9 | hf_card/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "SimpleQA",
+  "family": "SimpleQA",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Mistral",
+   "Moonshot AI (Kimi)",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 32,
+  "first_lab_report": "2024-09-12",
+  "last_lab_report": "2025-10-30",
+  "raw_names": [
+   "SimpleQA",
+   "CSimpleQA",
+   "SimpleQA (Correct)",
+   "C-SimpleQA (Correct)",
+   "SimpleQA (TotalAcc)",
+   "SimpleQA Accuracy",
+   "SimpleQA Hallucination Rate"
+  ],
+  "lab_reports": [
+   "2024-09-12 | OpenAI | o1-preview and o1-mini | SimpleQA  | accuracy / hallucination rate | score=0.42 / 0.44 | system_card/appendix",
+   "2024-12-05 | OpenAI | o1 and o1 pro mode (ChatGPT) | SimpleQA  | accuracy / hallucination rate | score=0.47 / 0.44 | system_card/appendix",
+   "2024-12-17 | OpenAI | o1-2024-12-17 (API) | SimpleQA  |  | score=42.6 | blog/main",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | C-SimpleQA (Correct) [chat model] | max output 8K; <1000-sample benchmarks run multiple times wi | score=64.8 | github/main",
+   "2025-01-20 | DeepSeek | DeepSeek-R1 (R1-Zero, R1, R1-Distill) | C-SimpleQA (Correct)  | max gen 32,768 tokens; temp 0.6, top-p 0.95; 64 samples to e | score=63.7 | github/main",
+   "2025-01-31 | OpenAI | o3-mini | SimpleQA  | reasoning effort high | score=13.8 | secondary/main",
+   "2025-02-05 | Google | Gemini 2.0 Flash GA / 2.0 Flash-Lite / 2.0 Pro Experimental | SimpleQA  | Gemini 2.0 Flash (GA) | score=29.9% | model_card/main",
+   "2025-02-19 | xAI | Grok 3 Beta (and Grok 3 mini) | SimpleQA  | Grok 3 Beta (non-reasoning) | score=43.6% | blog/main",
+   "2025-02-27 | OpenAI | GPT-4.5 (research preview) | SimpleQA Accuracy  |  | score=62.5% | blog/main",
+   "2025-03-17 | Mistral | Mistral Small 3.1 (24B, 2503) | SimpleQA (TotalAcc)  | instruct; text | score=10.43% | hf_card/main",
+   "2025-03-25 | Google | Gemini 2.5 Pro Experimental (03-25) | SimpleQA  | Gemini 2.5 Pro Experimental 03-25 | score=52.9% | model_card/main",
+   "2025-04-16 | OpenAI | o3 and o4-mini | SimpleQA  | accuracy / hallucination rate | score=0.49 / 0.51 | system_card/appendix",
+   "2025-04-17 | Google | Gemini 2.5 Flash Preview (04-17) | SimpleQA  | Gemini 2.5 Flash Preview 04-17, thinking | score=29.7% | model_card/main",
+   "2025-05-06 | Google | Gemini 2.5 Pro Preview (05-06, I/O edition) + I/O 2025 Deep  | SimpleQA  | Gemini 2.5 Pro Preview 05-06 | score=50.8% | model_card/main",
+   "2025-05-28 | DeepSeek | DeepSeek-R1-0528 (+ R1-0528-Qwen3-8B) | SimpleQA (Correct)  | max gen 64K; temp 0.6, top-p 0.95; 16 samples for pass@1 | score=27.8 | hf_card/main",
+   "2025-06-05 | Google | Gemini 2.5 Pro (06-05 preview / GA) | SimpleQA  | Gemini 2.5 Pro (06-05 / GA) | score=54.0% | model_card/main",
+   "2025-06-17 | Google | Gemini 2.5 Flash-Lite (preview) | SimpleQA  | Gemini 2.5 Flash-Lite (06-17), thinking | score=13.0% | model_card/main",
+   "2025-06-17 | Google | Gemini 2.5 technical report (2.5 Pro / 2.5 Flash) | SimpleQA  | Gemini 2.5 Pro | score=54.0% | tech_report/main",
+   "2025-06-20 | Mistral | Mistral Small 3.2 (24B, 2506) | SimpleQA (TotalAcc)  | instruct | score=12.10% | hf_card/main",
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | CSimpleQA [Correct] | Kimi-K2-Base; 5-shot | score=77.6 | github/main",
+   "2025-07-17 | OpenAI | ChatGPT agent | SimpleQA  | accuracy / hallucination rate | score=0.914 / 0.079 | system_card/appendix",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | CSimpleQA [Chinese SimpleQA] | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=84.3 | hf_card/main",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | CSimpleQA  | Kimi-K2-Base; 5-shot | score=77.57 | tech_report/main",
+   "2025-08-05 | OpenAI | gpt-oss-120b and gpt-oss-20b | SimpleQA  | accuracy / hallucination rate | score=0.168 accuracy | paper/appendix",
+   "2025-08-07 | OpenAI | GPT-5 (incl. mini, nano, pro) | SimpleQA [no browsing] | accuracy / hallucination rate | score=0.55 / 0.40 | system_card/appendix",
+   "2025-08-21 | DeepSeek | DeepSeek-V3.1 (hybrid thinking) | SimpleQA [search agent] | V3.1-Thinking | score=93.4 | hf_card/main",
+   "2025-09-19 | xAI | Grok 4 Fast | SimpleQA  | pass@1 (with search) | score=95.0% | blog/main",
+   "2025-09-22 | DeepSeek | DeepSeek-V3.1-Terminus | SimpleQA  | Agentic tool use | score=96.8 | hf_card/main",
+   "2025-09-29 | Anthropic | Claude Sonnet 4.5 | SimpleQA [Obscure Questions] | with/without extended thinking | score= | system_card/appendix",
+   "2025-09-29 | DeepSeek | DeepSeek-V3.2-Exp | SimpleQA [Agentic tool use] |  | score=97.1 | github/main",
+   "2025-10-29 | OpenAI | gpt-oss-safeguard (120b/20b) | SimpleQA  | accuracy / hallucination rate | score=0.142 / 0.822 | tech_report/appendix",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | CSimpleQA  | Kimi-Linear-Base @5.7T (released); 5-shot | score=53.5 | paper/appendix"
+  ],
+  "metadata_hints": {
+   "primary_source_url": "https://openai.com/index/introducing-simpleqa/ (2024-10-30); https://arxiv.org/abs/2411.04368 (v1, 2024-11-07)",
+   "metric": "Correct (%) (share of all questions graded correct by prompted GPT-4-class classifier: correct / incorrect / not attempted); also F-score (harmonic mean of overall correct and correct-given-attempted)",
+   "metric_max": "100",
+   "n_items_test": "4,326 short fact-seeking questions (single public set)",
+   "score_at_release": "42.7",
+   "score_at_release_system": "OpenAI o1-preview",
+   "score_at_release_setting": "Closed-book (no browsing), single answer; Correct 42.7, not attempted 9.2, incorrect 48.1, correct-given-attempted 47.0, F-score 44.8. Others: GPT-4o 38.2; Claude 3.5 Sonnet 28.9 (F 35.0); Claude 3 Opus 23.5.",
+   "human_baseline": "none (no human answering baseline); data-quality check: a third independent AI trainer scored 94.4% on 1,000 sampled questions; estimated inherent dataset error rate ~3%",
+   "human_type": "none",
+   "test_access": "public",
+   "curation": "crowdsourced",
+   "format": "short-answer exact match",
+   "modality": "text",
+   "lineage": "Successors/variants: Chinese SimpleQA (Alibaba, Nov 2024); SimpleQA Verified (Google DeepMind/Google Research, arXiv 2509.07968, Sep 2025, 1,000 prompts, de-duplicated, topic-balanced, source-reconciled). Sister benchmark BrowseComp (OpenAI, Apr 2025) for browsing.",
+   "known_contamination_or_defects": "Creators estimate ~3% inherent label error (third-trainer agreement 94.4%). SimpleQA Verified (https://arxiv.org/abs/2509.07968) documents noisy/incorrect labels, topical biases and question redundancy in the original set. Answers are public and easily found with web search, so tool/browsing-enabled results are not comparable to closed-book."
+  }
+ },
+ {
+  "unit": "SimpleQA Verified",
+  "family": "SimpleQA Verified",
+  "labs_reporting": [
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 12,
+  "first_lab_report": "2025-11-18",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "SimpleQA Verified",
+   "SimpleQA-Verified (Pass@1)",
+   "SimpleQA-Verified (EM)"
+  ],
+  "lab_reports": [
+   "2025-11-18 | Google | Gemini 3 Pro | SimpleQA Verified  | Gemini 3 Pro | score=72.1% | secondary/main",
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | SimpleQA Verified [factual questions] |  | score= | system_card/appendix",
+   "2025-12-17 | Google | Gemini 3 Flash | SimpleQA Verified  | Gemini 3 Flash | score=68.7% | secondary/main",
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | SimpleQA Verified  | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=36.9 | tech_report/main",
+   "2026-03-03 | Google | Gemini 3.1 Flash-Lite | SimpleQA Verified  | Gemini 3.1 Flash-Lite (High) | score=43.3% | model_card/main",
+   "2026-04-07 | Anthropic | Claude Mythos Preview | SimpleQA Verified  | no tools | score= | system_card/appendix",
+   "2026-04-08 | Meta | Muse Spark (1.0; Meta Superintelligence Labs) | SimpleQA Verified [hallucination] | safety and behavioral propensities | score=70.8 | system_card/main",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | SimpleQA Verified  |  | score= | system_card/appendix",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | SimpleQA-Verified (Pass@1) [Knowledge] | DeepSeek-V4-Pro-Max (max reasoning effort) | score=57.9 | hf_card/main",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | SimpleQA Verified  |  | score= | system_card/appendix",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | SimpleQA Verified  |  | score= | system_card/appendix",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | SimpleQA-Verified (EM) [base model] | 25-shot | score=42.3 | hf_card/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "SuperGPQA",
+  "family": "SuperGPQA",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "DeepSeek",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 12,
+  "first_lab_report": "2025-05-14",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "SuperGPQA",
+   "SuperGPQA (EM)"
+  ],
+  "lab_reports": [
+   "2025-05-14 | Alibaba (Qwen) | Qwen3 (technical report) | SuperGPQA  | base Qwen3-235B-A22B-Base; 5-shot CoT | score=44.06 | tech_report/main",
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | SuperGPQA [Acc] | Kimi-K2-Instruct (non-thinking); 8k output | score=57.2 | github/main",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | SuperGPQA  | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=62.6 | hf_card/main",
+   "2025-07-25 | Alibaba (Qwen) | Qwen3-235B-A22B-Thinking-2507 | SuperGPQA  | Qwen3-235B-A22B-Thinking-2507 | score=64.9 | hf_card/main",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | SuperGPQA [Acc.] | Kimi-K2-Instruct (non-thinking); 8k output | score=57.2 | tech_report/main",
+   "2025-09-11 | Alibaba (Qwen) | Qwen3-Next-80B-A3B | SuperGPQA  | Qwen3-Next-80B-A3B-Thinking | score=60.8 | hf_card/main",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | SuperGPQA  | Qwen3.5-397B-A17B (thinking, default) | score=70.4 | hf_card/main",
+   "2026-04-01 | Alibaba (Qwen) | Qwen3.6-Plus | SuperGPQA  | Qwen3.6-Plus | score=71.6 | blog/main",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | SuperGPQA (EM) [base model] | 5-shot | score=53.9 | hf_card/main",
+   "2026-05-20 | Alibaba (Qwen) | Qwen3.7-Max | SuperGPQA  | Qwen3.7-Max | score=73.6 | blog/main",
+   "2026-06-01 | Alibaba (Qwen) | Qwen3.7-Plus | SuperGPQA  | Qwen3.7-Plus | score=71.4 | blog/main",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | SuperGPQA (EM) [base model] | 5-shot | score=53.1 | hf_card/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "TheoremQA",
+  "family": "TheoremQA",
+  "labs_reporting": [
+   "Alibaba (Qwen)"
+  ],
+  "n_releases": 5,
+  "first_lab_report": "2024-04-25",
+  "last_lab_report": "2024-12-19",
+  "raw_names": [
+   "Theorem QA",
+   "TheoremQA"
+  ],
+  "lab_reports": [
+   "2024-04-25 | Alibaba (Qwen) | Qwen1.5-110B | TheoremQA  | base Qwen1.5-110B | score=34.9 | blog/main",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | Theorem QA  | instruct Qwen2-72B-Instruct | score=44.4 | blog/appendix",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | Theorem QA  | instruct Qwen2-72B-Instruct | score=44.4 | tech_report/main",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | Theorem QA  | base Qwen2.5-72B; 5-shot | score=42.4 | blog/main",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | Theorem QA  | base Qwen2.5-72B; 5-shot | score=42.4 | tech_report/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "TruthfulQA",
+  "family": "TruthfulQA",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "Google",
+   "Meta",
+   "OpenAI"
+  ],
+  "n_releases": 13,
+  "first_lab_report": "2021-12-08",
+  "last_lab_report": "2024-12-19",
+  "raw_names": [
+   "TruthfulQA",
+   "TruthfulQA / ToxiGen / BOLD detail",
+   "Truthful QA",
+   "Translated TruthfulQA"
+  ],
+  "lab_reports": [
+   "2021-12-08 | Google | Gopher | TruthfulQA [multiple-choice] | Gopher 280B | score= | paper/main",
+   "2022-01-27 | OpenAI | InstructGPT (\"Training language models to follow instruction | Truthful QA [TruthfulQA] | true; QA prompt | score=0.712 | paper/appendix",
+   "2022-03-29 | Google | Chinchilla | TruthfulQA [multiple-choice] | 10-shot; Chinchilla 70B | score=66.7% | paper/main",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | TruthfulQA [Truthful / Truthful*Inf] | QA prompt style, scored by trained judges | score=0.57 / 0.53 | paper/main",
+   "2023-03-14 | OpenAI | GPT-4 (Technical Report) | TruthfulQA  | 0-shot / 5-shot / RLHF | score= | tech_report/main",
+   "2023-07-11 | Anthropic | Claude 2 | TruthfulQA  | open-ended sampling matched to MC answers | score= | model_card/appendix",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | TruthfulQA [% truthful and informative] | fine-tuned (Llama 2-Chat) | score=64.14 | paper/main",
+   "2023-08-24 | Meta | Code Llama (7B/13B/34B; base, Python, Instruct) | TruthfulQA  | % truthful & informative; base / Instruct | score=34.64 / 47.37 | paper/main",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | TruthfulQA  | base Qwen2-72B; 0-shot | score=54.8 | blog/appendix",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | TruthfulQA  | base Qwen2-72B; 0-shot | score=54.8 | tech_report/main",
+   "2024-08-08 | OpenAI | GPT-4o (System Card) | Translated TruthfulQA [English / Amharic / Hausa / Northern Sot] | 0-shot accuracy | score=81.4 / 55.4 / 59.2 / | system_card/appendix",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | TruthfulQA  | base Qwen2.5-72B; 0-shot | score=60.4 | blog/main",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | TruthfulQA  | base Qwen2.5-72B; 0-shot | score=60.4 | tech_report/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "USAMO 2025",
+  "family": "USAMO",
+  "labs_reporting": [
+   "Google",
+   "xAI"
+  ],
+  "n_releases": 2,
+  "first_lab_report": "2025-05-06",
+  "last_lab_report": "2025-07-09",
+  "raw_names": [
+   "USAMO 2025"
+  ],
+  "lab_reports": [
+   "2025-05-06 | Google | Gemini 2.5 Pro Preview (05-06, I/O edition) + I/O 2025 Deep  | USAMO 2025  | Gemini 2.5 Pro Deep Think (announced at I/O 2025-05-20) | score= | blog/main",
+   "2025-07-09 | xAI | Grok 4 (and Grok 4 Heavy) | USAMO 2025 [Olympiad math proofs] | Grok 4 Heavy | score=61.9% | blog/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "USAMO 2026",
+  "family": "USAMO",
+  "labs_reporting": [
+   "Anthropic"
+  ],
+  "n_releases": 5,
+  "first_lab_report": "2026-04-07",
+  "last_lab_report": "2026-06-30",
+  "raw_names": [
+   "USAMO 2026"
+  ],
+  "lab_reports": [
+   "2026-04-07 | Anthropic | Claude Mythos Preview | USAMO 2026 [6 proof problems (Mar 21-22, 2026)] | max effort, no tools; 10 trials/problem; MathArena grading ( | score=97.6% | system_card/main",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | USAMO 2026  | max effort; 10 attempts/problem; MathArena grading | score=69.3% | system_card/appendix",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | USAMO 2026  | 10 attempts/problem | score=96.7% | system_card/appendix",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | USAMO 2026  | medium/high/xhigh effort | score=99.8% | system_card/appendix",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | USAMO 2026  | 10 attempts/problem | score=79.5% | system_card/appendix"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "VCT",
+  "family": "VCT",
+  "labs_reporting": [
+   "Anthropic",
+   "Meta",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 20,
+  "first_lab_report": "2025-02-24",
+  "last_lab_report": "2026-09-22",
+  "raw_names": [
+   "Multimodal virology (VCT)",
+   "VCT",
+   "Virology Capabilities Test (VCT)",
+   "Biosecurity VCT",
+   "Multimodal Virology (VCT)",
+   "Multimodal virology (VMQA/VCT)",
+   "External Evaluation for Biological Capabilities - SecureBio (VCT, VCT-v2, HPCT, WCB, ReproBAIT)"
+  ],
+  "lab_reports": [
+   "2025-02-24 | Anthropic | Claude 3.7 Sonnet | Multimodal Virology (VCT)  |  | score= | system_card/appendix",
+   "2025-05-22 | Anthropic | Claude Opus 4 and Claude Sonnet 4 | Multimodal virology (VCT)  | 10-shot | score= | system_card/appendix",
+   "2025-07-09 | xAI | Grok 4 (and Grok 4 Heavy) | VCT [Virology Capabilities Test; accuracy] | Grok 4 API | score=0.60 | model_card/main",
+   "2025-08-28 | xAI | Grok Code Fast 1 | VCT [accuracy] |  | score=28.7 | model_card/main",
+   "2025-09-19 | xAI | Grok 4 Fast | VCT [accuracy] | Grok 4 Fast | score=54.5 | model_card/main",
+   "2025-10-15 | Anthropic | Claude Haiku 4.5 | Multimodal virology (VMQA/VCT)  |  | score=0.32 | system_card/appendix",
+   "2025-11-17 | xAI | Grok 4.1 (Thinking / non-thinking) | VCT [accuracy] | Grok 4.1 Thinking | score=0.61 | model_card/main",
+   "2026-02-17 | xAI | Grok 4.20 (beta; single- and multi-agent) | VCT [accuracy] | Grok 4.20 SA | score=0.54 | system_card/main",
+   "2026-04-07 | Anthropic | Claude Mythos Preview | Multimodal virology (VCT)  |  | score=0.574 | system_card/appendix",
+   "2026-04-08 | Meta | Muse Spark (1.0; Meta Superintelligence Labs) | VCT  | Thinking configuration; capabilities related to catastrophic | score=49.7 | system_card/main",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | Multimodal virology (VCT) [CB-1 automated] |  | score= | system_card/appendix",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | Multimodal virology (VCT)  |  | score= | system_card/appendix",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | Multimodal virology (VCT)  |  | score= | system_card/appendix",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | VCT [Virology Capabilities Test] | safety/preparedness (Sections 2-4) | score=52.0 | system_card/main",
+   "2026-07-16 | xAI | Grok 4.5 | Virology Capabilities Test (VCT) [accuracy] | Grok 4.5 (high) | score=65.5% | model_card/main",
+   "2026-08-12 | xAI | Grok 4.6 | Virology Capabilities Test (VCT)  | Grok 4.6 (high) | score=67.4% | model_card/main",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | Multimodal virology (VCT)  |  | score= | system_card/appendix",
+   "2026-09-03 | OpenAI | GPT-6 Astra | External Evaluation for Biological Capabilities - SecureBio  [third-party] | refusal-corrected accuracy | score=VCT 57.8% | system_card/appendix",
+   "2026-09-21 | xAI | Grok 4.7 | Virology Capabilities Test (VCT) [accuracy] | Grok 4.7 (high) | score=63.0% | model_card/main",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | Multimodal virology (VCT)  |  | score= | system_card/appendix"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "WMDP",
+  "family": "WMDP",
+  "labs_reporting": [
+   "Google",
+   "Meta",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 14,
+  "first_lab_report": "2024-09-12",
+  "last_lab_report": "2026-09-21",
+  "raw_names": [
+   "WMDP Bio",
+   "WMDP Chem",
+   "WMDP Cyber",
+   "WMDP",
+   "WMDP-Bio",
+   "WMDP-Chem",
+   "WMDP Biology",
+   "WMDP-Cyber",
+   "WMDP biology and chemistry splits (contextual)"
+  ],
+  "lab_reports": [
+   "2024-09-12 | OpenAI | o1-preview and o1-mini | WMDP biology and chemistry splits (contextual)  |  | score= | system_card/appendix",
+   "2025-02-02 | OpenAI | Deep research (o3-based agent) | WMDP Biology  | MCQ | score=90% | system_card/appendix",
+   "2025-02-27 | OpenAI | GPT-4.5 (research preview) | WMDP Biology  | MCQ | score=85% | system_card/appendix",
+   "2025-06-17 | Google | Gemini 2.5 technical report (2.5 Pro / 2.5 Flash) | WMDP [Frontier Safety (CBRN MCQ)] | Gemini 2.5 Pro | score= | tech_report/main",
+   "2025-07-09 | xAI | Grok 4 (and Grok 4 Heavy) | WMDP Bio [accuracy] | Grok 4 API | score=0.87 | model_card/main",
+   "2025-08-28 | xAI | Grok Code Fast 1 | WMDP Bio [accuracy] |  | score=72.0 | model_card/main",
+   "2025-09-19 | xAI | Grok 4 Fast | WMDP Bio [accuracy] | Grok 4 Fast | score=85.2 | model_card/main",
+   "2025-11-17 | xAI | Grok 4.1 (Thinking / non-thinking) | WMDP Bio [accuracy] | Grok 4.1 Thinking | score=0.87 | model_card/main",
+   "2026-02-17 | xAI | Grok 4.20 (beta; single- and multi-agent) | WMDP Bio [accuracy] | Grok 4.20 SA | score=0.91 | system_card/main",
+   "2026-04-08 | Meta | Muse Spark (1.0; Meta Superintelligence Labs) | WMDP-Cyber  | Thinking configuration; capabilities related to catastrophic | score=89.8 | system_card/main",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | WMDP-Bio  | safety/preparedness (Sections 2-4) | score=89.0 | system_card/main",
+   "2026-07-16 | xAI | Grok 4.5 | WMDP [WMDP-Bio / WMDP-Chem accuracy (MCQ)] | Grok 4.5 (high) | score=90.9% / 87.3% | model_card/main",
+   "2026-08-12 | xAI | Grok 4.6 | WMDP [Bio / Chem / Cyber] | Grok 4.6 (high) | score=90.0% / 85.3% / 90.1 | model_card/main",
+   "2026-09-21 | xAI | Grok 4.7 | WMDP [Bio / Chem / Cyber accuracy] | Grok 4.7 (high) | score=88.1% / 84.9% / 88.1 | model_card/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "WildBench",
+  "family": "WildBench",
+  "labs_reporting": [
+   "Mistral"
+  ],
+  "n_releases": 4,
+  "first_lab_report": "2024-07-24",
+  "last_lab_report": "2025-06-20",
+  "raw_names": [
+   "Wild Bench",
+   "Wild bench",
+   "wildbench",
+   "Wildbench v2"
+  ],
+  "lab_reports": [
+   "2024-07-24 | Mistral | Mistral Large 2 (2407) | Wild Bench  | instruct; GPT-4o judge per blog | score=56.3 | hf_card/main",
+   "2024-10-16 | Mistral | Ministral 3B / Ministral 8B (2410) | Wild bench  | instruct; chat evals judged by gpt-4o | score=41.3 | hf_card/main",
+   "2025-01-30 | Mistral | Mistral Small 3 (24B, 2501) | wildbench  | instruct | score=52.27 | hf_card/main",
+   "2025-06-20 | Mistral | Mistral Small 3.2 (24B, 2506) | Wildbench v2  | instruct | score=65.33% | hf_card/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "WritingBench",
+  "family": "WritingBench",
+  "labs_reporting": [
+   "Alibaba (Qwen)"
+  ],
+  "n_releases": 4,
+  "first_lab_report": "2025-05-14",
+  "last_lab_report": "2025-09-11",
+  "raw_names": [
+   "WritingBench"
+  ],
+  "lab_reports": [
+   "2025-05-14 | Alibaba (Qwen) | Qwen3 (technical report) | WritingBench  | Qwen3-235B-A22B thinking mode | score=8.03 | tech_report/main",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | WritingBench  | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=85.2 | hf_card/main",
+   "2025-07-25 | Alibaba (Qwen) | Qwen3-235B-A22B-Thinking-2507 | WritingBench  | Qwen3-235B-A22B-Thinking-2507 | score=88.3 | hf_card/main",
+   "2025-09-11 | Alibaba (Qwen) | Qwen3-Next-80B-A3B | WritingBench  | Qwen3-Next-80B-A3B-Instruct | score=87.3 | hf_card/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "ZebraLogic",
+  "family": "ZebraLogic",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 4,
+  "first_lab_report": "2025-05-14",
+  "last_lab_report": "2025-07-28",
+  "raw_names": [
+   "ZebraLogic"
+  ],
+  "lab_reports": [
+   "2025-05-14 | Alibaba (Qwen) | Qwen3 (technical report) | ZebraLogic  | Qwen3-235B-A22B thinking mode | score=80.3 | tech_report/main",
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | ZebraLogic [Acc] | Kimi-K2-Instruct (non-thinking); 8k output | score=89.0 | github/main",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | ZebraLogic  | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=95.0 | hf_card/main",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | ZebraLogic [Acc.] | Kimi-K2-Instruct (non-thinking); 8k output | score=89.0 | tech_report/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "ruMMLU",
+  "family": "ruMMLU",
+  "labs_reporting": [
+   "Alibaba (Qwen)"
+  ],
+  "n_releases": 4,
+  "first_lab_report": "2024-06-07",
+  "last_lab_report": "2024-12-19",
+  "raw_names": [
+   "ruMMLU"
+  ],
+  "lab_reports": [
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | ruMMLU [component of Multi-Exam] | base Qwen2-72B; 5-shot | score= | blog/appendix",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | ruMMLU [component of Exam] | base Qwen2-72B; 5-shot | score= | tech_report/main",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | ruMMLU [component of Multi-Exam] | base Qwen2.5-72B; 5-shot | score= | blog/main",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | ruMMLU [component of Multi-Exam] | base Qwen2.5-72B; 5-shot | score= | tech_report/main"
+  ],
+  "metadata_hints": null
+ }
+]

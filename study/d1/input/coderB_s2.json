@@ -1,0 +1,500 @@
+[
+ {
+  "unit": "CMath",
+  "family": "CMath",
+  "labs_reporting": [
+   "DeepSeek",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 8,
+  "first_lab_report": "2023-11-29",
+  "last_lab_report": "2026-04-24",
+  "raw_names": [
+   "CMATH",
+   "CMath",
+   "CMath (EM)"
+  ],
+  "lab_reports": [
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | CMATH [math eval of 67B Chat] | CoT vs Tool-Integrated Reasoning | score=80.3% / 85.4% | github/appendix | https://arxiv.org/abs/2401.02954",
+   "2024-02 | DeepSeek | DeepSeekMath 7B (Base/Instruct/RL) | CMATH [Chinese] |  | score=71.7% | github/main | https://github.com/deepseek-ai/DeepSeek-Math",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | CMath [chat model] | 0-shot | score=81.9 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | CMath (EM) [base model] | 3-shot | score=90.7 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-02-22 | Moonshot AI (Kimi) | Moonlight-16B-A3B | CMath  | Moonlight (base, 5.7T tokens, Muon) | score=81.1 | github/main | https://github.com/MoonshotAI/Moonlight",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | CMATH  | Kimi-K2-Base; 6-shot | score=90.26 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | CMATH  | Kimi-Linear-Base @5.7T (released); 6-shot | score=85.5 | paper/appendix | https://arxiv.org/abs/2510.26692",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | CMath (EM) [base model] | 3-shot | score=90.9 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+  ]
+ },
+ {
+  "unit": "ARC-Challenge",
+  "family": "ARC-Challenge",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 28,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2025-10-30",
+  "raw_names": [
+   "ARC-C",
+   "ARC-Challenge",
+   "Arc-c",
+   "ARC-c",
+   "ARC-Challenge (Acc.)",
+   "ARC Challenge",
+   "ARC-Challenge (25-shot)",
+   "ARC Challenge (0-shot)",
+   "ARC Challenge (25-shot)",
+   "ARC (Challenge)"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | ARC (Challenge) [test] | few-shot (K=50); acc | score=51.5 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2022-04-04 | Google | PaLM | ARC-c  | few-shot; PaLM 540B | score=65.9 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2022-05-03 | Meta | OPT (125M-175B) | ARC Challenge  | zero-shot and few-shot (1/32-shot), GPT-3 prompts; accuracy | score= | paper/main | https://arxiv.org/abs/2205.01068",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | ARC-c  | 0-shot; base | score=56.0 | paper/main | https://arxiv.org/abs/2302.13971",
+   "2023-05-10 | Google | PaLM 2 | ARC-C  | 4-shot; PaLM 2-L | score=95.1 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-07-11 | Anthropic | Claude 2 | ARC-Challenge  | 5-shot | score=91.0% | model_card/main | https://www-cdn.anthropic.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226/Model-Card-Claude-2.pdf",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | ARC-c  | 0-shot (MMLU 5-shot); base pretrained | score=57.4 | paper/appendix | https://arxiv.org/abs/2307.09288",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | Arc-c  | pretrained; settings per Sec.3 (commonsense 0-shot; NQ/Trivi | score=55.5% | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | ARC-c  | base Qwen-14B | score=84.4 | tech_report/appendix | https://arxiv.org/abs/2309.16609",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | ARC-Challenge  |  | score=64.1 | github/appendix | https://arxiv.org/abs/2401.02954",
+   "2023-12-11 | Mistral | Mixtral 8x7B (base + Instruct) | ARC Challenge (25-shot)  | base; 25-shot | score=85.8% | paper/main | https://arxiv.org/abs/2401.04088",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | ARC-challenge (Acc.) [base model (internal benchmarks vs DeepS] | 0-shot | score=49.8 | github/main | https://github.com/deepseek-ai/DeepSeek-MoE",
+   "2024-03-04 | Anthropic | Claude 3 Opus (Claude 3 family: Opus, Sonnet, Haiku) | ARC-Challenge  | 25-shot | score=96.4% | model_card/main | https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | ARC-Challenge (25-shot)  | 25-shot; base pretrained | score=93.0 | model_card/main | https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+   "2024-04-25 | Alibaba (Qwen) | Qwen1.5-110B | ARC-C  | base Qwen1.5-110B | score=69.6 | blog/main | https://qwenlm.github.io/blog/qwen1.5-110b/",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | ARC-Challenge (Acc.) [base model] | 25-shot | score=92.4 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | ARC-C  | base Qwen2-72B; 25-shot | score=68.9 | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-06-17 | DeepSeek | DeepSeek-Coder-V2 (Instruct / Lite) | ARC-Challenge [general NL] |  | score=92.8 | github/main | https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | ARC-C  | base Qwen2-72B; 25-shot | score=68.9 | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | ARC-C  | 0-shot; acc; instruct | score=96.9 | model_card/main | https://arxiv.org/abs/2407.21783",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | ARC-C  | base Qwen2.5-72B; 25-shot | score=72.4 | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-09-25 | Meta | Llama 3.2 (1B/3B text; 11B/90B Vision) | ARC-C  | 0-shot; acc; instruct | score=78.6 | model_card/main | https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md",
+   "2024-10-16 | Mistral | Ministral 3B / Ministral 8B (2410) | Arc-c  | base pretrained | score=71.9 | hf_card/main | https://huggingface.co/mistralai/Ministral-8B-Instruct-2410",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | ARC-C  | base Qwen2.5-72B; 25-shot | score=72.4 | tech_report/main | https://arxiv.org/abs/2412.15115",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | ARC-Challenge (Acc.) [base model] | 25-shot | score=95.3 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-01-30 | Mistral | Mistral Small 3 (24B, 2501) | ARC-c  | 0-shot; base pretrained | score=91.29 | hf_card/main | https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | ARC-Challenge  | Kimi-K2-Base; 0-shot | score=95.73 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | ARC-challenge  | Kimi Linear @1.4T (base, ablation-scale) | score=67.3 | paper/main | https://arxiv.org/abs/2510.26692"
+  ]
+ },
+ {
+  "unit": "HLE-Verified",
+  "family": "HLE-Verified",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Google"
+  ],
+  "n_releases": 3,
+  "first_lab_report": "2026-02-16",
+  "last_lab_report": "2026-09-02",
+  "raw_names": [
+   "HLE-Verified"
+  ],
+  "lab_reports": [
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | HLE-Verified [verified and revised version of HLE] | Qwen3.5-397B-A17B (thinking, default) | score=37.6 | hf_card/main | https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+   "2026-08-13 | Google | Gemini 3.7 Flash | HLE-Verified [1,811 items (689 uncertain excluded)] | Gemini 3.7 Flash | score=53.6% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+   "2026-09-02 | Google | Gemini 3.8 Flash | HLE-Verified  | Gemini 3.8 Flash | score=54.9% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-8-flash"
+  ]
+ },
+ {
+  "unit": "HealthBench",
+  "family": "HealthBench",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "Meta",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 21,
+  "first_lab_report": "2025-08-05",
+  "last_lab_report": "2026-09-29",
+  "raw_names": [
+   "HealthBench",
+   "HealthBench Hard",
+   "HealthBench Consensus",
+   "Dynamic Mental Health Benchmarks with Adversarial User Simulations",
+   "HealthBench (length-adjusted)",
+   "HealthBench Hard (length-adjusted)",
+   "Dynamic Mental Health Benchmarks",
+   "HealthBench Evaluations (length-adjusted)",
+   "HealthBench Consensus (length-adjusted)",
+   "MentalHealthBench"
+  ],
+  "lab_reports": [
+   "2025-08-05 | OpenAI | gpt-oss-120b and gpt-oss-20b | HealthBench Consensus [Consensus] | reasoning high | score=89.9% | paper/main | https://arxiv.org/html/2508.10925",
+   "2025-08-07 | OpenAI | GPT-5 (incl. mini, nano, pro) | HealthBench Consensus [Consensus] |  | score=95.7% | system_card/appendix | https://cdn.openai.com/gpt-5-system-card.pdf",
+   "2025-11-06 | Moonshot AI (Kimi) | Kimi K2 Thinking | HealthBench [no tools] | Kimi K2 Thinking (INT4) | score=58.0 | hf_card/main | https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+   "2025-12-11 | OpenAI | GPT-5.2 (Thinking/Pro) | HealthBench Consensus [Consensus] |  | score=0.945 | system_card/appendix | https://cdn.openai.com/pdf/3a4153c8-c748-4b71-8e31-aecbde944f8d/oai_5_2_system-card.pdf",
+   "2026-03-03 | OpenAI | GPT-5.3 Instant | HealthBench Consensus [Consensus] |  | score=95.3% | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-3-instant",
+   "2026-03-05 | OpenAI | GPT-5.4 (Thinking/Pro) | HealthBench Consensus [Consensus] |  | score=96.6% | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-4-thinking/gpt-5-4-thinking.pdf",
+   "2026-04-08 | Meta | Muse Spark (1.0; Meta Superintelligence Labs) | HealthBench Hard [Open-Ended Health Queries] | Thinking mode | score=42.8 | blog/main | https://ai.meta.com/blog/introducing-muse-spark-msl/",
+   "2026-04-23 | OpenAI | GPT-5.5 | HealthBench Consensus [Consensus] | length-adjusted | score=95.6 | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-5/gpt-5-5.pdf",
+   "2026-05-05 | OpenAI | GPT-5.5 Instant | HealthBench Consensus [Consensus] |  | score=94.7 | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-5-instant",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | HealthBench  |  | score=62.7% | system_card/main | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-06-26 | OpenAI | GPT-5.6 Sol (preview) | HealthBench Consensus [Consensus] | length-adjusted | score=95.5 | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-6-preview",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | HealthBench  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | HealthBench Consensus [Consensus] | length-adjusted | score=95.5 | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf",
+   "2026-07-24 | Anthropic | Claude Opus 5 | HealthBench  | raw / length-adjusted | score=67.1% / 57.8% | system_card/appendix | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-08-03 | Alibaba (Qwen) | Qwen3.8-Max (open weights Qwen3.8-2.4T-A95B) | HealthBench  | Qwen3.8-Max | score=60.2 | blog/main | https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "2026-08-06 | OpenAI | GPT-5.6 Sol and Luna (August update; ChatGPT default replaci | HealthBench Consensus [Consensus] | length-adjusted | score=95.5 | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-6-august-update",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | HealthBench  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-03 | OpenAI | GPT-6 Astra | HealthBench Evaluations (length-adjusted) [HealthBench / Hard / Consensus / Profess] | length-adjusted | score= | system_card/appendix | https://deploymentsafety.openai.com/gpt-6-astra",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | HealthBench  | raw / length-adjusted | score=68.1% / 60.6% | system_card/appendix | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | HealthBench  |  | score= | system_card/appendix | https://www.anthropic.com/claude-sonnet-5-5-system-card",
+   "2026-09-29 | OpenAI | GPT-6.1 Sol | HealthBench Consensus (length-adjusted) [Consensus] | length-adjusted | score=96.0 | system_card/appendix | https://deploymentsafety.openai.com/gpt-6-1-sol"
+  ]
+ },
+ {
+  "unit": "Graphwalks",
+  "family": "Graphwalks",
+  "labs_reporting": [
+   "Anthropic",
+   "OpenAI"
+  ],
+  "n_releases": 13,
+  "first_lab_report": "2025-04-14",
+  "last_lab_report": "2026-07-09",
+  "raw_names": [
+   "GraphWalks",
+   "Graphwalks parents <128k",
+   "Graphwalks bfs <128k",
+   "Graphwalks BFS 0K–128K",
+   "Graphwalks parents 0–128K (accuracy)",
+   "Graphwalks bfs >128k",
+   "Graphwalks parents >128k",
+   "GraphWalks bfs <128k",
+   "Graphwalks BFS 256K–1M",
+   "Graphwalks parents 256K–1M (accuracy)"
+  ],
+  "lab_reports": [
+   "2025-04-14 | OpenAI | GPT-4.1 (incl. mini, nano) | Graphwalks bfs <128k [bfs <128k] |  | score=61.7% | blog/appendix | https://openai.com/index/gpt-4-1/",
+   "2025-08-07 | OpenAI | GPT-5 (incl. mini, nano, pro) | Graphwalks bfs <128k [bfs <128k] | reasoning effort high | score=78.3% | blog/appendix | https://openai.com/index/introducing-gpt-5-for-developers/",
+   "2025-12-11 | OpenAI | GPT-5.2 (Thinking/Pro) | GraphWalks bfs <128k [bfs <128k] | reasoning effort xhigh | score=94.0% | blog/main | https://openai.com/index/introducing-gpt-5-2/",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | GraphWalks [BFS / Parents; 256K and 1M] | 64k thinking / max effort | score=Parents 1M 72.0%; BF | system_card/main | https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+   "2026-02-17 | Anthropic | Claude Sonnet 4.6 | GraphWalks [BFS 1M / BFS 256K / Parents 256K] | max effort | score=73.8 / 74.5 / 97.9 F | system_card/appendix | https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf",
+   "2026-03-05 | OpenAI | GPT-5.4 (Thinking/Pro) | Graphwalks BFS 0K–128K [BFS 0-128K] | reasoning effort xhigh | score=93.0% | blog/main | https://openai.com/index/introducing-gpt-5-4/",
+   "2026-03-17 | OpenAI | GPT-5.4 mini and nano | Graphwalks BFS 0K–128K [BFS 0-128K] | reasoning effort xhigh | score=76.3% | blog/main | https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+   "2026-04-07 | Anthropic | Claude Mythos Preview | GraphWalks [BFS 256K-1M] | avg 5 trials | score=80.0% | system_card/main | https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | GraphWalks [BFS 256K-1M / Parents 256K-1M] | avg 5 trials | score=58.6% / 75.1% | system_card/appendix | https://www-cdn.anthropic.com/037f06850df7fbe871e206dad004c3db5fd50340/Claude%20Opus%204.7%20System%20Card.pdf",
+   "2026-04-23 | OpenAI | GPT-5.5 | Graphwalks parents 256k f1 [parents 256k] | reasoning effort xhigh; F1 | score=90.1% | blog/main | https://openai.com/index/introducing-gpt-5-5/",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | GraphWalks [BFS 256K / Parents 256K] | avg 5 trials | score=85.9% / 99.3% | system_card/main | https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude-Opus-4.8-System-Card.pdf",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | GraphWalks [BFS 256K / Parents 256K] | avg 5 trials | score=91.1% / 99.96% | system_card/main | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | GraphWalks BFS 256k f1 [BFS 256k] | F1 | score=90.7% | blog/main | https://openai.com/index/gpt-5-6/"
+  ]
+ },
+ {
+  "unit": "LOFT",
+  "family": "LOFT",
+  "labs_reporting": [
+   "Google",
+   "xAI"
+  ],
+  "n_releases": 2,
+  "first_lab_report": "2025-02-19",
+  "last_lab_report": "2025-06-17",
+  "raw_names": [
+   "LOFT",
+   "LOFT (128k)"
+  ],
+  "lab_reports": [
+   "2025-02-19 | xAI | Grok 3 Beta (and Grok 3 mini) | LOFT (128k) [long-context RAG; averaged across 12 tas] | Grok 3 Beta (non-reasoning) | score=83.3% | blog/main | https://x.ai/news/grok-3",
+   "2025-06-17 | Google | Gemini 2.5 technical report (2.5 Pro / 2.5 Flash) | LOFT [hard, <=128K] | Gemini 2.5 Pro | score=87.0% | tech_report/main | https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf"
+  ]
+ },
+ {
+  "unit": "BoolQ",
+  "family": "BoolQ",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Google",
+   "Meta",
+   "Mistral",
+   "OpenAI"
+  ],
+  "n_releases": 12,
+  "first_lab_report": "2019-10-23",
+  "last_lab_report": "2024-07-23",
+  "raw_names": [
+   "BoolQ",
+   "BoolQ (0-shot)"
+  ],
+  "lab_reports": [
+   "2019-10-23 | Google | T5 (Text-to-Text Transfer Transformer) | BoolQ [SuperGLUE task] | fine-tuned; T5-11B (fine-tuned) | score= | paper/main | https://arxiv.org/abs/1910.10683v1",
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | BoolQ [dev] | few-shot (K=32); acc | score=77.5 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2022-03-29 | Google | Chinchilla | BoolQ  | zero-shot; Chinchilla 70B | score=83.7% | paper/main | https://arxiv.org/abs/2203.15556v1",
+   "2022-04-04 | Google | PaLM | BoolQ  | few-shot; PaLM 540B | score=89.1 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | BoolQ  | 0-shot; base | score=85.3 | paper/main | https://arxiv.org/abs/2302.13971",
+   "2023-05-10 | Google | PaLM 2 | BoolQ  | 1-shot; PaLM 2-L | score=90.9 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | BoolQ  | 0-shot (MMLU 5-shot); base pretrained | score=85.0 | paper/appendix | https://arxiv.org/abs/2307.09288",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | BoolQ  | pretrained; 0-shot | score= | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | BoolQ  | base Qwen-14B | score=86.2 | tech_report/appendix | https://arxiv.org/abs/2309.16609",
+   "2023-12-06 | Google | Gemini 1.0 (Ultra/Pro/Nano) | BoolQ  | Gemini Nano-2 | score=79.3 | tech_report/main | https://arxiv.org/abs/2312.11805v1",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | BoolQ (0-shot)  | 0-shot; base pretrained | score=79.0 | model_card/main | https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | BoolQ  | 0-shot; acc_char; base pretrained | score=80.0 | model_card/main | https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md"
+  ]
+ },
+ {
+  "unit": "GPQA Diamond",
+  "family": "GPQA",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "Moonshot AI (Kimi)",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 104,
+  "first_lab_report": "2024-02-15",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "GPQA",
+   "GPQA Diamond",
+   "GPQA-Diamond",
+   "GPQA diamond",
+   "GPQA-Diamond (Pass@1)",
+   "GPQA (diamond)",
+   "GPQA Main (5-shot CoT)",
+   "GPQA Diamond (no tools)",
+   "GPQA Diamond (Pass@1)",
+   "GPQA Diamond (5-shot CoT)"
+  ],
+  "lab_reports": [
+   "2024-02-15 | Google | Gemini 1.5 Pro (Feb 2024 report) | GPQA  | 4-shot; Gemini 1.5 Pro (Feb 2024) | score=37.9% | tech_report/main | https://arxiv.org/abs/2403.05530v1",
+   "2024-03-04 | Anthropic | Claude 3 Opus (Claude 3 family: Opus, Sonnet, Haiku) | GPQA [Diamond] | Maj@32, 5-shot CoT | score=59.5% | model_card/main | https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+   "2024-04-09 | OpenAI | GPT-4 Turbo (gpt-4-turbo-2024-04-09) | GPQA  | simple-evals; zero-shot CoT; chatgpt system prompt | score=49.1 | github/main | https://github.com/openai/simple-evals/blob/267835b30446d8f68a77cff13bc8a8256ce41829/README.md",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | GPQA (0-shot)  | 0-shot; instruction tuned | score=39.5 | model_card/main | https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+   "2024-04-25 | Alibaba (Qwen) | Qwen1.5-110B | GPQA  | base Qwen1.5-110B | score=35.9 | blog/main | https://qwenlm.github.io/blog/qwen1.5-110b/",
+   "2024-05-13 | OpenAI | GPT-4o | GPQA  | simple-evals; 0-shot CoT; chatgpt system prompt | score=53.6 | github/main | https://github.com/openai/simple-evals/blob/294cb1fb18f7aed4e21dc567350b0761a9e6f699/README.md",
+   "2024-05-14 | Google | Gemini 1.5 Pro (May 2024) / 1.5 Flash - updated report | GPQA  | 4-shot; Gemini 1.5 Pro (May 2024) | score=46.2% | tech_report/main | https://arxiv.org/abs/2403.05530v3",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | GPQA  | instruct Qwen2-72B-Instruct | score=42.4 | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-06-20 | Anthropic | Claude 3.5 Sonnet | GPQA [Diamond] | Maj@32, 5-shot CoT | score=67.2% | model_card/main | https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | GPQA  | instruct Qwen2-72B-Instruct | score=42.4 | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | GPQA (0-shot, CoT)  | finetuned (instruct); see name for shots | score=51.1 | paper/main | https://arxiv.org/abs/2407.21783",
+   "2024-08-13 | xAI | Grok-2 (and Grok-2 mini) | GPQA [Graduate-level science knowledge] |  | score=56.0% | blog/main | https://x.ai/news/grok-2",
+   "2024-09-12 | OpenAI | o1-preview and o1-mini | GPQA Diamond [Diamond] | pass@1 | score=73.3 | blog/main | https://cdn.openai.com/o1-system-card.pdf",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | GPQA  | instruct Qwen2.5-72B-Instruct | score=49.0 | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-09-25 | Meta | Llama 3.2 (1B/3B text; 11B/90B Vision) | GPQA  | 0-shot; Accuracy; instruct | score=46.7 | model_card/main | https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md",
+   "2024-10-22 | Anthropic | Claude 3.5 Sonnet (new) and Claude 3.5 Haiku | GPQA [Diamond] | 0-shot CoT | score=65.0% | model_card/main | https://www-cdn.anthropic.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf",
+   "2024-11-28 | Alibaba (Qwen) | QwQ-32B-Preview | GPQA [Graduate-Level Google-Proof Q&A] | QwQ-32B-Preview | score=65.2 | blog/main | https://qwenlm.github.io/blog/qwq-32b-preview/",
+   "2024-12-05 | OpenAI | o1 and o1 pro mode (ChatGPT) | PhD-Level Science Questions (GPQA Diamond) [Diamond] | pass@1 | score=76 | blog/main | https://openai.com/index/introducing-chatgpt-pro/",
+   "2024-12-06 | Meta | Llama 3.3 70B Instruct | GPQA Diamond (CoT) [Diamond] | 0-shot; acc; instruct | score=50.5 | model_card/main | https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md",
+   "2024-12-11 | Google | Gemini 2.0 Flash Experimental | GPQA (diamond) [diamond] | Gemini 2.0 Flash Experimental | score=62.1% | secondary/main | https://thesecmaster.com/blog/google-unveils-gemini-2-0-promising-advanced-ai-capabilities-across-multiple-doma",
+   "2024-12-17 | OpenAI | o1-2024-12-17 (API) | GPQA diamond [Diamond] |  | score=75.7 | blog/main | https://openai.com/index/o1-and-new-tools-for-developers/",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | GPQA  | instruct Qwen2.5-72B-Instruct | score=49.0 | tech_report/main | https://arxiv.org/abs/2412.15115",
+   "2024-12-20 | OpenAI | o3 and o3-mini (preview announcement, 12 Days of OpenAI day  | GPQA Diamond [Diamond] |  | score=87.7% | secondary/main | https://lifearchitect.ai/o3/",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | GPQA-Diamond (Pass@1) [chat model] | max output 8K; <1000-sample benchmarks run multiple times wi | score=59.1 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-01-20 | DeepSeek | DeepSeek-R1 (R1-Zero, R1, R1-Distill) | GPQA Diamond [Table 2] | pass@1 | score=73.3 | tech_report/main | https://www.nature.com/articles/s41586-025-09422-z",
+   "2025-01-20 | Moonshot AI (Kimi) | Kimi k1.5 | GPQA  | internal smaller long-CoT model, training curves | score= | tech_report/main | https://arxiv.org/abs/2501.12599",
+   "2025-01-28 | Alibaba (Qwen) | Qwen2.5-Max | GPQA-Diamond  | Qwen2.5-Max (instruct) | score=60.1 | blog/main | https://qwenlm.github.io/blog/qwen2.5-max/",
+   "2025-01-30 | Mistral | Mistral Small 3 (24B, 2501) | GPQA Main  | 5-shot, CoT; base pretrained | score=34.37 | hf_card/main | https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501",
+   "2025-01-31 | OpenAI | o3-mini | GPQA Diamond [Diamond] | reasoning effort high; pass@1 | score=77.0% | blog/main | https://openai.com/index/openai-o3-mini/",
+   "2025-02-02 | OpenAI | Deep research (o3-based agent) | GPQA biology / WMDP chemistry / synthetic biology translatio  |  | score= | system_card/appendix | https://cdn.openai.com/deep-research-system-card.pdf",
+   "2025-02-05 | Google | Gemini 2.0 Flash GA / 2.0 Flash-Lite / 2.0 Pro Experimental | GPQA (diamond) [diamond] | Gemini 2.0 Flash (GA) | score=60.1% | model_card/main | https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Model-Card.pdf",
+   "2025-02-19 | xAI | Grok 3 Beta (and Grok 3 mini) | GPQA [Graduate-Level Google-Proof Q&A (Diamond] | Grok 3 (Think) | score=84.6% | blog/main | https://x.ai/news/grok-3",
+   "2025-02-24 | Anthropic | Claude 3.7 Sonnet | GPQA [Diamond] | 64K extended thinking | score=78.2% | secondary/main | https://huggingface.co/spaces/Presidentlin/llm-pricing-calculator/blob/main/src/lib/benchmarks/anthropic.ts",
+   "2025-02-27 | OpenAI | GPT-4.5 (research preview) | GPQA (science) [Diamond] |  | score=71.4% | blog/main | https://openai.com/index/introducing-gpt-4-5/",
+   "2025-03-17 | Mistral | Mistral Small 3.1 (24B, 2503) | GPQA Diamond (5-shot CoT)  | instruct; text | score=45.96% | hf_card/main | https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+   "2025-03-24 | DeepSeek | DeepSeek-V3-0324 | GPQA  |  | score=68.4 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+   "2025-03-25 | Google | Gemini 2.5 Pro Experimental (03-25) | GPQA diamond  | single attempt (pass@1); Gemini 2.5 Pro Experimental 03-25 | score=84.0% | model_card/main | https://www.rivista.ai/wp-content/uploads/2025/04/gemini-2.5-pro-preview.pdf",
+   "2025-04-05 | Meta | Llama 4 Behemoth (preview, not released) | GPQA Diamond [Diamond] | 0-shot | score=73.7 | secondary/main | https://www.datacamp.com/blog/llama-4",
+   "2025-04-05 | Meta | Llama 4 Scout / Llama 4 Maverick | GPQA Diamond [Diamond] | 0-shot; accuracy; instruct | score=69.8 | model_card/main | https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md",
+   "2025-04-14 | OpenAI | GPT-4.1 (incl. mini, nano) | GPQA Diamond [Diamond] |  | score=66.3% | blog/appendix | https://openai.com/index/gpt-4-1/",
+   "2025-04-16 | OpenAI | o3 and o4-mini | GPQA Diamond [Diamond] | no tools | score=83.3% | secondary/main | https://blog.biocomm.ai/wp-content/uploads/2025/04/Introducing-OpenAI-o3-and-o4-mini-OpenAI.pdf",
+   "2025-04-17 | Google | Gemini 2.5 Flash Preview (04-17) | GPQA diamond  | single attempt (pass@1); Gemini 2.5 Flash Preview 04-17, thi | score=78.3% | model_card/main | https://storage.googleapis.com/model-cards/documents/gemini-2.5-flash-preview.pdf",
+   "2025-05-06 | Google | Gemini 2.5 Pro Preview (05-06, I/O edition) + I/O 2025 Deep  | GPQA diamond  | single attempt; Gemini 2.5 Pro Preview 05-06 | score=83.0% | model_card/main | https://storage.googleapis.com/model-cards/documents/gemini-2.5-pro-preview.pdf",
+   "2025-05-14 | Alibaba (Qwen) | Qwen3 (technical report) | GPQA-Diamond  | Qwen3-235B-A22B thinking mode; avg of 10 samples | score=71.1 | tech_report/main | https://arxiv.org/abs/2505.09388",
+   "2025-05-22 | Anthropic | Claude Opus 4 and Claude Sonnet 4 | GPQA [Diamond] | extended thinking (up to 64K) | score=79.6% | secondary/main | https://www.datacamp.com/blog/claude-4",
+   "2025-05-28 | DeepSeek | DeepSeek-R1-0528 (+ R1-0528-Qwen3-8B) | GPQA-Diamond (Pass@1)  | max gen 64K; temp 0.6, top-p 0.95; 16 samples for pass@1 | score=81.0 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
+   "2025-06-05 | Google | Gemini 2.5 Pro (06-05 preview / GA) | GPQA diamond  | single attempt; Gemini 2.5 Pro (06-05 / GA) | score=86.4% | model_card/main | https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf",
+   "2025-06-10 | Mistral | Magistral Medium / Magistral Small (1.0, 2506) | GPQA Diamond  | pass@1 | score=70.83% | hf_card/main | https://huggingface.co/mistralai/Magistral-Small-2506",
+   "2025-06-10 | OpenAI | o3-pro | GPQA Diamond [Diamond] | pass@1 | score=84% | secondary/main | https://www.techrepublic.com/article/news-openai-o3-pro/",
+   "2025-06-17 | Google | Gemini 2.5 Flash-Lite (preview) | GPQA diamond  | Gemini 2.5 Flash-Lite (06-17), thinking | score=66.7% | model_card/main | https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Lite-Model-Card.pdf",
+   "2025-06-17 | Google | Gemini 2.5 technical report (2.5 Pro / 2.5 Flash) | GPQA (diamond)  | Gemini 2.5 Pro | score=86.4% | tech_report/main | https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf",
+   "2025-06-20 | Mistral | Mistral Small 3.2 (24B, 2506) | GPQA Diamond (5-shot CoT)  | instruct | score=46.13% | hf_card/main | https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "2025-07-09 | xAI | Grok 4 (and Grok 4 Heavy) | GPQA [Science (Diamond)] | Grok 4 | score=87.5% | secondary/main | https://kingy.ai/news/grok-4-benchmarks-explained-why-its-performance-is-a-game-changer/",
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | GPQA-Diamond [Avg@8] | Kimi-K2-Instruct (non-thinking); 8k output | score=75.1 | github/main | https://github.com/MoonshotAI/Kimi-K2/blob/main/README.md",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | GPQA  | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=77.5 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "2025-07-24 | Mistral | Magistral Medium 1.1 / Small 1.1 (2507) | GPQA Diamond  | pass@1 | score=71.46% | hf_card/main | https://huggingface.co/mistralai/Magistral-Small-2507",
+   "2025-07-25 | Alibaba (Qwen) | Qwen3-235B-A22B-Thinking-2507 | GPQA  | Qwen3-235B-A22B-Thinking-2507 | score=81.1 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | GPQA-Diamond [Avg@8] | Kimi-K2-Instruct (non-thinking); 8k output | score=75.1 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-08-05 | Anthropic | Claude Opus 4.1 | GPQA [Diamond] |  | score=80.9% | secondary/main | https://simonwillison.net/2025/Aug/5/claude-opus-41/",
+   "2025-08-05 | OpenAI | gpt-oss-120b and gpt-oss-20b | GPQA Diamond (with tools) [Diamond] | reasoning high; with tools | score=80.9% | paper/main | https://arxiv.org/html/2508.10925"
+  ]
+ },
+ {
+  "unit": "MT-Bench",
+  "family": "MT-Bench",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "DeepSeek",
+   "Google",
+   "Mistral"
+  ],
+  "n_releases": 23,
+  "first_lab_report": "2023-09-27",
+  "last_lab_report": "2026-02-12",
+  "raw_names": [
+   "MT-Bench",
+   "MT Bench",
+   "MM MT-Bench",
+   "MTBench",
+   "CMT-Benchmark",
+   "MT Bench (for Instruct Models)",
+   "Text MT-Bench",
+   "MM-MT-Bench",
+   "mtbench_dev",
+   "MM MT Bench"
+  ],
+  "lab_reports": [
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | MT Bench  | instruct (Mistral 7B Instruct) | score=6.84 +/- 0.07 | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | MT-Bench [English open-ended] | average | score=8.76 (67B Chat DPO); | tech_report/main | https://arxiv.org/abs/2401.02954",
+   "2023-12-11 | Mistral | Mixtral 8x7B (base + Instruct) | MT Bench (for Instruct Models)  | instruct (Mixtral 8x7B Instruct) | score=8.30 | paper/main | https://arxiv.org/abs/2401.04088",
+   "2024-02-04 | Alibaba (Qwen) | Qwen1.5 | MT-Bench [Avg. Score] | chat Qwen1.5-72B-Chat; mean of 3 seeds | score=8.61 | blog/main | https://qwenlm.github.io/blog/qwen1.5/",
+   "2024-03-28 | Alibaba (Qwen) | Qwen1.5-MoE-A2.7B | MT-Bench  | chat Qwen1.5-MoE-A2.7B-Chat | score=7.17 | blog/main | https://qwenlm.github.io/blog/qwen-moe/",
+   "2024-04-02 | Alibaba (Qwen) | Qwen1.5-32B | MT-Bench [Avg. Score] | chat Qwen1.5-32B-Chat | score=8.30 | blog/main | https://qwenlm.github.io/blog/qwen1.5-32b/",
+   "2024-04-25 | Alibaba (Qwen) | Qwen1.5-110B | MT-Bench [Avg. Score] | chat Qwen1.5-110B-Chat | score=8.88 | blog/main | https://qwenlm.github.io/blog/qwen1.5-110b/",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | MT-Bench [English open-ended] |  | score=8.97 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-05-11 | Alibaba (Qwen) | Qwen-Max-0428 | MT-Bench  | Qwen-Max-0428 (chat/API) | score=8.96 | blog/main | https://qwenlm.github.io/blog/qwen-max-0428/",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | MT-Bench  | instruct Qwen2-72B-Instruct | score=9.12 | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-06-17 | DeepSeek | DeepSeek-Coder-V2 (Instruct / Lite) | MT-Bench [open-ended] |  | score=8.77 | github/main | https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | MT-Bench  | instruct Qwen2-72B-Instruct | score=9.12 | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-07-24 | Mistral | Mistral Large 2 (2407) | MT Bench  | instruct; GPT-4o judge per blog | score=8.63 | hf_card/main | https://huggingface.co/mistralai/Mistral-Large-Instruct-2407",
+   "2024-09-05 | DeepSeek | DeepSeek-V2.5 | MT-Bench  |  | score=9.02 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
+   "2024-09-17 | Mistral | Pixtral 12B (2409) | Text MT-Bench  | instruction following | score=7.68 | hf_card/main | https://arxiv.org/abs/2410.07073",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | MT-Bench  | instruct Qwen2.5-72B-Instruct | score=9.35 | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-10-16 | Mistral | Ministral 3B / Ministral 8B (2410) | MTBench  | instruct; chat evals judged by gpt-4o | score=8.3 | hf_card/main | https://huggingface.co/mistralai/Ministral-8B-Instruct-2410",
+   "2024-11-18 | Mistral | Pixtral Large (124B, 2411) | MM MT-Bench  |  | score=7.4 | hf_card/main | https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411",
+   "2024-12-13 | DeepSeek | DeepSeek-VL2 (Tiny/Small/Base) | MMT-Bench  |  | score=63.6 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-VL2/blob/main/DeepSeek_VL2_paper.pdf",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | MT-Bench  | instruct Qwen2.5-72B-Instruct | score=9.35 | tech_report/main | https://arxiv.org/abs/2412.15115",
+   "2025-01-30 | Mistral | Mistral Small 3 (24B, 2501) | mtbench_dev  | instruct | score=8.35 | hf_card/main | https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+   "2025-03-17 | Mistral | Mistral Small 3.1 (24B, 2503) | MM MT Bench  | instruct; vision | score=7.3 | hf_card/main | https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+   "2026-02-12 | Google | Gemini 3 Deep Think (upgrade) | CMT-Benchmark [condensed matter theory] | Gemini 3 Deep Think (Feb 2026 upgrade) | score=50.5% | model_card/main | https://deepmind.google/models/gemini/deep-think/"
+  ]
+ },
+ {
+  "unit": "AIME 2025",
+  "family": "AIME",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Mistral",
+   "Moonshot AI (Kimi)",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 42,
+  "first_lab_report": "2025-02-19",
+  "last_lab_report": "2026-02-17",
+  "raw_names": [
+   "AIME 2025",
+   "AIME25",
+   "AIME'25",
+   "AIME25 pass@1",
+   "AIME 2025 (no tools)",
+   "AIME 2025 (Pass@1)",
+   "AIME 25",
+   "AIME 2025 (with tools)",
+   "AIME '25 (no tools)",
+   "AIME"
+  ],
+  "lab_reports": [
+   "2025-02-19 | xAI | Grok 3 Beta (and Grok 3 mini) | AIME'25 [Competition math (AIME 2025, released Fe] | Grok 3 (Think); cons@64 (highest test-time compute) | score=93.3% | blog/main | https://x.ai/news/grok-3",
+   "2025-03-24 | DeepSeek | DeepSeek-V3-0324 | AIME  |  | score=59.4 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+   "2025-03-25 | Google | Gemini 2.5 Pro Experimental (03-25) | AIME 2025  | single attempt (pass@1); Gemini 2.5 Pro Experimental 03-25 | score=86.7% | model_card/main | https://www.rivista.ai/wp-content/uploads/2025/04/gemini-2.5-pro-preview.pdf",
+   "2025-04-16 | OpenAI | o3 and o4-mini | AIME 2025 [2025] | pass@1 with Python | score=98.4% | blog/main | https://blog.biocomm.ai/wp-content/uploads/2025/04/Introducing-OpenAI-o3-and-o4-mini-OpenAI.pdf",
+   "2025-04-17 | Google | Gemini 2.5 Flash Preview (04-17) | AIME 2025  | single attempt (pass@1); Gemini 2.5 Flash Preview 04-17, thi | score=78.0% | model_card/main | https://storage.googleapis.com/model-cards/documents/gemini-2.5-flash-preview.pdf",
+   "2025-05-06 | Google | Gemini 2.5 Pro Preview (05-06, I/O edition) + I/O 2025 Deep  | AIME 2025  | single attempt; Gemini 2.5 Pro Preview 05-06 | score=83.0% | model_card/main | https://storage.googleapis.com/model-cards/documents/gemini-2.5-pro-preview.pdf",
+   "2025-05-14 | Alibaba (Qwen) | Qwen3 (technical report) | AIME'25  | Qwen3-235B-A22B thinking mode; avg of 64 samples | score=81.5 | tech_report/main | https://arxiv.org/abs/2505.09388",
+   "2025-05-22 | Anthropic | Claude Opus 4 and Claude Sonnet 4 | AIME 2025  | extended thinking | score=75.5% | secondary/main | https://www.datacamp.com/blog/claude-4",
+   "2025-05-28 | DeepSeek | DeepSeek-R1-0528 (+ R1-0528-Qwen3-8B) | AIME 2025 (Pass@1)  | max gen 64K; temp 0.6, top-p 0.95; 16 samples for pass@1 | score=87.5 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
+   "2025-06-05 | Google | Gemini 2.5 Pro (06-05 preview / GA) | AIME 2025  | single attempt; Gemini 2.5 Pro (06-05 / GA) | score=88.0% | model_card/main | https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf",
+   "2025-06-10 | Mistral | Magistral Medium / Magistral Small (1.0, 2506) | AIME25 pass@1  | pass@1 | score=64.95% | hf_card/main | https://huggingface.co/mistralai/Magistral-Small-2506",
+   "2025-06-17 | Google | Gemini 2.5 Flash-Lite (preview) | AIME 2025  | Gemini 2.5 Flash-Lite (06-17), thinking | score=63.1% | model_card/main | https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Lite-Model-Card.pdf",
+   "2025-06-17 | Google | Gemini 2.5 technical report (2.5 Pro / 2.5 Flash) | AIME 2025  | Gemini 2.5 Pro | score=88.0% | tech_report/main | https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf",
+   "2025-07-09 | xAI | Grok 4 (and Grok 4 Heavy) | AIME'25 [Competition math] | Grok 4, no tools | score=91.7% | secondary/main | https://kingy.ai/news/grok-4-benchmarks-explained-why-its-performance-is-a-game-changer/",
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | AIME 2025 [Avg@64] | Kimi-K2-Instruct (non-thinking); 8k output | score=49.5 | github/main | https://github.com/MoonshotAI/Kimi-K2/blob/main/README.md",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | AIME25  | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=70.3 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "2025-07-24 | Mistral | Magistral Medium 1.1 / Small 1.1 (2507) | AIME25 pass@1  | pass@1 | score=60.99% | hf_card/main | https://huggingface.co/mistralai/Magistral-Small-2507",
+   "2025-07-25 | Alibaba (Qwen) | Qwen3-235B-A22B-Thinking-2507 | AIME25  | Qwen3-235B-A22B-Thinking-2507; 81,920 output tokens | score=92.3 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | AIME 2025 [Avg@64] | Kimi-K2-Instruct (non-thinking); 8k output | score=49.5 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-08-01 | Google | Gemini 2.5 Deep Think | AIME 2025  | Gemini 2.5 Deep Think | score=99.2% | model_card/main | https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Deep-Think-Model-Card.pdf",
+   "2025-08-05 | Anthropic | Claude Opus 4.1 | AIME 2025  |  | score=78.0% | secondary/main | https://simonwillison.net/2025/Aug/5/claude-opus-41/",
+   "2025-08-05 | OpenAI | gpt-oss-120b and gpt-oss-20b | AIME 2025 (with tools) [2025] | reasoning high; with tools | score=97.9% | paper/main | https://arxiv.org/html/2508.10925",
+   "2025-08-07 | OpenAI | GPT-5 (incl. mini, nano, pro) | AIME 2025 [2025] | without tools | score=94.6% | blog/main | https://openai.com/index/introducing-gpt-5-for-developers/",
+   "2025-08-21 | DeepSeek | DeepSeek-V3.1 (hybrid thinking) | AIME 2025 (Pass@1)  | V3.1-Thinking | score=88.4 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
+   "2025-09-11 | Alibaba (Qwen) | Qwen3-Next-80B-A3B | AIME25  | Qwen3-Next-80B-A3B-Thinking | score=87.8 | hf_card/main | https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking",
+   "2025-09-17 | Mistral | Magistral Medium 1.2 / Small 1.2 (2509) | AIME25 pass@1  | pass@1 | score=83.48% | hf_card/main | https://huggingface.co/mistralai/Magistral-Small-2509",
+   "2025-09-19 | xAI | Grok 4 Fast | AIME 2025 [no tools] | pass@1 | score=92.0% | blog/main | https://x.ai/news/grok-4-fast",
+   "2025-09-24 | Alibaba (Qwen) | Qwen3-Max (Qwen3-Max-Instruct; Thinking preview) | AIME 25 [with code interpreter + parallel test-ti] | Qwen3-Max-Thinking (Heavy, in training) | score=100 | blog/main | https://qwen.ai/blog?id=qwen3-max",
+   "2025-09-29 | Anthropic | Claude Sonnet 4.5 | AIME 2025  | with Python; T=1.0; 64K reasoning tokens | score=100% | secondary/main | https://leanware.co/insights/claude-sonnet-4-5-overview",
+   "2025-09-29 | DeepSeek | DeepSeek-V3.2-Exp | AIME 2025  |  | score=89.3 | github/main | https://github.com/deepseek-ai/DeepSeek-V3.2-Exp",
+   "2025-10-15 | Anthropic | Claude Haiku 4.5 | AIME 2025  | with Python; avg of 10 runs of pass@1 over 16 trials; 128K t | score=96.3% | secondary/main | https://chatlyai.app/blog/what-is-claude-haiku-4.5",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | AIME 2025 [Avg@64] | Kimi-Linear-Instruct @5.7T (released) | score=58.6 | paper/appendix | https://arxiv.org/abs/2510.26692",
+   "2025-11-06 | Moonshot AI (Kimi) | Kimi K2 Thinking | AIME25 [heavy] | Kimi K2 Thinking (INT4) heavy mode | score=100.0 | hf_card/main | https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+   "2025-11-12 | OpenAI | GPT-5.1 | AIME 2025 (no tools) [2025] | reasoning effort high; no tools | score=94.0% | blog/appendix | https://openai.com/index/gpt-5-1-for-developers/",
+   "2025-11-18 | Google | Gemini 3 Pro | AIME 2025 [with code execution] | Gemini 3 Pro | score=100% | secondary/main | https://simonwillison.net/2025/Nov/18/gemini-3/",
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | AIME 2025  | no tools | score=92.77% | system_card/appendix | https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+   "2025-12-01 | DeepSeek | DeepSeek-V3.2 and V3.2-Speciale | AIME 2025 (Pass@1) [Math] | thinking mode | score=93.1 | tech_report/main | https://arxiv.org/abs/2512.02556",
+   "2025-12-11 | OpenAI | GPT-5.2 (Thinking/Pro) | AIME 2025 (no tools) [2025] | reasoning effort xhigh; no tools | score=100.0% | blog/main | https://openai.com/index/introducing-gpt-5-2/",
+   "2025-12-17 | Google | Gemini 3 Flash | AIME 2025 [with code execution] | Gemini 3 Flash | score=99.7% | secondary/main | https://vertu.com/lifestyle/gemini-3-flash-vs-gemini-2-5-pro-the-flash-model-that-beats-googles-pro",
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | AIME 2025 [avg@32] | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=96.1 | github/main | https://github.com/MoonshotAI/Kimi-K2.5/blob/master/README.md",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | AIME 2025  | no tools; adaptive thinking, max effort | score=99.79% | system_card/appendix | https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+   "2026-02-17 | Anthropic | Claude Sonnet 4.6 | AIME 2025  | no tools; max effort; 10 trials | score=95.6% | system_card/appendix | https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf"
+  ]
+ },
+ {
+  "unit": "ruMMLU",
+  "family": "ruMMLU",
+  "labs_reporting": [
+   "Alibaba (Qwen)"
+  ],
+  "n_releases": 4,
+  "first_lab_report": "2024-06-07",
+  "last_lab_report": "2024-12-19",
+  "raw_names": [
+   "ruMMLU"
+  ],
+  "lab_reports": [
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | ruMMLU [component of Multi-Exam] | base Qwen2-72B; 5-shot | score= | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | ruMMLU [component of Exam] | base Qwen2-72B; 5-shot | score= | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | ruMMLU [component of Multi-Exam] | base Qwen2.5-72B; 5-shot | score= | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | ruMMLU [component of Multi-Exam] | base Qwen2.5-72B; 5-shot | score= | tech_report/main | https://arxiv.org/abs/2412.15115"
+  ]
+ },
+ {
+  "unit": "ANLI",
+  "family": "ANLI",
+  "labs_reporting": [
+   "Google",
+   "OpenAI"
+  ],
+  "n_releases": 3,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2023-05-10",
+  "raw_names": [
+   "ANLI",
+   "ANLI R1",
+   "ANLI R2",
+   "ANLI R3"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | ANLI R3 [test] | few-shot (K=50); acc | score=40.2 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2022-04-04 | Google | PaLM | ANLI [R1] | few-shot; PaLM 540B | score=56.9 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2023-05-10 | Google | PaLM 2 | ANLI [R1] | 1-shot; PaLM 2-L | score=73.1 | tech_report/main | https://arxiv.org/abs/2305.10403v1"
+  ]
+ }
+]

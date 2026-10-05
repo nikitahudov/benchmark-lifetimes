@@ -1,0 +1,373 @@
+[
+ {
+  "unit": "ARC-Challenge",
+  "family": "ARC-Challenge",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 28,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2025-10-30",
+  "raw_names": [
+   "ARC-C",
+   "ARC-Challenge",
+   "Arc-c",
+   "ARC-c",
+   "ARC-Challenge (Acc.)",
+   "ARC Challenge",
+   "ARC-Challenge (25-shot)",
+   "ARC Challenge (0-shot)",
+   "ARC Challenge (25-shot)",
+   "ARC (Challenge)"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | ARC (Challenge) [test] | few-shot (K=50); acc | score=51.5 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2022-04-04 | Google | PaLM | ARC-c  | few-shot; PaLM 540B | score=65.9 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2022-05-03 | Meta | OPT (125M-175B) | ARC Challenge  | zero-shot and few-shot (1/32-shot), GPT-3 prompts; accuracy | score= | paper/main | https://arxiv.org/abs/2205.01068",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | ARC-c  | 0-shot; base | score=56.0 | paper/main | https://arxiv.org/abs/2302.13971",
+   "2023-05-10 | Google | PaLM 2 | ARC-C  | 4-shot; PaLM 2-L | score=95.1 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-07-11 | Anthropic | Claude 2 | ARC-Challenge  | 5-shot | score=91.0% | model_card/main | https://www-cdn.anthropic.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226/Model-Card-Claude-2.pdf",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | ARC-c  | 0-shot (MMLU 5-shot); base pretrained | score=57.4 | paper/appendix | https://arxiv.org/abs/2307.09288",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | Arc-c  | pretrained; settings per Sec.3 (commonsense 0-shot; NQ/Trivi | score=55.5% | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | ARC-c  | base Qwen-14B | score=84.4 | tech_report/appendix | https://arxiv.org/abs/2309.16609",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | ARC-Challenge  |  | score=64.1 | github/appendix | https://arxiv.org/abs/2401.02954",
+   "2023-12-11 | Mistral | Mixtral 8x7B (base + Instruct) | ARC Challenge (25-shot)  | base; 25-shot | score=85.8% | paper/main | https://arxiv.org/abs/2401.04088",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | ARC-challenge (Acc.) [base model (internal benchmarks vs DeepS] | 0-shot | score=49.8 | github/main | https://github.com/deepseek-ai/DeepSeek-MoE",
+   "2024-03-04 | Anthropic | Claude 3 Opus (Claude 3 family: Opus, Sonnet, Haiku) | ARC-Challenge  | 25-shot | score=96.4% | model_card/main | https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | ARC-Challenge (25-shot)  | 25-shot; base pretrained | score=93.0 | model_card/main | https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+   "2024-04-25 | Alibaba (Qwen) | Qwen1.5-110B | ARC-C  | base Qwen1.5-110B | score=69.6 | blog/main | https://qwenlm.github.io/blog/qwen1.5-110b/",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | ARC-Challenge (Acc.) [base model] | 25-shot | score=92.4 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | ARC-C  | base Qwen2-72B; 25-shot | score=68.9 | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-06-17 | DeepSeek | DeepSeek-Coder-V2 (Instruct / Lite) | ARC-Challenge [general NL] |  | score=92.8 | github/main | https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | ARC-C  | base Qwen2-72B; 25-shot | score=68.9 | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | ARC-C  | 0-shot; acc; instruct | score=96.9 | model_card/main | https://arxiv.org/abs/2407.21783",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | ARC-C  | base Qwen2.5-72B; 25-shot | score=72.4 | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-09-25 | Meta | Llama 3.2 (1B/3B text; 11B/90B Vision) | ARC-C  | 0-shot; acc; instruct | score=78.6 | model_card/main | https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md",
+   "2024-10-16 | Mistral | Ministral 3B / Ministral 8B (2410) | Arc-c  | base pretrained | score=71.9 | hf_card/main | https://huggingface.co/mistralai/Ministral-8B-Instruct-2410",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | ARC-C  | base Qwen2.5-72B; 25-shot | score=72.4 | tech_report/main | https://arxiv.org/abs/2412.15115",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | ARC-Challenge (Acc.) [base model] | 25-shot | score=95.3 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-01-30 | Mistral | Mistral Small 3 (24B, 2501) | ARC-c  | 0-shot; base pretrained | score=91.29 | hf_card/main | https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | ARC-Challenge  | Kimi-K2-Base; 0-shot | score=95.73 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | ARC-challenge  | Kimi Linear @1.4T (base, ablation-scale) | score=67.3 | paper/main | https://arxiv.org/abs/2510.26692"
+  ]
+ },
+ {
+  "unit": "ARC-Easy",
+  "family": "ARC-Easy",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "OpenAI"
+  ],
+  "n_releases": 15,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2024-12-26",
+  "raw_names": [
+   "ARC-e",
+   "ARC-Easy",
+   "Arc-e",
+   "ARC-Easy (Acc.)",
+   "ARC-E",
+   "ARC Easy",
+   "ARC (Easy)",
+   "Translated ARC-Easy",
+   "ARC-easy (Acc.)"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | ARC (Easy) [test] | few-shot (K=50); acc | score=70.1 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2022-04-04 | Google | PaLM | ARC-e  | few-shot; PaLM 540B | score=88.4 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2022-05-03 | Meta | OPT (125M-175B) | ARC Easy  | zero-shot and few-shot (1/32-shot), GPT-3 prompts; accuracy | score= | paper/main | https://arxiv.org/abs/2205.01068",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | ARC-e  | 0-shot; base | score=78.9 | paper/main | https://arxiv.org/abs/2302.13971",
+   "2023-05-10 | Google | PaLM 2 | ARC-E  | 1-shot; PaLM 2-L | score=89.7 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | ARC-e  | 0-shot (MMLU 5-shot); base pretrained | score=80.2 | paper/appendix | https://arxiv.org/abs/2307.09288",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | Arc-e  | pretrained; settings per Sec.3 (commonsense 0-shot; NQ/Trivi | score=80.0% | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | ARC-e  | base Qwen-14B | score=90.3 | tech_report/appendix | https://arxiv.org/abs/2309.16609",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | ARC-Easy  |  | score=81.6 | github/appendix | https://arxiv.org/abs/2401.02954",
+   "2023-12-11 | Mistral | Mixtral 8x7B (base + Instruct) | Arc-e  | base; same protocol as Mistral 7B paper | score=83.1% | paper/main | https://arxiv.org/abs/2401.04088",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | ARC-easy (Acc.) [base model (internal benchmarks vs DeepS] | 0-shot | score=68.1 | github/main | https://github.com/deepseek-ai/DeepSeek-MoE",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | ARC-Easy [chat model] | 25-shot | score=98.1 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-06-17 | DeepSeek | DeepSeek-Coder-V2 (Instruct / Lite) | ARC-Easy [general NL] |  | score=97.4 | github/main | https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+   "2024-08-08 | OpenAI | GPT-4o (System Card) | Translated ARC-Easy [English / Amharic / Hausa / Northern Sot] | 0-shot accuracy | score=94.8 / 71.4 / 75.4 / | system_card/appendix | https://cdn.openai.com/gpt-4o-system-card.pdf",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | ARC-Easy (Acc.) [base model] | 25-shot | score=98.9 | github/main | https://github.com/deepseek-ai/DeepSeek-V3"
+  ]
+ },
+ {
+  "unit": "DROP",
+  "family": "DROP",
+  "labs_reporting": [
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 24,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "DROP",
+   "DROP (F1)",
+   "DROP (3-shot F1)",
+   "DROP (EM)",
+   "DROP (3-shot, F1)"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | DROP [dev] | few-shot (K=20); F1 | score=36.5 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2022-01-27 | OpenAI | InstructGPT (\"Training language models to follow instruction | DROP  | F1; few-shot | score=33.34 | paper/appendix | https://arxiv.org/abs/2203.02155",
+   "2022-04-04 | Google | PaLM | DROP [F1] | few-shot; PaLM 540B | score=70.8 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2023-03-14 | OpenAI | GPT-4 (Technical Report) | DROP  | 3-shot; F1 | score=80.9 | tech_report/main | https://arxiv.org/abs/2303.08774",
+   "2023-05-10 | Google | PaLM 2 | DROP  | 3-shot; PaLM 2-L | score=85.0 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | DROP (F1)  |  | score=71.9 | github/appendix | https://arxiv.org/abs/2401.02954",
+   "2023-12-06 | Google | Gemini 1.0 (Ultra/Pro/Nano) | DROP [F1] | variable shots; Gemini Ultra | score=82.4 | tech_report/main | https://arxiv.org/abs/2312.11805v1",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | DROP (EM) [base model (internal benchmarks vs DeepS] | 1-shot | score=32.9 | github/main | https://github.com/deepseek-ai/DeepSeek-MoE",
+   "2024-02-15 | Google | Gemini 1.5 Pro (Feb 2024 report) | DROP [F1] | variable shots; Gemini 1.5 Pro (Feb 2024) | score=78.9 | tech_report/main | https://arxiv.org/abs/2403.05530v1",
+   "2024-03-04 | Anthropic | Claude 3 Opus (Claude 3 family: Opus, Sonnet, Haiku) | DROP  | 3-shot, F1 | score=83.1 | model_card/main | https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+   "2024-04-09 | OpenAI | GPT-4 Turbo (gpt-4-turbo-2024-04-09) | DROP  | 3-shot; F1; chatgpt prompt | score=85.4 | github/main | https://github.com/openai/simple-evals/blob/267835b30446d8f68a77cff13bc8a8256ce41829/README.md",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | DROP (3-shot, F1)  | 3-shot; F1; base pretrained | score=79.7 | model_card/main | https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | DROP (F1) [base model] | 3-shot | score=80.1 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-05-13 | OpenAI | GPT-4o | DROP  | 3-shot; F1; chatgpt prompt | score=83.4 | github/main | https://github.com/openai/simple-evals/blob/294cb1fb18f7aed4e21dc567350b0761a9e6f699/README.md",
+   "2024-05-14 | Google | Gemini 1.5 Pro (May 2024) / 1.5 Flash - updated report | DROP [F1] | variable shots; Gemini 1.5 Pro (May 2024) | score=74.9 | tech_report/main | https://arxiv.org/abs/2403.05530v3",
+   "2024-06-20 | Anthropic | Claude 3.5 Sonnet | DROP  | 3-shot, F1 | score=87.1 | model_card/main | https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | DROP (F1)  | 3-shot; f1; base pretrained | score=84.8 | model_card/main | https://arxiv.org/abs/2407.21783",
+   "2024-09-25 | Meta | Llama 3.2 (1B/3B text; 11B/90B Vision) | DROP (F1)  | 3-shot; f1; base pretrained | score=45.2 | model_card/main | https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md",
+   "2024-10-22 | Anthropic | Claude 3.5 Sonnet (new) and Claude 3.5 Haiku | DROP  | 3-shot, F1 | score=88.3 | model_card/main | https://www-cdn.anthropic.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | DROP (3-shot F1) [chat model; 3-shot] | max output 8K; <1000-sample benchmarks run multiple times wi | score=91.6 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-01-20 | DeepSeek | DeepSeek-R1 (R1-Zero, R1, R1-Distill) | DROP (3-shot F1)  | max gen 32,768 tokens; temp 0.6, top-p 0.95; 64 samples to e | score=92.2 | github/main | https://www.nature.com/articles/s41586-025-09422-z",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | DROP [Acc.] | Kimi-K2-Instruct (non-thinking); 8k output | score=93.5 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | DROP (F1) [base model] | 1-shot | score=88.7 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | DROP (F1) [base model] | 1-shot | score=87.9 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+  ]
+ },
+ {
+  "unit": "OpenBookQA",
+  "family": "OpenBookQA",
+  "labs_reporting": [
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "OpenAI"
+  ],
+  "n_releases": 7,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2024-07-23",
+  "raw_names": [
+   "OpenBookQA",
+   "OpenbookQA"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | OpenBookQA [test] | few-shot (K=100); acc | score=65.4 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2022-04-04 | Google | PaLM | OpenbookQA  | few-shot; PaLM 540B | score=68.0 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2022-05-03 | Meta | OPT (125M-175B) | OpenBookQA  | zero-shot and few-shot (1/32-shot), GPT-3 prompts; accuracy | score= | paper/main | https://arxiv.org/abs/2205.01068",
+   "2023-05-10 | Google | PaLM 2 | OpenBookQA  | 1-shot; PaLM 2-L | score=58.5 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | OpenbookQA  | pretrained; 0-shot | score= | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | OpenBookQA  |  | score=63.2 | github/appendix | https://arxiv.org/abs/2401.02954",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | OpenBookQA  | pre-trained; 95% CI reported | score=49.2 | paper/main | https://arxiv.org/abs/2407.21783"
+  ]
+ },
+ {
+  "unit": "PIQA",
+  "family": "PIQA",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "OpenAI"
+  ],
+  "n_releases": 22,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2026-06-01",
+  "raw_names": [
+   "PIQA",
+   "Global PIQA",
+   "PIQA (Acc.)",
+   "PiQA"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | PIQA [dev] | few-shot (K=50); acc | score=82.3 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2021-12-08 | Google | Gopher | PIQA [common sense] | zero-shot; Gopher 280B | score= | paper/main | https://arxiv.org/abs/2112.11446v2",
+   "2022-03-29 | Google | Chinchilla | PIQA  | zero-shot; Chinchilla 70B | score=81.8% | paper/main | https://arxiv.org/abs/2203.15556v1",
+   "2022-04-04 | Google | PaLM | PIQA  | few-shot; PaLM 540B | score=85.2 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2022-05-03 | Meta | OPT (125M-175B) | PIQA  | zero-shot and few-shot (1/32-shot), GPT-3 prompts; accuracy | score= | paper/main | https://arxiv.org/abs/2205.01068",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | PIQA  | 0-shot; base | score=82.8 | paper/main | https://arxiv.org/abs/2302.13971",
+   "2023-05-10 | Google | PaLM 2 | PIQA  | 1-shot; PaLM 2-L | score=85.0 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | PIQA  | 0-shot (MMLU 5-shot); base pretrained | score=82.8 | paper/appendix | https://arxiv.org/abs/2307.09288",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | PIQA  | pretrained; settings per Sec.3 (commonsense 0-shot; NQ/Trivi | score=83.0% | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | PIQA  | base Qwen-14B | score=79.9 | tech_report/appendix | https://arxiv.org/abs/2309.16609",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | PIQA  |  | score=82.6 | github/appendix | https://arxiv.org/abs/2401.02954",
+   "2023-12-11 | Mistral | Mixtral 8x7B (base + Instruct) | PIQA  | base; same protocol as Mistral 7B paper | score=83.6% | paper/main | https://arxiv.org/abs/2401.04088",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | PIQA (Acc.) [base model (internal benchmarks vs DeepS] | 0-shot | score=80.2 | github/main | https://github.com/deepseek-ai/DeepSeek-MoE",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | PIQA (Acc.) [base model] | 0-shot | score=83.7 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | PiQA  | pre-trained; 95% CI reported | score=85.6 | paper/main | https://arxiv.org/abs/2407.21783",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | PIQA (Acc.) [base model] | 0-shot | score=84.7 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-11-18 | Google | Gemini 3 Pro | Global PIQA  | Gemini 3 Pro | score=93.4% | secondary/main | https://simonwillison.net/2025/Nov/18/gemini-3/",
+   "2025-12-17 | Google | Gemini 3 Flash | Global PIQA  | Gemini 3 Flash | score=92.8% | secondary/main | https://vertu.com/lifestyle/gemini-3-flash-vs-gemini-2-5-pro-the-flash-model-that-beats-googles-pro",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | Global PIQA  | Qwen3.5-397B-A17B (thinking, default) | score=89.8 | hf_card/main | https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+   "2026-04-01 | Alibaba (Qwen) | Qwen3.6-Plus | Global PIQA  | Qwen3.6-Plus | score=89.8 | blog/main | https://qwen.ai/blog?id=qwen3.6",
+   "2026-05-20 | Alibaba (Qwen) | Qwen3.7-Max | Global PIQA  | Qwen3.7-Max | score=91.4 | blog/main | https://qwen.ai/blog?id=qwen3.7",
+   "2026-06-01 | Alibaba (Qwen) | Qwen3.7-Plus | Global PIQA  | Qwen3.7-Plus | score=90.3 | blog/main | https://qwen.ai/blog?id=qwen3.7-plus"
+  ]
+ },
+ {
+  "unit": "HellaSwag",
+  "family": "HellaSwag",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 34,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "HellaSwag",
+   "HellaSwag (Acc.)",
+   "Hellaswag",
+   "HellaSwag (EM)",
+   "HellaSwag (10-shot)",
+   "Disparate performance on voice inputs: HellaSwag"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | HellaSwag [dev] | few-shot (K=20); acc | score=79.3 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2021-12-08 | Google | Gopher | HellaSwag [common sense] | zero-shot; Gopher 280B | score= | paper/main | https://arxiv.org/abs/2112.11446v2",
+   "2022-01-27 | OpenAI | InstructGPT (\"Training language models to follow instruction | HellaSwag  | accuracy; few-shot | score=0.820 | paper/appendix | https://arxiv.org/abs/2203.02155",
+   "2022-03-29 | Google | Chinchilla | HellaSwag  | zero-shot; Chinchilla 70B | score=80.8% | paper/main | https://arxiv.org/abs/2203.15556v1",
+   "2022-04-04 | Google | PaLM | HellaSwag  | few-shot; PaLM 540B | score=83.8 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2022-05-03 | Meta | OPT (125M-175B) | HellaSwag  | zero-shot and few-shot (1/32-shot), GPT-3 prompts; accuracy | score= | paper/main | https://arxiv.org/abs/2205.01068",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | HellaSwag  | 0-shot; base | score=84.2 | paper/main | https://arxiv.org/abs/2302.13971",
+   "2023-03-14 | OpenAI | GPT-4 (Technical Report) | HellaSwag  | 10-shot | score=95.3% | tech_report/main | https://arxiv.org/abs/2303.08774",
+   "2023-05-10 | Google | PaLM 2 | HellaSwag  | 1-shot; PaLM 2-L | score=86.8 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | HellaSwag  | 0-shot (MMLU 5-shot); base pretrained | score=85.3 | paper/appendix | https://arxiv.org/abs/2307.09288",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | HellaSwag  | pretrained; settings per Sec.3 (commonsense 0-shot; NQ/Trivi | score=81.3% | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | HellaSwag  | base Qwen-14B | score=80.2 | tech_report/appendix | https://arxiv.org/abs/2309.16609",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | HellaSwag  | 0-shot | score=84.0 | github/main | https://arxiv.org/abs/2401.02954",
+   "2023-12-06 | Google | Gemini 1.0 (Ultra/Pro/Nano) | HellaSwag [validation] | 10-shot; Gemini Ultra | score=87.8% | tech_report/main | https://arxiv.org/abs/2312.11805v1",
+   "2023-12-11 | Mistral | Mixtral 8x7B (base + Instruct) | HellaSwag (10-shot)  | base; 10-shot | score=86.7% | paper/main | https://arxiv.org/abs/2401.04088",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | HellaSwag (Acc.) [base model (internal benchmarks vs DeepS] | 0-shot | score=77.1 | github/main | https://github.com/deepseek-ai/DeepSeek-MoE",
+   "2024-02-15 | Google | Gemini 1.5 Pro (Feb 2024 report) | HellaSwag  | 10-shot; Gemini 1.5 Pro (Feb 2024) | score=92.5% | tech_report/main | https://arxiv.org/abs/2403.05530v1",
+   "2024-03-04 | Anthropic | Claude 3 Opus (Claude 3 family: Opus, Sonnet, Haiku) | HellaSwag  | 10-shot | score=95.4% | model_card/main | https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+   "2024-03-11 | DeepSeek | DeepSeek-VL (1.3B/7B) | HellaSwag [language] |  | score=68.4 | tech_report/main | https://arxiv.org/abs/2403.05525",
+   "2024-04-25 | Alibaba (Qwen) | Qwen1.5-110B | Hellaswag  | base Qwen1.5-110B | score=87.5 | blog/main | https://qwenlm.github.io/blog/qwen1.5-110b/",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | HellaSwag (Acc.) [base model] | 10-shot | score=84.2 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-05-14 | Google | Gemini 1.5 Pro (May 2024) / 1.5 Flash - updated report | HellaSwag  | 10-shot; Gemini 1.5 Pro (May 2024) | score=93.3% | tech_report/main | https://arxiv.org/abs/2403.05530v3",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | HellaSwag  | base Qwen2-72B; 10-shot | score=87.6 | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | HellaSwag  | base Qwen2-72B; 10-shot | score=87.6 | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | HellaSwag  | pre-trained; contamination analysis | score= | paper/main | https://arxiv.org/abs/2407.21783",
+   "2024-08-08 | OpenAI | GPT-4o (System Card) | Disparate performance on voice inputs: HellaSwag [audio, diverse accents] |  | score= | system_card/appendix | https://cdn.openai.com/gpt-4o-system-card.pdf",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | HellaSwag  | base Qwen2.5-72B; 10-shot | score=87.6 | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-09-25 | Meta | Llama 3.2 (1B/3B text; 11B/90B Vision) | Hellaswag  | 0-shot; acc; instruct | score=69.8 | model_card/main | https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | HellaSwag  | base Qwen2.5-72B; 10-shot | score=87.6 | tech_report/main | https://arxiv.org/abs/2412.15115",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | HellaSwag (Acc.) [base model] | 10-shot | score=88.9 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | HellaSwag  | Kimi-K2-Base; 5-shot | score=94.60 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | HellaSwag  | Kimi Linear @1.4T (base, ablation-scale) | score=82.9 | paper/main | https://arxiv.org/abs/2510.26692",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | HellaSwag (EM) [base model] | 0-shot | score=88.0 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | HellaSwag (EM) [base model] | 0-shot | score=87.2 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+  ]
+ },
+ {
+  "unit": "LAMBADA",
+  "family": "LAMBADA",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Google",
+   "OpenAI"
+  ],
+  "n_releases": 8,
+  "first_lab_report": "2019-02-14",
+  "last_lab_report": "2024-08-08",
+  "raw_names": [
+   "LAMBADA",
+   "Disparate performance on voice inputs: Lambada"
+  ],
+  "lab_reports": [
+   "2019-02-14 | OpenAI | GPT-2 (\"Language Models are Unsupervised Multitask Learners\" | LAMBADA  | zero-shot; PPL | score=8.63 | paper/main | https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | LAMBADA [test] | few-shot (K=15); acc | score=86.4 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2021-12-08 | Google | Gopher | LAMBADA [reading comprehension] | zero-shot; Gopher 280B | score= | paper/main | https://arxiv.org/abs/2112.11446v2",
+   "2022-03-29 | Google | Chinchilla | LAMBADA  | zero-shot; Chinchilla 70B | score=77.4% | paper/main | https://arxiv.org/abs/2203.15556v1",
+   "2022-04-04 | Google | PaLM | LAMBADA [EM] | few-shot; PaLM 540B | score=89.7 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2023-05-10 | Google | PaLM 2 | LAMBADA  | 1-shot; PaLM 2-L | score=86.9 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | LAMBADA  | base Qwen-14B | score=71.1 | tech_report/appendix | https://arxiv.org/abs/2309.16609",
+   "2024-08-08 | OpenAI | GPT-4o (System Card) | Disparate performance on voice inputs: Lambada [audio, diverse accents] |  | score= | system_card/appendix | https://cdn.openai.com/gpt-4o-system-card.pdf"
+  ]
+ },
+ {
+  "unit": "Natural Questions",
+  "family": "Natural Questions",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "OpenAI"
+  ],
+  "n_releases": 17,
+  "first_lab_report": "2019-02-14",
+  "last_lab_report": "2024-12-26",
+  "raw_names": [
+   "NaturalQuestions",
+   "Natural Questions",
+   "NaturalQuestions (EM)",
+   "NQ",
+   "Natural Questions (1-shot)",
+   "Hella-Swag / NQ / TQA / GSM8K / Human-Eval"
+  ],
+  "lab_reports": [
+   "2019-02-14 | OpenAI | GPT-2 (\"Language Models are Unsupervised Multitask Learners\" | Natural Questions  | zero-shot; exact match | score=4.1% | paper/main | https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+   "2021-12-08 | Google | Gopher | Natural Questions [closed-book QA] | Gopher 280B | score= | paper/main | https://arxiv.org/abs/2112.11446v2",
+   "2022-03-29 | Google | Chinchilla | Natural Questions [closed-book] | 5-shot; Chinchilla 70B | score=31.5% | paper/main | https://arxiv.org/abs/2203.15556v1",
+   "2022-04-04 | Google | PaLM | Natural Questions [EM] | few-shot; PaLM 540B | score=39.6 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | NaturalQuestions  | exact match; 0/1/5/64-shot; base | score=23.8/31.0/35.0/39.9 | paper/main | https://arxiv.org/abs/2302.13971",
+   "2023-05-10 | Google | PaLM 2 | NaturalQuestions [EM] | 1-shot; PaLM 2-L | score=37.5 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | Hella-Swag / NQ / TQA / GSM8K / Human-Eval [0/64/64/8/0-shot] | context-length ablation (4k context) | score=74.8/25.5/52.2/6.5/7 | paper/appendix | https://arxiv.org/abs/2307.09288",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | NQ  | pretrained; settings per Sec.3 (commonsense 0-shot; NQ/Trivi | score=28.8% | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | NaturalQuestions  | base Qwen-14B | score=23.9 | tech_report/appendix | https://arxiv.org/abs/2309.16609",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | NaturalQuestions  |  | score=47.0 | github/appendix | https://arxiv.org/abs/2401.02954",
+   "2023-12-06 | Google | Gemini 1.0 (Ultra/Pro/Nano) | NaturalQuestions [Retrieved] | Gemini Nano-2 | score=46.5 | tech_report/main | https://arxiv.org/abs/2312.11805v1",
+   "2023-12-11 | Mistral | Mixtral 8x7B (base + Instruct) | NQ  | base; same protocol as Mistral 7B paper | score=30.6% | paper/main | https://arxiv.org/abs/2401.04088",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | NaturalQuestions (EM) [base model (internal benchmarks vs DeepS] | 5-shot | score=25.5 | github/main | https://github.com/deepseek-ai/DeepSeek-MoE",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | NaturalQuestions [chat model] | 5-shot | score=53.4 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-06-17 | DeepSeek | DeepSeek-Coder-V2 (Instruct / Lite) | NaturalQuestions [general NL] |  | score=47.5 | github/main | https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | NaturalQuestions  | pre-trained; contamination analysis | score= | paper/main | https://arxiv.org/abs/2407.21783",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | NaturalQuestions (EM) [base model] | 5-shot | score=40.0 | github/main | https://github.com/deepseek-ai/DeepSeek-V3"
+  ]
+ },
+ {
+  "unit": "PAWS-X",
+  "family": "PAWS-X",
+  "labs_reporting": [
+   "Alibaba (Qwen)"
+  ],
+  "n_releases": 5,
+  "first_lab_report": "2024-02-04",
+  "last_lab_report": "2024-12-19",
+  "raw_names": [
+   "PAWS-X"
+  ],
+  "lab_reports": [
+   "2024-02-04 | Alibaba (Qwen) | Qwen1.5 | PAWS-X [Understanding (es, fr, de, ja, ko)] | base; 5-shot/Acc | score= | blog/main | https://qwenlm.github.io/blog/qwen1.5/",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | PAWS-X [component of Multi-Understanding] | base Qwen2-72B; 5-shot | score= | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | PAWS-X [component of Understanding] | base Qwen2-72B; 5-shot | score= | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | PAWS-X [component of Multi-Understanding] | base Qwen2.5-72B; 5-shot | score= | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | PAWS-X [component of Multi-Understanding] | base Qwen2.5-72B; 5-shot | score= | tech_report/main | https://arxiv.org/abs/2412.15115"
+  ]
+ }
+]

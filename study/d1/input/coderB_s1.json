@@ -1,0 +1,423 @@
+[
+ {
+  "unit": "WMDP",
+  "family": "WMDP",
+  "labs_reporting": [
+   "Google",
+   "Meta",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 14,
+  "first_lab_report": "2024-09-12",
+  "last_lab_report": "2026-09-21",
+  "raw_names": [
+   "WMDP Bio",
+   "WMDP Chem",
+   "WMDP Cyber",
+   "WMDP",
+   "WMDP-Bio",
+   "WMDP-Chem",
+   "WMDP Biology",
+   "WMDP-Cyber",
+   "WMDP biology and chemistry splits (contextual)"
+  ],
+  "lab_reports": [
+   "2024-09-12 | OpenAI | o1-preview and o1-mini | WMDP biology and chemistry splits (contextual)  |  | score= | system_card/appendix | https://cdn.openai.com/o1-system-card.pdf",
+   "2025-02-02 | OpenAI | Deep research (o3-based agent) | WMDP Biology  | MCQ | score=90% | system_card/appendix | https://cdn.openai.com/deep-research-system-card.pdf",
+   "2025-02-27 | OpenAI | GPT-4.5 (research preview) | WMDP Biology  | MCQ | score=85% | system_card/appendix | https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf",
+   "2025-06-17 | Google | Gemini 2.5 technical report (2.5 Pro / 2.5 Flash) | WMDP [Frontier Safety (CBRN MCQ)] | Gemini 2.5 Pro | score= | tech_report/main | https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf",
+   "2025-07-09 | xAI | Grok 4 (and Grok 4 Heavy) | WMDP Bio [accuracy] | Grok 4 API | score=0.87 | model_card/main | https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+   "2025-08-28 | xAI | Grok Code Fast 1 | WMDP Bio [accuracy] |  | score=72.0 | model_card/main | https://data.x.ai/2025-08-26-grok-code-fast-1-model-card.pdf",
+   "2025-09-19 | xAI | Grok 4 Fast | WMDP Bio [accuracy] | Grok 4 Fast | score=85.2 | model_card/main | https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf",
+   "2025-11-17 | xAI | Grok 4.1 (Thinking / non-thinking) | WMDP Bio [accuracy] | Grok 4.1 Thinking | score=0.87 | model_card/main | https://data.x.ai/2025-11-17-grok-4-1-model-card.pdf",
+   "2026-02-17 | xAI | Grok 4.20 (beta; single- and multi-agent) | WMDP Bio [accuracy] | Grok 4.20 SA | score=0.91 | system_card/main | https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf",
+   "2026-04-08 | Meta | Muse Spark (1.0; Meta Superintelligence Labs) | WMDP-Cyber  | Thinking configuration; capabilities related to catastrophic | score=89.8 | system_card/main | https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | WMDP-Bio  | safety/preparedness (Sections 2-4) | score=89.0 | system_card/main | https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report/",
+   "2026-07-16 | xAI | Grok 4.5 | WMDP [WMDP-Bio / WMDP-Chem accuracy (MCQ)] | Grok 4.5 (high) | score=90.9% / 87.3% | model_card/main | https://media.x.ai/v1/website/4p5-5184fdf9.pdf",
+   "2026-08-12 | xAI | Grok 4.6 | WMDP [Bio / Chem / Cyber] | Grok 4.6 (high) | score=90.0% / 85.3% / 90.1 | model_card/main | https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+   "2026-09-21 | xAI | Grok 4.7 | WMDP [Bio / Chem / Cyber accuracy] | Grok 4.7 (high) | score=88.1% / 84.9% / 88.1 | model_card/main | https://media.x.ai/v1/website/card4p7-3a96f40b.pdf"
+  ]
+ },
+ {
+  "unit": "CommonsenseQA",
+  "family": "CommonsenseQA",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Google",
+   "Meta",
+   "Mistral"
+  ],
+  "n_releases": 7,
+  "first_lab_report": "2022-04-04",
+  "last_lab_report": "2024-07-23",
+  "raw_names": [
+   "CommonsenseQA",
+   "CommonSenseQA",
+   "CommonsenseQA (CSQA)",
+   "CSQA",
+   "CommonSenseQA (7-shot)"
+  ],
+  "lab_reports": [
+   "2022-04-04 | Google | PaLM | CommonsenseQA  | CoT; PaLM 540B | score= | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2023-05-10 | Google | PaLM 2 | CommonsenseQA (CSQA)  | 7-shot CoT; PaLM 2-L | score=90.4 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | CSQA  | 0-shot (MMLU 5-shot); base pretrained | score=78.5 | paper/appendix | https://arxiv.org/abs/2307.09288",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | CommonsenseQA  | pretrained; 0-shot | score= | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | CommonsenseQA  | base Qwen-14B | score=70.3 | tech_report/appendix | https://arxiv.org/abs/2309.16609",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | CommonSenseQA (7-shot)  | 7-shot; base pretrained | score=83.8 | model_card/main | https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | CommonSenseQA  | 7-shot; acc_char; base pretrained | score=85.8 | model_card/main | https://arxiv.org/abs/2407.21783"
+  ]
+ },
+ {
+  "unit": "AA-Omniscience",
+  "family": "AA-Omniscience",
+  "labs_reporting": [
+   "Anthropic"
+  ],
+  "n_releases": 11,
+  "first_lab_report": "2025-11-24",
+  "last_lab_report": "2026-09-28",
+  "raw_names": [
+   "AA-Omniscience"
+  ],
+  "lab_reports": [
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | AA-Omniscience [factual questions] |  | score= | system_card/appendix | https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | AA-Omniscience [factual questions] |  | score= | system_card/appendix | https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+   "2026-04-07 | Anthropic | Claude Mythos Preview | AA-Omniscience  | no tools | score= | system_card/appendix | https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | AA-Omniscience  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/037f06850df7fbe871e206dad004c3db5fd50340/Claude%20Opus%204.7%20System%20Card.pdf",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | AA-Omniscience  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude-Opus-4.8-System-Card.pdf",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | AA-Omniscience  |  | score= | system_card/appendix | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | AA-Omniscience [public split; factual hallucinations] | net score | score= | system_card/appendix | https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+   "2026-07-24 | Anthropic | Claude Opus 5 | AA-Omniscience  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | AA-Omniscience  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | AA-Omniscience  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | AA-Omniscience  |  | score= | system_card/appendix | https://www.anthropic.com/claude-sonnet-5-5-system-card"
+  ]
+ },
+ {
+  "unit": "ASDiv",
+  "family": "ASDiv",
+  "labs_reporting": [
+   "DeepSeek",
+   "Google",
+   "Meta"
+  ],
+  "n_releases": 3,
+  "first_lab_report": "2022-04-04",
+  "last_lab_report": "2023-11-02",
+  "raw_names": [
+   "ASDiv",
+   "Program-Aid Math Reasoning: ASDiv"
+  ],
+  "lab_reports": [
+   "2022-04-04 | Google | PaLM | ASDiv  | CoT; PaLM 540B | score= | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | ASDiv  | Llama 2-Chat with tool use (calculator), Toolformer math dat | score=67.1 | paper/main | https://arxiv.org/abs/2307.09288",
+   "2023-11-02 | DeepSeek | DeepSeek Coder (1.3B-33B) | Program-Aid Math Reasoning: ASDiv [PAL] |  | score=76.7% | github/main | https://github.com/deepseek-ai/DeepSeek-Coder"
+  ]
+ },
+ {
+  "unit": "LiveBench",
+  "family": "LiveBench",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 13,
+  "first_lab_report": "2024-09-19",
+  "last_lab_report": "2025-10-30",
+  "raw_names": [
+   "LiveBench",
+   "Livebench",
+   "LiveBench (Coding)",
+   "LiveBench Coding"
+  ],
+  "lab_reports": [
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | LiveBench [0831] | instruct Qwen2.5-72B-Instruct | score=52.3 | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-12-17 | OpenAI | o1-2024-12-17 (API) | LiveBench (Coding) [Coding] |  | score=76.6 | blog/main | https://openai.com/index/o1-and-new-tools-for-developers/",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | LiveBench [0831] | instruct Qwen2.5-72B-Instruct | score=52.3 | tech_report/main | https://arxiv.org/abs/2412.15115",
+   "2025-01-28 | Alibaba (Qwen) | Qwen2.5-Max | LiveBench [2024-08-31] | Qwen2.5-Max (instruct) | score=62.2 | blog/main | https://qwenlm.github.io/blog/qwen2.5-max/",
+   "2025-01-31 | OpenAI | o3-mini | LiveBench Coding [Average] | reasoning effort high | score=0.846 | secondary/main | https://www.analyticsvidhya.com/blog/2025/02/openai-o3-mini/",
+   "2025-03-06 | Alibaba (Qwen) | QwQ-32B | LiveBench  | QwQ-32B (reasoning) | score=73.1 | blog/main | https://qwenlm.github.io/blog/qwq-32b/",
+   "2025-05-14 | Alibaba (Qwen) | Qwen3 (technical report) | LiveBench [2024-11-25] | Qwen3-235B-A22B thinking mode | score=77.1 | tech_report/main | https://arxiv.org/abs/2505.09388",
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | Livebench [Pass@1] | Kimi-K2-Instruct (non-thinking); 8k output | score=76.4 | github/main | https://github.com/MoonshotAI/Kimi-K2/blob/main/README.md",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | LiveBench [20241125] | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=75.4 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "2025-07-25 | Alibaba (Qwen) | Qwen3-235B-A22B-Thinking-2507 | LiveBench [20241125] | Qwen3-235B-A22B-Thinking-2507 | score=78.4 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | Livebench [Pass@1 (as of 2024-11-25)] | Kimi-K2-Instruct (non-thinking); 8k output | score=76.4 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-09-11 | Alibaba (Qwen) | Qwen3-Next-80B-A3B | LiveBench [241125] | Qwen3-Next-80B-A3B-Thinking | score=76.6 | hf_card/main | https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | LiveBench [Pass@1] | Kimi Linear @1.4T (instruct, same SFT recipe) | score=45.2 | paper/main | https://arxiv.org/abs/2510.26692"
+  ]
+ },
+ {
+  "unit": "XWinograd",
+  "family": "XWinograd",
+  "labs_reporting": [
+   "Alibaba (Qwen)"
+  ],
+  "n_releases": 5,
+  "first_lab_report": "2024-02-04",
+  "last_lab_report": "2024-12-19",
+  "raw_names": [
+   "XWinograd"
+  ],
+  "lab_reports": [
+   "2024-02-04 | Alibaba (Qwen) | Qwen1.5 | XWinograd [Understanding (fr, pt, ru, ja)] | base; 5-shot/Acc | score= | blog/main | https://qwenlm.github.io/blog/qwen1.5/",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | XWinograd [component of Multi-Understanding] | base Qwen2-72B; 5-shot | score= | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | XWinograd [component of Understanding] | base Qwen2-72B; 5-shot | score= | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | XWinograd [component of Multi-Understanding] | base Qwen2.5-72B; 5-shot | score= | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | XWinograd [component of Multi-Understanding] | base Qwen2.5-72B; 5-shot | score= | tech_report/main | https://arxiv.org/abs/2412.15115"
+  ]
+ },
+ {
+  "unit": "SimpleQA",
+  "family": "SimpleQA",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Mistral",
+   "Moonshot AI (Kimi)",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 32,
+  "first_lab_report": "2024-09-12",
+  "last_lab_report": "2025-10-30",
+  "raw_names": [
+   "SimpleQA",
+   "CSimpleQA",
+   "SimpleQA (Correct)",
+   "C-SimpleQA (Correct)",
+   "SimpleQA (TotalAcc)",
+   "SimpleQA Accuracy",
+   "SimpleQA Hallucination Rate"
+  ],
+  "lab_reports": [
+   "2024-09-12 | OpenAI | o1-preview and o1-mini | SimpleQA  | accuracy / hallucination rate | score=0.42 / 0.44 | system_card/appendix | https://cdn.openai.com/o1-system-card.pdf",
+   "2024-12-05 | OpenAI | o1 and o1 pro mode (ChatGPT) | SimpleQA  | accuracy / hallucination rate | score=0.47 / 0.44 | system_card/appendix | https://cdn.openai.com/o1-system-card-20241205.pdf",
+   "2024-12-17 | OpenAI | o1-2024-12-17 (API) | SimpleQA  |  | score=42.6 | blog/main | https://openai.com/index/o1-and-new-tools-for-developers/",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | C-SimpleQA (Correct) [chat model] | max output 8K; <1000-sample benchmarks run multiple times wi | score=64.8 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-01-20 | DeepSeek | DeepSeek-R1 (R1-Zero, R1, R1-Distill) | C-SimpleQA (Correct)  | max gen 32,768 tokens; temp 0.6, top-p 0.95; 64 samples to e | score=63.7 | github/main | https://www.nature.com/articles/s41586-025-09422-z",
+   "2025-01-31 | OpenAI | o3-mini | SimpleQA  | reasoning effort high | score=13.8 | secondary/main | https://www.analyticsvidhya.com/blog/2025/02/openai-o3-mini/",
+   "2025-02-05 | Google | Gemini 2.0 Flash GA / 2.0 Flash-Lite / 2.0 Pro Experimental | SimpleQA  | Gemini 2.0 Flash (GA) | score=29.9% | model_card/main | https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Model-Card.pdf",
+   "2025-02-19 | xAI | Grok 3 Beta (and Grok 3 mini) | SimpleQA  | Grok 3 Beta (non-reasoning) | score=43.6% | blog/main | https://x.ai/news/grok-3",
+   "2025-02-27 | OpenAI | GPT-4.5 (research preview) | SimpleQA Accuracy  |  | score=62.5% | blog/main | https://openai.com/index/introducing-gpt-4-5/",
+   "2025-03-17 | Mistral | Mistral Small 3.1 (24B, 2503) | SimpleQA (TotalAcc)  | instruct; text | score=10.43% | hf_card/main | https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+   "2025-03-25 | Google | Gemini 2.5 Pro Experimental (03-25) | SimpleQA  | Gemini 2.5 Pro Experimental 03-25 | score=52.9% | model_card/main | https://www.rivista.ai/wp-content/uploads/2025/04/gemini-2.5-pro-preview.pdf",
+   "2025-04-16 | OpenAI | o3 and o4-mini | SimpleQA  | accuracy / hallucination rate | score=0.49 / 0.51 | system_card/appendix | https://cdn.openai.com/pdf/2221c875-02dc-4789-800b-e7758f3722c1/o3-and-o4-mini-system-card.pdf",
+   "2025-04-17 | Google | Gemini 2.5 Flash Preview (04-17) | SimpleQA  | Gemini 2.5 Flash Preview 04-17, thinking | score=29.7% | model_card/main | https://storage.googleapis.com/model-cards/documents/gemini-2.5-flash-preview.pdf",
+   "2025-05-06 | Google | Gemini 2.5 Pro Preview (05-06, I/O edition) + I/O 2025 Deep  | SimpleQA  | Gemini 2.5 Pro Preview 05-06 | score=50.8% | model_card/main | https://storage.googleapis.com/model-cards/documents/gemini-2.5-pro-preview.pdf",
+   "2025-05-28 | DeepSeek | DeepSeek-R1-0528 (+ R1-0528-Qwen3-8B) | SimpleQA (Correct)  | max gen 64K; temp 0.6, top-p 0.95; 16 samples for pass@1 | score=27.8 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
+   "2025-06-05 | Google | Gemini 2.5 Pro (06-05 preview / GA) | SimpleQA  | Gemini 2.5 Pro (06-05 / GA) | score=54.0% | model_card/main | https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf",
+   "2025-06-17 | Google | Gemini 2.5 Flash-Lite (preview) | SimpleQA  | Gemini 2.5 Flash-Lite (06-17), thinking | score=13.0% | model_card/main | https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Lite-Model-Card.pdf",
+   "2025-06-17 | Google | Gemini 2.5 technical report (2.5 Pro / 2.5 Flash) | SimpleQA  | Gemini 2.5 Pro | score=54.0% | tech_report/main | https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf",
+   "2025-06-20 | Mistral | Mistral Small 3.2 (24B, 2506) | SimpleQA (TotalAcc)  | instruct | score=12.10% | hf_card/main | https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | CSimpleQA [Correct] | Kimi-K2-Base; 5-shot | score=77.6 | github/main | https://github.com/MoonshotAI/Kimi-K2/blob/main/README.md",
+   "2025-07-17 | OpenAI | ChatGPT agent | SimpleQA  | accuracy / hallucination rate | score=0.914 / 0.079 | system_card/appendix | https://cdn.openai.com/pdf/6bcccca6-3b64-43cb-a66e-4647073142d7/chatgpt_agent_system_card_launch.pdf",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | CSimpleQA [Chinese SimpleQA] | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=84.3 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | CSimpleQA  | Kimi-K2-Base; 5-shot | score=77.57 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-08-05 | OpenAI | gpt-oss-120b and gpt-oss-20b | SimpleQA  | accuracy / hallucination rate | score=0.168 accuracy | paper/appendix | https://arxiv.org/html/2508.10925",
+   "2025-08-07 | OpenAI | GPT-5 (incl. mini, nano, pro) | SimpleQA [no browsing] | accuracy / hallucination rate | score=0.55 / 0.40 | system_card/appendix | https://cdn.openai.com/gpt-5-system-card.pdf",
+   "2025-08-21 | DeepSeek | DeepSeek-V3.1 (hybrid thinking) | SimpleQA [search agent] | V3.1-Thinking | score=93.4 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
+   "2025-09-19 | xAI | Grok 4 Fast | SimpleQA  | pass@1 (with search) | score=95.0% | blog/main | https://x.ai/news/grok-4-fast",
+   "2025-09-22 | DeepSeek | DeepSeek-V3.1-Terminus | SimpleQA  | Agentic tool use | score=96.8 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus",
+   "2025-09-29 | Anthropic | Claude Sonnet 4.5 | SimpleQA [Obscure Questions] | with/without extended thinking | score= | system_card/appendix | https://www-cdn.anthropic.com/963373e433e489a87a10c823c52a0a013e9172dd.pdf",
+   "2025-09-29 | DeepSeek | DeepSeek-V3.2-Exp | SimpleQA [Agentic tool use] |  | score=97.1 | github/main | https://github.com/deepseek-ai/DeepSeek-V3.2-Exp",
+   "2025-10-29 | OpenAI | gpt-oss-safeguard (120b/20b) | SimpleQA  | accuracy / hallucination rate | score=0.142 / 0.822 | tech_report/appendix | https://cdn.openai.com/pdf/08b7dee4-8bc6-4955-a219-7793fb69090c/Technical_report__Research_Preview_of_gpt_oss_safeguard.pdf",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | CSimpleQA  | Kimi-Linear-Base @5.7T (released); 5-shot | score=53.5 | paper/appendix | https://arxiv.org/abs/2510.26692"
+  ]
+ },
+ {
+  "unit": "BIG-Bench Hard",
+  "family": "BIG-Bench Hard",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 36,
+  "first_lab_report": "2022-10-20",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "BBH",
+   "BBH (EM)",
+   "BIG-Bench Hard",
+   "BIG-Bench-Hard",
+   "BIG-Bench Hard (BBH)",
+   "BigBench-Hard",
+   "BIG-Bench Hard (3-shot)",
+   "BIG-Bench Hard (3-shot, CoT)",
+   "BIG-Bench Hard (CoT)"
+  ],
+  "lab_reports": [
+   "2022-10-20 | Google | Flan-PaLM (Scaling Instruction-Finetuned Language Models) | BIG-Bench Hard (BBH) [BBH-nlp] | 3-shot CoT + self-consistency; Flan-PaLM 540B | score=78.4 | paper/main | https://arxiv.org/abs/2210.11416",
+   "2023-05-10 | Google | PaLM 2 | BIG-Bench Hard [23 tasks] | 3-shot CoT; PaLM 2-L | score=78.1 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | BBH  | base pretrained; 3-shot | score=51.2 | paper/main | https://arxiv.org/abs/2307.09288",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | BBH  | pretrained; 3-shot | score= | paper/main | https://arxiv.org/abs/2310.06825",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | BBH  | chat Qwen-14B-Chat; 3-shot | score=58.7 | tech_report/main | https://arxiv.org/abs/2309.16609",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | BBH  | 3-shot | score=71.7 | github/main | https://arxiv.org/abs/2401.02954",
+   "2023-11-30 | Alibaba (Qwen) | Qwen-72B | BBH  | base Qwen-72B; 3-shot | score=67.7 | github/main | https://github.com/QwenLM/Qwen/blob/main/README.md",
+   "2023-12-06 | Google | Gemini 1.0 (Ultra/Pro/Nano) | BIG-Bench-Hard  | 3-shot; Gemini Ultra | score=83.6% | tech_report/main | https://arxiv.org/abs/2312.11805v1",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | BBH (EM) [chat model] | 3-shot | score=42.2 | github/main | https://github.com/deepseek-ai/DeepSeek-MoE",
+   "2024-02 | DeepSeek | DeepSeekMath 7B (Base/Instruct/RL) | BBH [general] |  | score=59.5% | github/main | https://github.com/deepseek-ai/DeepSeek-Math",
+   "2024-02-04 | Alibaba (Qwen) | Qwen1.5 | BBH  | base Qwen1.5-72B | score=65.5 | blog/main | https://qwenlm.github.io/blog/qwen1.5/",
+   "2024-02-15 | Google | Gemini 1.5 Pro (Feb 2024 report) | BigBench-Hard  | 3-shot; Gemini 1.5 Pro (Feb 2024) | score=84.0% | tech_report/main | https://arxiv.org/abs/2403.05530v1",
+   "2024-03-04 | Anthropic | Claude 3 Opus (Claude 3 family: Opus, Sonnet, Haiku) | BIG-Bench-Hard  | 3-shot CoT | score=86.8% | model_card/main | https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+   "2024-04-02 | Alibaba (Qwen) | Qwen1.5-32B | BBH  | base Qwen1.5-32B | score=66.8 | blog/main | https://qwenlm.github.io/blog/qwen1.5-32b/",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | BIG-Bench Hard (3-shot, CoT)  | 3-shot CoT; base pretrained | score=81.3 | model_card/main | https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+   "2024-04-25 | Alibaba (Qwen) | Qwen1.5-110B | BBH  | base Qwen1.5-110B | score=74.8 | blog/main | https://qwenlm.github.io/blog/qwen1.5-110b/",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | BBH  | see paper for shots | score=79.7 | github/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-05-14 | Google | Gemini 1.5 Pro (May 2024) / 1.5 Flash - updated report | BigBench-Hard  | 3-shot; Gemini 1.5 Pro (May 2024) | score=89.2% | tech_report/main | https://arxiv.org/abs/2403.05530v3",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | BBH  | base Qwen2-72B; 3-shot | score=82.4 | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-06-17 | DeepSeek | DeepSeek-Coder-V2 (Instruct / Lite) | BBH [general NL] |  | score=83.9 | github/main | https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+   "2024-06-20 | Anthropic | Claude 3.5 Sonnet | BIG-Bench Hard  | 3-shot CoT | score=93.1% | model_card/main | https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+   "2024-06-28 | DeepSeek | DeepSeek-V2-Chat-0628 | BBH  |  | score=83.4 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat-0628",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | BBH  | base Qwen2-72B; 3-shot | score=82.4 | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | BIG-Bench Hard (CoT)  | 3-shot; average/em; base pretrained | score=85.9 | model_card/main | https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | BBH  | base Qwen2.5-72B; 3-shot | score=86.3 | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-10-22 | Anthropic | Claude 3.5 Sonnet (new) and Claude 3.5 Haiku | BIG-Bench Hard  | 3-shot CoT | score=93.2% | model_card/main | https://www-cdn.anthropic.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | BBH  | base Qwen2.5-72B; 3-shot | score=86.3 | tech_report/main | https://arxiv.org/abs/2412.15115",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | BBH (EM) [base model] | 3-shot | score=87.5 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-01-28 | Alibaba (Qwen) | Qwen2.5-Max | BBH  | Qwen2.5-Max (base) | score=89.3 | blog/main | https://qwenlm.github.io/blog/qwen2.5-max/",
+   "2025-02-22 | Moonshot AI (Kimi) | Moonlight-16B-A3B | BBH  | Moonlight (base, 5.7T tokens, Muon); 3-shot | score=65.2 | github/main | https://github.com/MoonshotAI/Moonlight",
+   "2025-05-14 | Alibaba (Qwen) | Qwen3 (technical report) | BBH  | base Qwen3-235B-A22B-Base; 3-shot CoT | score=88.87 | tech_report/main | https://arxiv.org/abs/2505.09388",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | BBH  | Kimi-K2-Base; 3-shot | score=88.71 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | BBH  | Kimi Linear @1.4T (base, ablation-scale) | score=72.9 | paper/main | https://arxiv.org/abs/2510.26692",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | BBH  | base Qwen3.5-397B-A17B-Base | score=90.98 | blog/main | https://qwen.ai/blog?id=qwen3.5",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | BBH (EM) [base model] | 3-shot | score=87.5 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | BBH (EM) [base model] | 3-shot | score=86.1 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+  ]
+ },
+ {
+  "unit": "C-Eval",
+  "family": "C-Eval",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "DeepSeek",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 24,
+  "first_lab_report": "2023-09-28",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "C-Eval",
+   "C-Eval (EM)",
+   "CEval",
+   "C-Eval (Acc.)",
+   "CEval (Acc.)"
+  ],
+  "lab_reports": [
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | C-Eval  | base Qwen-14B; 5-shot | score=72.1 | tech_report/main | https://arxiv.org/abs/2309.16609",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | CEval  | 5-shot (chat 0-shot) | score=65.2 | github/main | https://arxiv.org/abs/2401.02954",
+   "2023-11-30 | Alibaba (Qwen) | Qwen-72B | C-Eval  | base Qwen-72B; 5-shot | score=83.3 | github/main | https://github.com/QwenLM/Qwen/blob/main/README.md",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | CEval (Acc.) [base model (internal benchmarks vs DeepS] | 5-shot | score=40.6 | github/main | https://github.com/deepseek-ai/DeepSeek-MoE",
+   "2024-02-04 | Alibaba (Qwen) | Qwen1.5 | C-Eval  | base Qwen1.5-72B | score=84.1 | blog/main | https://qwenlm.github.io/blog/qwen1.5/",
+   "2024-04-02 | Alibaba (Qwen) | Qwen1.5-32B | C-Eval  | base Qwen1.5-32B | score=83.5 | blog/main | https://qwenlm.github.io/blog/qwen1.5-32b/",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | C-Eval (Acc.) [base model] | 5-shot | score=81.7 | tech_report/main | https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | C-Eval  | base Qwen2-72B; 5-shot | score=91.0 | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-06-17 | DeepSeek | DeepSeek-Coder-V2 (Instruct / Lite) | C-Eval [general NL] |  | score=79.4 | github/main | https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | C-Eval  | base Qwen2-72B; 5-shot | score=91.0 | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | C-Eval (Acc.) [base model] | 5-shot | score=90.1 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-01-20 | DeepSeek | DeepSeek-R1 (R1-Zero, R1, R1-Distill) | C-Eval (EM) [zero-shot] | max gen 32,768 tokens; temp 0.6, top-p 0.95; 64 samples to e | score=91.8 | github/main | https://www.nature.com/articles/s41586-025-09422-z",
+   "2025-01-20 | Moonshot AI (Kimi) | Kimi k1.5 | C-Eval [EM] | Kimi k1.5 short-CoT | score=88.3 | github/main | https://arxiv.org/abs/2501.12599",
+   "2025-01-28 | Alibaba (Qwen) | Qwen2.5-Max | C-Eval  | Qwen2.5-Max (base) | score=92.2 | blog/main | https://qwenlm.github.io/blog/qwen2.5-max/",
+   "2025-02-22 | Moonshot AI (Kimi) | Moonlight-16B-A3B | C-Eval  | Moonlight (base, 5.7T tokens, Muon); 5-shot | score=77.2 | github/main | https://github.com/MoonshotAI/Moonlight",
+   "2025-05-14 | Alibaba (Qwen) | Qwen3 (technical report) | C-Eval  | Qwen3-235B-A22B thinking mode | score=89.6 | tech_report/main | https://arxiv.org/abs/2505.09388",
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | C-Eval [EM] | Kimi-K2-Base; 5-shot | score=92.5 | github/main | https://github.com/MoonshotAI/Kimi-K2/blob/main/README.md",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | C-Eval  | Kimi-K2-Base; 5-shot | score=92.50 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | C-Eval  | Kimi-Linear-Base @5.7T (released); 5-shot | score=83.3 | paper/appendix | https://arxiv.org/abs/2510.26692",
+   "2026-01-25 | Alibaba (Qwen) | Qwen3-Max-Thinking | C-Eval  | Qwen3-Max-Thinking | score=93.7 | blog/main | https://qwen.ai/blog?id=qwen3-max-thinking",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | C-Eval  | Qwen3.5-397B-A17B (thinking, default) | score=93.0 | hf_card/main | https://qwen.ai/blog?id=qwen3.5",
+   "2026-04-01 | Alibaba (Qwen) | Qwen3.6-Plus | C-Eval  | Qwen3.6-Plus | score=93.3 | blog/main | https://qwen.ai/blog?id=qwen3.6",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | C-Eval (EM) [base model] | 5-shot | score=93.1 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | C-Eval (EM) [base model] | 5-shot | score=92.1 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+  ]
+ },
+ {
+  "unit": "LongBench v2",
+  "family": "LongBench v2",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "DeepSeek",
+   "Mistral",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 10,
+  "first_lab_report": "2024-12-26",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "LongBench v2",
+   "LongBench-V2 (EM)",
+   "LongBench V2",
+   "Longbench v2",
+   "LongBench v2 (Acc.)"
+  ],
+  "lab_reports": [
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | LongBench v2 (Acc.) [chat model] | max output 8K; <1000-sample benchmarks run multiple times wi | score=48.7 | github/main | https://github.com/deepseek-ai/DeepSeek-V3",
+   "2025-03-17 | Mistral | Mistral Small 3.1 (24B, 2503) | LongBench v2  | instruct; long context | score=37.18% | hf_card/main | https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | LongBench v2 [Acc.] | Kimi-K2-Instruct (non-thinking); 8k output; 128K window | score=49.1 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | LongBench V2  | Kimi Linear @1.4T (base, ablation-scale) | score=35.0 | paper/main | https://arxiv.org/abs/2510.26692",
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | Longbench v2 [~128k standardized contexts] | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=61.0 | github/main | https://arxiv.org/abs/2602.02276",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | LongBench v2  | Qwen3.5-397B-A17B (thinking, default) | score=63.2 | hf_card/main | https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+   "2026-04-01 | Alibaba (Qwen) | Qwen3.6-Plus | LongBench v2  | Qwen3.6-Plus | score=62.0 | blog/main | https://qwen.ai/blog?id=qwen3.6",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | LongBench-V2 (EM) [base model] | 1-shot | score=51.5 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+   "2026-08-03 | Alibaba (Qwen) | Qwen3.8-Max (open weights Qwen3.8-2.4T-A95B) | LongBench v2  | Qwen3.8-Max | score=66.3 | blog/main | https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | LongBench-V2 (EM) [base model] | 1-shot | score=45.2 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+  ]
+ },
+ {
+  "unit": "AIME 2026",
+  "family": "AIME",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 3,
+  "first_lab_report": "2026-02-16",
+  "last_lab_report": "2026-04-01",
+  "raw_names": [
+   "AIME26",
+   "AIME 2026"
+  ],
+  "lab_reports": [
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | AIME26  | Qwen3.5-397B-A17B (thinking, default) | score=91.3 | hf_card/main | https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+   "2026-04 | Moonshot AI (Kimi) | Kimi K2.6 | AIME 2026  | Kimi K2.6 (thinking) | score=96.4 | hf_card/main | https://huggingface.co/moonshotai/Kimi-K2.6",
+   "2026-04-01 | Alibaba (Qwen) | Qwen3.6-Plus | AIME26 [full AIME 2026 I+II] | Qwen3.6-Plus | score=95.3 | blog/main | https://qwen.ai/blog?id=qwen3.6"
+  ]
+ },
+ {
+  "unit": "StoryCloze",
+  "family": "StoryCloze",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Google",
+   "Meta",
+   "OpenAI"
+  ],
+  "n_releases": 10,
+  "first_lab_report": "2018-06-11",
+  "last_lab_report": "2024-12-19",
+  "raw_names": [
+   "XStoryCloze",
+   "StoryCloze",
+   "Story Cloze"
+  ],
+  "lab_reports": [
+   "2018-06-11 | OpenAI | GPT (GPT-1, \"Improving Language Understanding by Generative  | Story Cloze  | fine-tuned; accuracy | score=86.5 | paper/main | https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | StoryCloze [test] | few-shot (K=70); acc | score=87.7 | paper/main | https://arxiv.org/abs/2005.14165",
+   "2022-04-04 | Google | PaLM | StoryCloze  | few-shot; PaLM 540B | score=89.0 | paper/main | https://arxiv.org/abs/2204.02311v1",
+   "2022-05-03 | Meta | OPT (125M-175B) | StoryCloze  | zero-shot and few-shot (1/32-shot), GPT-3 prompts; accuracy | score= | paper/main | https://arxiv.org/abs/2205.01068",
+   "2023-05-10 | Google | PaLM 2 | StoryCloze  | 1-shot; PaLM 2-L | score=87.4 | tech_report/main | https://arxiv.org/abs/2305.10403v1",
+   "2024-02-04 | Alibaba (Qwen) | Qwen1.5 | XStoryCloze [Understanding (ar, es, ru, id)] | base; 0-shot/Acc | score= | blog/main | https://qwenlm.github.io/blog/qwen1.5/",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | XStoryCloze [component of Multi-Understanding] | base Qwen2-72B; 0-shot | score= | blog/appendix | https://qwenlm.github.io/blog/qwen2/",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | XStoryCloze [component of Understanding] | base Qwen2-72B; 0-shot | score= | tech_report/main | https://arxiv.org/abs/2407.10671",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | XStoryCloze [component of Multi-Understanding] | base Qwen2.5-72B; 0-shot | score= | blog/main | https://qwenlm.github.io/blog/qwen2.5-llm/",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | XStoryCloze [component of Multi-Understanding] | base Qwen2.5-72B; 0-shot | score= | tech_report/main | https://arxiv.org/abs/2412.15115"
+  ]
+ }
+]

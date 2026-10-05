@@ -1,0 +1,470 @@
+[
+ {
+  "unit": "Terminal-Bench 2.1",
+  "family": "Terminal-Bench",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Moonshot AI (Kimi)",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 20,
+  "first_lab_report": "2026-05-19",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "Terminal-Bench 2.1",
+   "Terminal Bench 2.1",
+   "Terminal-bench 2.1",
+   "Terminal-Bench 2.1 (Pass@1)",
+   "Terminal-Bench 2.1 across agent scaffolds"
+  ],
+  "lab_reports": [
+   "2026-05-19 | Google | Gemini 3.5 Flash | Terminal-bench 2.1 [Terminus-2 harness] | Gemini 3.5 Flash | score=76.2% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-5-flash/",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | Terminal-Bench 2.1 [89 tasks] | Terminus-2 harness (Harbor leaderboard); 5 attempts | score=74.6% | system_card/main | https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude-Opus-4.8-System-Card.pdf",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | Terminal-Bench 2.1 [89 tasks] | mini-SWE-agent harness, high effort; 5 attempts | score=88.0% | system_card/main | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-06-26 | OpenAI | GPT-5.6 Sol (preview) | Terminal-Bench 2.1 [2.1] |  | score= | blog/main | https://openai.com/index/previewing-gpt-5-6-sol/",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | Terminal-Bench 2.1 [89 tasks] | mini-SWE-agent harness, xhigh effort | score=80.4% | system_card/main | https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | Terminal-Bench 2.1 [Agentic terminal coding] | highest reasoning effort; Coding | score=80.0 | model_card/main | https://dev.meta.ai/models/muse-spark-1-1/",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | Terminal-Bench 2.1 [2.1] |  | score=88.8% | blog/main | https://openai.com/index/gpt-5-6/",
+   "2026-07-16 | Moonshot AI (Kimi) | Kimi K3 | Terminal-Bench 2.1 [Coding] | Kimi K3 (max effort); temp 1.0 | score=88.3 | github/main | https://github.com/MoonshotAI/Kimi-K3/blob/main/README.md",
+   "2026-07-16 | xAI | Grok 4.5 | Terminal Bench 2.1  | Grok 4.5 | score=83.3% | blog/main | https://media.x.ai/v1/website/4p5-5184fdf9.pdf",
+   "2026-07-21 | Google | Gemini 3.5 Flash-Lite | Terminal-bench 2.1 [Terminus-2 harness] | Gemini 3.5 Flash-Lite | score=54.0% | model_card/main | https://deepmind.google/models/gemini/flash-lite/",
+   "2026-07-21 | Google | Gemini 3.6 Flash | Terminal-Bench 2.1 [Terminus-2 harness] | Gemini 3.6 Flash | score=78.0% | secondary/main | https://officechai.com/ai/gemini-3-6-flash-benchmarks/",
+   "2026-07-31 | DeepSeek | DeepSeek-V4-Flash-0731 (official V4-Flash) | Terminal Bench 2.1  | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=82.7 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+   "2026-08-03 | Alibaba (Qwen) | Qwen3.8-Max (open weights Qwen3.8-2.4T-A95B) | Terminal Bench 2.1 [Claude Code harness, avg@10, 5h timeout] | Qwen3.8-Max | score=86.6 | blog/main | https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "2026-08-05 | Meta | Muse Spark 1.2 (+ Muse Code) | Terminal-Bench 2.1  | Muse Code harness (competitors in native harnesses) | score=82.9% | model_card/main | https://dev.meta.ai/models/muse-spark-1-2/",
+   "2026-08-13 | DeepSeek | DeepSeek-V4-Pro-0813 (V4-Pro GA) | Terminal Bench 2.1  | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=87.9 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+   "2026-08-13 | Google | Gemini 3.7 Flash | Terminal-bench 2.1  | Gemini 3.7 Flash | score=85.8% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+   "2026-08-21 | DeepSeek | DeepSeek-V4-Flash-Vision-Exp | Terminal Bench 2.1 [text agent] | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=83.9 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+   "2026-09-02 | Google | Gemini 3.8 Flash | Terminal-bench 2.1  | Gemini 3.8 Flash | score=89.4% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-8-flash",
+   "2026-09-02 | Meta | Muse Spark 1.3 | Terminal-Bench 2.1 [Agentic terminal coding] | max reasoning; Coding | score=88.8 | model_card/main | https://dev.meta.ai/models/muse-spark/",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | Terminal-Bench 2.1 (Pass@1)  | max reasoning effort (reasoning_effort=100), temp 1.0, top_p | score=90.6 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+  ]
+ },
+ {
+  "unit": "Terminal-Bench 3.0",
+  "family": "Terminal-Bench",
+  "labs_reporting": [
+   "DeepSeek",
+   "Google",
+   "xAI"
+  ],
+  "n_releases": 3,
+  "first_lab_report": "2026-08-12",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "Terminal-bench 3.0",
+   "Terminal-Bench 3.0 (Pass@1)",
+   "Terminal-Bench 3.0"
+  ],
+  "lab_reports": [
+   "2026-08-12 | xAI | Grok 4.6 | Terminal-Bench 3.0  | Grok 4.6 (high) | score=26.0% | model_card/main | https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+   "2026-08-13 | Google | Gemini 3.7 Flash | Terminal-bench 3.0 [general agent capabilities] | Gemini 3.7 Flash | score=14.9% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | Terminal-Bench 3.0 (Pass@1)  | max reasoning effort (reasoning_effort=100), temp 1.0, top_p | score=30.0 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+  ]
+ },
+ {
+  "unit": "Terminal-Bench 4.0",
+  "family": "Terminal-Bench",
+  "labs_reporting": [
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 7,
+  "first_lab_report": "2026-09-01",
+  "last_lab_report": "2026-09-28",
+  "raw_names": [
+   "Terminal-Bench 4.0",
+   "Terminal-bench 4.0",
+   "Terminal-Bench 4.0 (Pass@1)"
+  ],
+  "lab_reports": [
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | Terminal-Bench 4.0  | 10-15 trials/task | score=56% (Fable 5.1) / 61 | system_card/main | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-02 | Google | Gemini 3.8 Flash | Terminal-bench 4.0 [general agent capabilities] | Gemini 3.8 Flash | score=19.1% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-8-flash",
+   "2026-09-03 | OpenAI | GPT-6 Astra | Terminal-Bench 4.0 [4.0] |  | score=57.9% | blog/main | https://openai.com/index/gpt-6-astra/",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | Terminal-Bench 4.0 (Pass@1)  | max reasoning effort (reasoning_effort=100), temp 1.0, top_p | score=31.2 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+   "2026-09-21 | xAI | Grok 4.7 | Terminal-Bench 4.0 [task success rate] | Grok 4.7 (xhigh) | score=38.0% | model_card/main | https://media.x.ai/v1/website/card4p7-3a96f40b.pdf",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | Terminal-Bench 4.0  | xhigh effort; Claude Code --bare; safeguards on | score=66.4% | system_card/main | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | Terminal-Bench 4.0  | Claude Code --bare, max effort; safeguards on | score=70.6% | blog/main | https://www.anthropic.com/claude-sonnet-5-5"
+  ]
+ },
+ {
+  "unit": "Terminal-Bench Science",
+  "family": "Terminal-Bench Science",
+  "labs_reporting": [
+   "Anthropic",
+   "OpenAI"
+  ],
+  "n_releases": 5,
+  "first_lab_report": "2026-09-01",
+  "last_lab_report": "2026-09-29",
+  "raw_names": [
+   "Terminal-Bench-Science 0.1",
+   "Terminal-Bench Science 0.1"
+  ],
+  "lab_reports": [
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | Terminal-Bench-Science 0.1  | 10 trials/task | score=52.6% | system_card/main | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-03 | OpenAI | GPT-6 Astra | Terminal-Bench Science 0.1 [Science 0.1] |  | score=64.6% | blog/main | https://openai.com/index/gpt-6-astra/",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | Terminal-Bench-Science 0.1  | safeguards on | score=58.7% | system_card/main | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | Terminal-Bench-Science 0.1  |  | score=59.9% | system_card/appendix | https://www.anthropic.com/claude-sonnet-5-5-system-card",
+   "2026-09-29 | OpenAI | GPT-6.1 Sol | Terminal-Bench Science 0.1 [Science 0.1] | reasoning effort max | score= | blog/main | https://openai.com/index/introducing-gpt-6-1-sol/"
+  ]
+ },
+ {
+  "unit": "Toolathlon",
+  "family": "Toolathlon",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 22,
+  "first_lab_report": "2025-12-11",
+  "last_lab_report": "2026-09-28",
+  "raw_names": [
+   "Toolathlon",
+   "Toolathlon-Verified",
+   "Toolathlon Verified",
+   "Toolathlon Verified (Pass@1)",
+   "Toolathlon (Pass@1)"
+  ],
+  "lab_reports": [
+   "2025-12-11 | OpenAI | GPT-5.2 (Thinking/Pro) | Toolathlon  | reasoning effort xhigh | score=46.3% | blog/main | https://openai.com/index/introducing-gpt-5-2/",
+   "2025-12-17 | Google | Gemini 3 Flash | Toolathlon  | Gemini 3 Flash | score=49.4% | secondary/main | https://vertu.com/lifestyle/gemini-3-flash-vs-gemini-2-5-pro-the-flash-model-that-beats-googles-pro",
+   "2026-03-05 | OpenAI | GPT-5.4 (Thinking/Pro) | Toolathlon  | reasoning effort xhigh | score=54.6% | blog/main | https://openai.com/index/introducing-gpt-5-4/",
+   "2026-03-17 | OpenAI | GPT-5.4 mini and nano | Toolathlon  | reasoning effort xhigh | score=42.9% | blog/main | https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+   "2026-04 | Moonshot AI (Kimi) | Kimi K2.6 | Toolathlon  | Kimi K2.6 (thinking) | score=50.0 | hf_card/main | https://huggingface.co/moonshotai/Kimi-K2.6",
+   "2026-04-23 | OpenAI | GPT-5.5 | Toolathlon  | reasoning effort xhigh | score=55.6% | blog/main | https://openai.com/index/introducing-gpt-5-5/",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | Toolathlon (Pass@1) [Tool-Decathlon] | DeepSeek-V4-Pro-Max (max reasoning effort) | score=51.8 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+   "2026-05-19 | Google | Gemini 3.5 Flash | Toolathlon  | Gemini 3.5 Flash | score=56.5% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-5-flash/",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | Toolathlon [internal harness] | pass@1 | score=59.9% | system_card/appendix | https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude-Opus-4.8-System-Card.pdf",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | Toolathlon [internal harness] | pass@1 | score=61.7% | system_card/appendix | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | Toolathlon [internal harness] | pass@1, 3 trials | score=54.3% | system_card/appendix | https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | Toolathlon-Verified [Personal tool use] | highest reasoning effort; Agents | score=75.6 | model_card/main | https://dev.meta.ai/models/muse-spark-1-1/",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | Toolathlon  |  | score=58% | blog/main | https://openai.com/index/gpt-5-6/",
+   "2026-07-16 | Moonshot AI (Kimi) | Kimi K3 | Toolathlon-Verified [Agentic] | Kimi K3 (max effort); temp 1.0 | score=76.5 | github/main | https://github.com/MoonshotAI/Kimi-K3/blob/main/README.md",
+   "2026-07-24 | Anthropic | Claude Opus 5 | Toolathlon Verified [internal harness] | pass@1 | score=80.6% | system_card/appendix | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-07-31 | DeepSeek | DeepSeek-V4-Flash-0731 (official V4-Flash) | Toolathlon-Verified  | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=70.3 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+   "2026-08-03 | Alibaba (Qwen) | Qwen3.8-Max (open weights Qwen3.8-2.4T-A95B) | Toolathlon Verified (Pass@1)  | Qwen3.8-Max | score=72.5 | blog/main | https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "2026-08-13 | DeepSeek | DeepSeek-V4-Pro-0813 (V4-Pro GA) | Toolathlon-Verified  | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=74.1 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+   "2026-08-21 | DeepSeek | DeepSeek-V4-Flash-Vision-Exp | Toolathlon-Verified [text agent] | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=75.9 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | Toolathlon Verified  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | Toolathlon Verified  | pass@1 | score=77.8% | system_card/appendix | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | Toolathlon-Verified  |  | score= | system_card/appendix | https://www.anthropic.com/claude-sonnet-5-5-system-card"
+  ]
+ },
+ {
+  "unit": "VitaBench",
+  "family": "VitaBench",
+  "labs_reporting": [
+   "Alibaba (Qwen)"
+  ],
+  "n_releases": 5,
+  "first_lab_report": "2026-01-25",
+  "last_lab_report": "2026-06-01",
+  "raw_names": [
+   "VITA-Bench",
+   "Vitabench",
+   "Vita Bench"
+  ],
+  "lab_reports": [
+   "2026-01-25 | Alibaba (Qwen) | Qwen3-Max-Thinking | Vita Bench  | Qwen3-Max-Thinking | score=40.9 | blog/main | https://qwen.ai/blog?id=qwen3-max-thinking",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | VITA-Bench  | Qwen3.5-397B-A17B (thinking, default) | score=49.7 | hf_card/main | https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+   "2026-04-01 | Alibaba (Qwen) | Qwen3.6-Plus | VITA-Bench [claude-4-sonnet judge] | Qwen3.6-Plus | score=44.3 | blog/main | https://qwen.ai/blog?id=qwen3.6",
+   "2026-05-20 | Alibaba (Qwen) | Qwen3.7-Max | Vitabench [claude-4.5-sonnet judge] | Qwen3.7-Max | score=47.9 | blog/main | https://qwen.ai/blog?id=qwen3.7",
+   "2026-06-01 | Alibaba (Qwen) | Qwen3.7-Plus | Vitabench  | Qwen3.7-Plus | score=45.6 | blog/main | https://qwen.ai/blog?id=qwen3.7-plus"
+  ]
+ },
+ {
+  "unit": "WebArena",
+  "family": "WebArena",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "Meta",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 9,
+  "first_lab_report": "2025-01-23",
+  "last_lab_report": "2026-08-03",
+  "raw_names": [
+   "WebArena",
+   "WebArena-Verified"
+  ],
+  "lab_reports": [
+   "2025-01-23 | OpenAI | Operator / Computer-Using Agent (CUA) | WebArena  | success rate | score=58.1% | blog/main | https://openai.com/index/computer-using-agent/",
+   "2025-07-17 | OpenAI | ChatGPT agent | WebArena  |  | score= | blog/main | https://openai.com/index/introducing-chatgpt-agent/",
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | WebArena  | single agent, general prompts, pass@1 | score=65.3% | system_card/appendix | https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | WebArena  | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=58.9 | tech_report/main | https://arxiv.org/abs/2602.02276",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | WebArena  | single policy, 5-run avg | score=68.0% | system_card/appendix | https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+   "2026-02-17 | Anthropic | Claude Sonnet 4.6 | WebArena  | single policy, avg@5 | score=65.6% | system_card/appendix | https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf",
+   "2026-03-05 | OpenAI | GPT-5.4 (Thinking/Pro) | WebArena-Verified [Verified] |  | score=67.3% | blog/main | https://openai.com/index/introducing-gpt-5-4/",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | WebArena-Verified [812 tasks, mean pass@1] | Section 5 general capabilities | score=69.0 | system_card/main | https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report/",
+   "2026-08-03 | Alibaba (Qwen) | Qwen3.8-Max (open weights Qwen3.8-2.4T-A95B) | WebArena-Verified  | Qwen3.8-Max (multimodal) | score=66.8 | blog/main | https://qwen.ai/blog?id=qwen3.8"
+  ]
+ },
+ {
+  "unit": "WebVoyager",
+  "family": "WebVoyager",
+  "labs_reporting": [
+   "Google",
+   "OpenAI"
+  ],
+  "n_releases": 2,
+  "first_lab_report": "2024-12-11",
+  "last_lab_report": "2025-01-23",
+  "raw_names": [
+   "WebVoyager"
+  ],
+  "lab_reports": [
+   "2024-12-11 | Google | Gemini 2.0 Flash Experimental | WebVoyager  | Project Mariner agent built on Gemini 2.0 | score=83.5% | blog/main | https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/",
+   "2025-01-23 | OpenAI | Operator / Computer-Using Agent (CUA) | WebVoyager  | success rate | score=87.0% | blog/main | https://openai.com/index/computer-using-agent/"
+  ]
+ },
+ {
+  "unit": "WideSearch",
+  "family": "WideSearch",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Meta",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 6,
+  "first_lab_report": "2026-01",
+  "last_lab_report": "2026-08-03",
+  "raw_names": [
+   "WideSearch",
+   "WideSearch (item-f1)",
+   "WideSearch (item-f1 Agent Swarm)"
+  ],
+  "lab_reports": [
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | WideSearch (item-f1 Agent Swarm)  | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=79.0 | github/main | https://github.com/MoonshotAI/Kimi-K2.5/blob/master/README.md",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | WideSearch [256k, no context management] | Qwen3.5-397B-A17B (thinking, default) | score=74.0 | hf_card/main | https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+   "2026-04 | Moonshot AI (Kimi) | Kimi K2.6 | WideSearch (item-f1) [hide-tool-result context management] | Kimi K2.6 (thinking) | score=80.8 | hf_card/main | https://huggingface.co/moonshotai/Kimi-K2.6",
+   "2026-04-01 | Alibaba (Qwen) | Qwen3.6-Plus | WideSearch  | Qwen3.6-Plus | score=74.3 | blog/main | https://qwen.ai/blog?id=qwen3.6",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | WideSearch  | Section 5.2 per-benchmark details | score= | system_card/main | https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report/",
+   "2026-08-03 | Alibaba (Qwen) | Qwen3.8-Max (open weights Qwen3.8-2.4T-A95B) | WideSearch [Qwen-Agent harness, avg item-F1 over 4 r] | Qwen3.8-Max | score=81.9 | blog/main | https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+  ]
+ },
+ {
+  "unit": "tau-bench airline",
+  "family": "tau-bench",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "OpenAI"
+  ],
+  "n_releases": 10,
+  "first_lab_report": "2024-10-22",
+  "last_lab_report": "2025-09-11",
+  "raw_names": [
+   "TAU-bench",
+   "TAU1-Airline",
+   "TAU-bench (airline)",
+   "Taubench airline",
+   "Tau-Bench Airline"
+  ],
+  "lab_reports": [
+   "2024-10-22 | Anthropic | Claude 3.5 Sonnet (new) and Claude 3.5 Haiku | TAU-bench [Airline] | pass^1 | score=46.0% | model_card/main | https://www-cdn.anthropic.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf",
+   "2024-12-17 | OpenAI | o1-2024-12-17 (API) | TAU-bench (airline) [airline] |  | score=54.2 | blog/main | https://openai.com/index/o1-and-new-tools-for-developers/",
+   "2025-02-24 | Anthropic | Claude 3.7 Sonnet | TAU-bench [Airline] | no extended thinking; planning-tool prompt addendum; max ste | score=58.4% | secondary/main | https://www.datacamp.com/blog/claude-3-7-sonnet",
+   "2025-04-14 | OpenAI | GPT-4.1 (incl. mini, nano) | Taubench airline [airline] | averaged over 5 runs | score=49.4% | blog/appendix | https://openai.com/index/gpt-4-1/",
+   "2025-05-22 | Anthropic | Claude Opus 4 and Claude Sonnet 4 | TAU-bench [Airline] | extended thinking; prompt addendum; max 100 steps | score=59.6% | secondary/main | https://www.datacamp.com/blog/claude-4",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | TAU1-Airline [tau-bench v1] | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=44.0 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "2025-07-25 | Alibaba (Qwen) | Qwen3-235B-A22B-Thinking-2507 | TAU1-Airline [tau-bench v1] | Qwen3-235B-A22B-Thinking-2507 | score=46.0 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+   "2025-08-05 | Anthropic | Claude Opus 4.1 | TAU-bench [Airline] | extended thinking with tool use; prompt addendum; max 100 st | score=56.0% | secondary/main | https://simonwillison.net/2025/Aug/5/claude-opus-41/",
+   "2025-08-05 | OpenAI | gpt-oss-120b and gpt-oss-20b | Tau-Bench Airline [Airline] | reasoning high | score=49.2% | paper/main | https://arxiv.org/html/2508.10925",
+   "2025-09-11 | Alibaba (Qwen) | Qwen3-Next-80B-A3B | TAU1-Airline  | Qwen3-Next-80B-A3B-Thinking | score=49.0 | hf_card/main | https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+  ]
+ },
+ {
+  "unit": "tau-bench retail",
+  "family": "tau-bench",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "OpenAI"
+  ],
+  "n_releases": 12,
+  "first_lab_report": "2024-10-22",
+  "last_lab_report": "2025-09-11",
+  "raw_names": [
+   "TAU-bench",
+   "TAU1-Retail",
+   "TAU-bench (retail)",
+   "Taubench retail",
+   "Tau-bench",
+   "Tau-Bench Retail",
+   "Tau-Bench (Pass@1)"
+  ],
+  "lab_reports": [
+   "2024-10-22 | Anthropic | Claude 3.5 Sonnet (new) and Claude 3.5 Haiku | TAU-bench [Retail] | pass^1 | score=69.2% | model_card/main | https://www-cdn.anthropic.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf",
+   "2024-12-17 | OpenAI | o1-2024-12-17 (API) | TAU-bench (retail) [retail] |  | score=73.5 | blog/main | https://openai.com/index/o1-and-new-tools-for-developers/",
+   "2025-02-24 | Anthropic | Claude 3.7 Sonnet | TAU-bench [Retail] | no extended thinking; planning-tool prompt addendum; max ste | score=81.2% | secondary/main | https://www.datacamp.com/blog/claude-3-7-sonnet",
+   "2025-04-14 | OpenAI | GPT-4.1 (incl. mini, nano) | Taubench retail [retail] | averaged over 5 runs | score=68.0% | blog/appendix | https://openai.com/index/gpt-4-1/",
+   "2025-04-16 | OpenAI | o3 and o4-mini | Tau-bench [Airline / Retail] | high; function calling | score=52.0% (Airline) / 70 | secondary/main | https://blog.biocomm.ai/wp-content/uploads/2025/04/Introducing-OpenAI-o3-and-o4-mini-OpenAI.pdf",
+   "2025-05-22 | Anthropic | Claude Opus 4 and Claude Sonnet 4 | TAU-bench [Retail] | extended thinking; prompt addendum; max 100 steps | score=81.4% | secondary/main | https://www.datacamp.com/blog/claude-4",
+   "2025-05-28 | DeepSeek | DeepSeek-R1-0528 (+ R1-0528-Qwen3-8B) | Tau-Bench (Pass@1) [Airline / Retail; GPT-4.1 as user] | max gen 64K; temp 0.6, top-p 0.95; 16 samples for pass@1 | score=53.5 / 63.9 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | TAU1-Retail [tau-bench v1] | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=71.3 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "2025-07-25 | Alibaba (Qwen) | Qwen3-235B-A22B-Thinking-2507 | TAU1-Retail [tau-bench v1] | Qwen3-235B-A22B-Thinking-2507 | score=67.8 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+   "2025-08-05 | Anthropic | Claude Opus 4.1 | TAU-bench [Retail] | extended thinking with tool use; prompt addendum; max 100 st | score=82.4% | secondary/main | https://simonwillison.net/2025/Aug/5/claude-opus-41/",
+   "2025-08-05 | OpenAI | gpt-oss-120b and gpt-oss-20b | Tau-Bench Retail [Retail] | reasoning high | score=67.8% | paper/main | https://arxiv.org/html/2508.10925",
+   "2025-09-11 | Alibaba (Qwen) | Qwen3-Next-80B-A3B | TAU1-Retail  | Qwen3-Next-80B-A3B-Thinking | score=69.6 | hf_card/main | https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+  ]
+ },
+ {
+  "unit": "tau2-bench airline",
+  "family": "tau2-bench",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 11,
+  "first_lab_report": "2025-07-11",
+  "last_lab_report": "2026-02-16",
+  "raw_names": [
+   "TAU2-Airline",
+   "τ2-bench",
+   "Tau2 airline",
+   "τ²-Bench",
+   "Tau2-bench airline",
+   "Tau2-bench Airline",
+   "TAU2-Bench"
+  ],
+  "lab_reports": [
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | Tau2 airline [Avg@4] | Kimi-K2-Instruct (non-thinking); 8k output | score=56.5 | github/main | https://github.com/MoonshotAI/Kimi-K2/blob/main/README.md",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | TAU2-Airline [tau2-bench] | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=50.0 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "2025-07-25 | Alibaba (Qwen) | Qwen3-235B-A22B-Thinking-2507 | TAU2-Airline [tau2-bench] | Qwen3-235B-A22B-Thinking-2507 | score=58.0 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | Tau2 airline [Avg@4] | Kimi-K2-Instruct (non-thinking); 8k output | score=56.5 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-08-07 | OpenAI | GPT-5 (incl. mini, nano, pro) | Tau2-bench airline [airline] | reasoning effort high | score=62.6% | blog/appendix | https://openai.com/index/introducing-gpt-5-for-developers/",
+   "2025-09-11 | Alibaba (Qwen) | Qwen3-Next-80B-A3B | TAU2-Airline  | Qwen3-Next-80B-A3B-Thinking | score=60.5 | hf_card/main | https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking",
+   "2025-09-29 | Anthropic | Claude Sonnet 4.5 | τ2-bench [Airline] | extended thinking with tool use; prompt addendum | score=70.0% | secondary/main | https://leanware.co/insights/claude-sonnet-4-5-overview",
+   "2025-10-15 | Anthropic | Claude Haiku 4.5 | τ2-bench [Airline] | avg 10 runs; extended thinking 128K; prompt addendum | score=63.6% | secondary/main | https://chatlyai.app/blog/what-is-claude-haiku-4.5",
+   "2025-11-12 | OpenAI | GPT-5.1 | Tau2-bench Airline [Airline] | reasoning effort high | score=67.0% | blog/appendix | https://openai.com/index/gpt-5-1-for-developers/",
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | τ²-Bench [Airline (original / Anthropic-corrected)] |  | score=70.1% / 87.8% | system_card/appendix | https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | TAU2-Bench [airline with Claude Opus 4.5 system-card] | Qwen3.5-397B-A17B (thinking, default) | score=86.7 | hf_card/main | https://huggingface.co/Qwen/Qwen3.5-397B-A17B"
+  ]
+ },
+ {
+  "unit": "tau2-bench retail",
+  "family": "tau2-bench",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "Google",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 14,
+  "first_lab_report": "2025-07-11",
+  "last_lab_report": "2026-02-19",
+  "raw_names": [
+   "TAU2-Retail",
+   "τ2-bench",
+   "τ²-bench",
+   "Tau2-bench Retail",
+   "Tau2 retail",
+   "τ²-Bench",
+   "Tau2-bench retail"
+  ],
+  "lab_reports": [
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | Tau2 retail [Avg@4] | Kimi-K2-Instruct (non-thinking); 8k output | score=70.6 | github/main | https://github.com/MoonshotAI/Kimi-K2/blob/main/README.md",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | TAU2-Retail [tau2-bench] | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=74.6 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "2025-07-25 | Alibaba (Qwen) | Qwen3-235B-A22B-Thinking-2507 | TAU2-Retail [tau2-bench] | Qwen3-235B-A22B-Thinking-2507 | score=71.9 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | Tau2 retail [Avg@4] | Kimi-K2-Instruct (non-thinking); 8k output | score=70.6 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-08-07 | OpenAI | GPT-5 (incl. mini, nano, pro) | Tau2-bench retail [retail] | reasoning effort high | score=81.1% | blog/appendix | https://openai.com/index/introducing-gpt-5-for-developers/",
+   "2025-09-11 | Alibaba (Qwen) | Qwen3-Next-80B-A3B | TAU2-Retail  | Qwen3-Next-80B-A3B-Thinking | score=67.8 | hf_card/main | https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking",
+   "2025-09-29 | Anthropic | Claude Sonnet 4.5 | τ2-bench [Retail] | extended thinking with tool use; prompt addendum | score=86.2% | secondary/main | https://leanware.co/insights/claude-sonnet-4-5-overview",
+   "2025-10-15 | Anthropic | Claude Haiku 4.5 | τ2-bench [Retail] | avg 10 runs; extended thinking 128K; prompt addendum | score=83.2% | secondary/main | https://chatlyai.app/blog/what-is-claude-haiku-4.5",
+   "2025-11-12 | OpenAI | GPT-5.1 | Tau2-bench Retail [Retail] | reasoning effort high | score=77.9% | blog/appendix | https://openai.com/index/gpt-5-1-for-developers/",
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | τ²-Bench [Retail] | no extended thinking | score=88.9% | system_card/main | https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+   "2025-12-11 | OpenAI | GPT-5.2 (Thinking/Pro) | Tau2-bench Retail [Retail] | reasoning effort xhigh | score=82.0% | blog/main | https://openai.com/index/introducing-gpt-5-2/",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | τ²-bench [Retail] | adaptive thinking, max effort; 5 trials | score=91.9% | system_card/main | https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+   "2026-02-17 | Anthropic | Claude Sonnet 4.6 | τ²-bench [Retail] | adaptive thinking, max effort | score=91.7% | system_card/main | https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf",
+   "2026-02-19 | Google | Gemini 3.1 Pro | τ2-bench [Retail] | Gemini 3.1 Pro Thinking (High) | score=90.8% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-1-pro/"
+  ]
+ },
+ {
+  "unit": "tau2-bench telecom",
+  "family": "tau2-bench",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "Google",
+   "Meta",
+   "Moonshot AI (Kimi)",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 19,
+  "first_lab_report": "2025-07-11",
+  "last_lab_report": "2026-04-23",
+  "raw_names": [
+   "Tau2-bench Telecom",
+   "TAU2-Telecom",
+   "τ2-bench",
+   "τ²-bench",
+   "Tau2 telecom",
+   "τ²-Bench",
+   "tau2-Bench Telecom",
+   "Tau2-bench telecom",
+   "τ2-bench (telecom)",
+   "Tau2-bench Telecom (original prompts)"
+  ],
+  "lab_reports": [
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | Tau2 telecom [Avg@4] | Kimi-K2-Instruct (non-thinking); 8k output | score=65.8 | github/main | https://github.com/MoonshotAI/Kimi-K2/blob/main/README.md",
+   "2025-07-21 | Alibaba (Qwen) | Qwen3-235B-A22B-Instruct-2507 | TAU2-Telecom [tau2-bench] | Qwen3-235B-A22B-Instruct-2507 (non-thinking) | score=32.5 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "2025-07-25 | Alibaba (Qwen) | Qwen3-235B-A22B-Thinking-2507 | TAU2-Telecom [tau2-bench] | Qwen3-235B-A22B-Thinking-2507 | score=45.6 | hf_card/main | https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | Tau2 telecom [Avg@4] | Kimi-K2-Instruct (non-thinking); 8k output | score=65.8 | tech_report/main | https://arxiv.org/abs/2507.20534",
+   "2025-08-07 | OpenAI | GPT-5 (incl. mini, nano, pro) | Tau2-bench telecom [telecom] | reasoning effort high | score=96.7% | blog/appendix | https://openai.com/index/introducing-gpt-5-for-developers/",
+   "2025-09-11 | Alibaba (Qwen) | Qwen3-Next-80B-A3B | TAU2-Telecom  | Qwen3-Next-80B-A3B-Thinking | score=43.9 | hf_card/main | https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking",
+   "2025-09-29 | Anthropic | Claude Sonnet 4.5 | τ2-bench [Telecom] | extended thinking with tool use; prompt addendum (agent + us | score=98.0% | secondary/main | https://leanware.co/insights/claude-sonnet-4-5-overview",
+   "2025-10-15 | Anthropic | Claude Haiku 4.5 | τ2-bench [Telecom] | avg 10 runs; extended thinking 128K; prompt addendum | score=83.0% | secondary/main | https://chatlyai.app/blog/what-is-claude-haiku-4.5",
+   "2025-11-12 | OpenAI | GPT-5.1 | Tau2-bench Telecom [Telecom] | reasoning effort high; short generically helpful prompt | score=95.6% | blog/appendix | https://openai.com/index/gpt-5-1-for-developers/",
+   "2025-11-19 | xAI | Grok 4.1 Fast (+ Agent Tools API) | τ²-Bench Telecom  | Grok 4.1 Fast | score=100% | blog/main | https://x.ai/news/grok-4-1-fast",
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | τ²-Bench [Telecom] | no extended thinking | score=98.2% | system_card/main | https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+   "2025-12-11 | OpenAI | GPT-5.2 (Thinking/Pro) | Tau2-bench Telecom [Telecom] | reasoning effort xhigh | score=98.7% | blog/main | https://openai.com/index/introducing-gpt-5-2/",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | τ²-bench [Telecom] | adaptive thinking, max effort; 5 trials | score=99.3% | system_card/main | https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+   "2026-02-17 | Anthropic | Claude Sonnet 4.6 | τ²-bench [Telecom] | adaptive thinking, max effort | score=97.9% | system_card/main | https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf",
+   "2026-02-19 | Google | Gemini 3.1 Pro | τ2-bench [Telecom] | Gemini 3.1 Pro Thinking (High) | score=99.3% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+   "2026-03-05 | OpenAI | GPT-5.4 (Thinking/Pro) | Tau2-bench Telecom [Telecom] | reasoning effort xhigh | score=98.9% | blog/main | https://openai.com/index/introducing-gpt-5-4/",
+   "2026-03-17 | OpenAI | GPT-5.4 mini and nano | τ2-bench (telecom) [Telecom] | reasoning effort xhigh | score=93.4% | blog/main | https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+   "2026-04-08 | Meta | Muse Spark (1.0; Meta Superintelligence Labs) | tau2-Bench Telecom [Agentic Tool Use (Artificial Analysis)] | Thinking mode | score=91.5 | blog/main | https://ai.meta.com/blog/introducing-muse-spark-msl/",
+   "2026-04-23 | OpenAI | GPT-5.5 | Tau2-bench Telecom (original prompts) [Telecom] | reasoning effort xhigh; original prompts (no prompt adjustme | score=98.0% | blog/main | https://openai.com/index/introducing-gpt-5-5/"
+  ]
+ },
+ {
+  "unit": "tau3-bench banking",
+  "family": "tau3-bench",
+  "labs_reporting": [
+   "Moonshot AI (Kimi)",
+   "xAI"
+  ],
+  "n_releases": 2,
+  "first_lab_report": "2026-07-16",
+  "last_lab_report": "2026-07-16",
+  "raw_names": [
+   "τ³-Banking",
+   "τ-bench (τ³-banking)"
+  ],
+  "lab_reports": [
+   "2026-07-16 | Moonshot AI (Kimi) | Kimi K3 | τ³-Banking [Agentic] | Kimi K3 (max effort); temp 1.0 | score=33.4 | github/main | https://github.com/MoonshotAI/Kimi-K3/blob/main/README.md",
+   "2026-07-16 | xAI | Grok 4.5 | τ-bench (τ³-banking) [accuracy] | Grok 4.5 (high) | score=32.6% | model_card/main | https://media.x.ai/v1/website/4p5-5184fdf9.pdf"
+  ]
+ }
+]

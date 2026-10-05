@@ -1,0 +1,526 @@
+[
+ {
+  "unit": "BrowseComp",
+  "family": "BrowseComp",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Moonshot AI (Kimi)",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 30,
+  "first_lab_report": "2025-04-16",
+  "last_lab_report": "2026-09-03",
+  "raw_names": [
+   "BrowseComp",
+   "BrowseComp Long Context 128k",
+   "BrowseComp Long Context 256k",
+   "BrowseComp (Agent Swarm)",
+   "BrowseComp (Pass@1)",
+   "BrowseComp (w/ctx manage)",
+   "BrowseComp RL training curve (Figure 2a)"
+  ],
+  "lab_reports": [
+   "2025-04-16 | OpenAI | o3 and o4-mini | BrowseComp  | python + browsing | score=49.7% | secondary/main | https://blog.biocomm.ai/wp-content/uploads/2025/04/Introducing-OpenAI-o3-and-o4-mini-OpenAI.pdf",
+   "2025-07-17 | OpenAI | ChatGPT agent | BrowseComp  |  | score=68.9% | blog/main | https://openai.com/index/introducing-chatgpt-agent/",
+   "2025-08-07 | OpenAI | GPT-5 (incl. mini, nano, pro) | BrowseComp Long Context 128k [Long Context 128k] | reasoning effort high | score=90.0% | blog/appendix | https://openai.com/index/introducing-gpt-5-for-developers/",
+   "2025-08-21 | DeepSeek | DeepSeek-V3.1 (hybrid thinking) | BrowseComp [search agent (internal framework: commer] | V3.1-Thinking | score=30.0 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
+   "2025-09-19 | xAI | Grok 4 Fast | BrowseComp  | pass@1 (search/agentic) | score=44.9% | blog/main | https://x.ai/news/grok-4-fast",
+   "2025-09-22 | DeepSeek | DeepSeek-V3.1-Terminus | BrowseComp  | Agentic tool use | score=38.5 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus",
+   "2025-09-29 | DeepSeek | DeepSeek-V3.2-Exp | BrowseComp [Agentic tool use] |  | score=40.1 | github/main | https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf",
+   "2025-11-06 | Moonshot AI (Kimi) | Kimi K2 Thinking | BrowseComp [w/ tools] | Kimi K2 Thinking (INT4); max 300 steps | score=60.2 | hf_card/main | https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+   "2025-11-12 | OpenAI | GPT-5.1 | BrowseComp Long Context 128k [Long Context 128k] | reasoning effort high | score=90.0% | blog/appendix | https://openai.com/index/gpt-5-1-for-developers/",
+   "2025-12-01 | DeepSeek | DeepSeek-V3.2 and V3.2-Speciale | BrowseComp (Pass@1) [Search agent] | thinking mode | score=51.4 / 67.6* | tech_report/main | https://arxiv.org/abs/2512.02556",
+   "2025-12-11 | OpenAI | GPT-5.2 (Thinking/Pro) | BrowseComp Long Context 128k [Long Context 128k] | reasoning effort xhigh | score=92.0% | blog/main | https://openai.com/index/introducing-gpt-5-2/",
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | BrowseComp (Agent Swarm) [main agent 15 steps; sub-agents 100] | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=78.4 | github/main | https://github.com/MoonshotAI/Kimi-K2.5/blob/master/README.md",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | BrowseComp  | web search/fetch, programmatic tool calling, compaction to 1 | score=84.0% | secondary/main | https://felloai.com/anthropic-claude-opus-4-6/",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | BrowseComp  | Qwen3.5-397B-A17B (thinking, default) | score=69.0 | hf_card/main | https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+   "2026-02-17 | Anthropic | Claude Sonnet 4.6 | BrowseComp  | web tools, compaction to 10M, max effort, no thinking | score=74.01% | system_card/main | https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf",
+   "2026-02-19 | Google | Gemini 3.1 Pro | BrowseComp [Search + Python + Browse] | Gemini 3.1 Pro Thinking (High) | score=85.9% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+   "2026-03-05 | OpenAI | GPT-5.4 (Thinking/Pro) | BrowseComp  | reasoning effort xhigh | score=82.7% | blog/main | https://openai.com/index/introducing-gpt-5-4/",
+   "2026-04 | Moonshot AI (Kimi) | Kimi K2.6 | BrowseComp (Agent Swarm)  | Kimi K2.6 (thinking) | score=86.3 | hf_card/main | https://huggingface.co/moonshotai/Kimi-K2.6",
+   "2026-04-07 | Anthropic | Claude Mythos Preview | BrowseComp  | search, fetch, PTC, code exec; max effort; 3M token limit | score=86.9% | system_card/main | https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | BrowseComp  | thinking off, max effort, 10M token limit | score=79.3% | system_card/main | https://www-cdn.anthropic.com/037f06850df7fbe871e206dad004c3db5fd50340/Claude%20Opus%204.7%20System%20Card.pdf",
+   "2026-04-23 | OpenAI | GPT-5.5 | BrowseComp  | reasoning effort xhigh | score=84.4% | blog/main | https://openai.com/index/introducing-gpt-5-5/",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | BrowseComp (Pass@1) [in-house harness; discard-all context ma] | DeepSeek-V4-Pro-Max (max reasoning effort) | score=83.4 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | BrowseComp [single-agent / multi-agent] | adaptive thinking, max effort, 10M token limit; new blocklis | score=84.3% / 88.5% | system_card/main | https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude-Opus-4.8-System-Card.pdf",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | BrowseComp [single-agent / multi-agent] | max effort, 10M token limit | score=88.0% / 93.3% | system_card/main | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | BrowseComp [single / multi agent] | 10M token limit with compaction | score=84.7% / 86.6% | system_card/main | https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+   "2026-07-08 | OpenAI | GPT-Live (GPT-Live-1, GPT-Live-1 mini) | BrowseComp  | voice | score= | blog/main | https://openai.com/index/introducing-gpt-live/",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | BrowseComp  |  | score=90.4% | blog/main | https://openai.com/index/gpt-5-6/",
+   "2026-07-16 | Moonshot AI (Kimi) | Kimi K3 | BrowseComp [Agentic] | Kimi K3 (max effort); temp 1.0 | score=91.2 | github/main | https://github.com/MoonshotAI/Kimi-K3/blob/main/README.md",
+   "2026-07-24 | Anthropic | Claude Opus 5 | BrowseComp  |  | score=90.8% | system_card/main | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-09-03 | OpenAI | GPT-6 Astra | BrowseComp  |  | score=91.5% | blog/main | https://openai.com/index/gpt-6-astra/"
+  ]
+ },
+ {
+  "unit": "BrowseComp-ZH",
+  "family": "BrowseComp-ZH",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "DeepSeek",
+   "Moonshot AI (Kimi)",
+   "xAI"
+  ],
+  "n_releases": 7,
+  "first_lab_report": "2025-08-21",
+  "last_lab_report": "2026-02-16",
+  "raw_names": [
+   "BrowseComp-zh",
+   "BrowseComp-ZH",
+   "BrowseComp_zh",
+   "BrowseCompZh (Pass@1)",
+   "BrowseComp (zh)"
+  ],
+  "lab_reports": [
+   "2025-08-21 | DeepSeek | DeepSeek-V3.1 (hybrid thinking) | BrowseComp_zh [search agent] | V3.1-Thinking | score=49.2 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
+   "2025-09-19 | xAI | Grok 4 Fast | BrowseComp (zh)  | pass@1 | score=51.2% | blog/main | https://x.ai/news/grok-4-fast",
+   "2025-09-22 | DeepSeek | DeepSeek-V3.1-Terminus | BrowseComp-zh  | Agentic tool use | score=45.0 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus",
+   "2025-09-29 | DeepSeek | DeepSeek-V3.2-Exp | BrowseComp-zh [Agentic tool use] |  | score=47.9 | github/main | https://github.com/deepseek-ai/DeepSeek-V3.2-Exp",
+   "2025-11-06 | Moonshot AI (Kimi) | Kimi K2 Thinking | BrowseComp-ZH [w/ tools] | Kimi K2 Thinking (INT4); avg@4 | score=62.3 | hf_card/main | https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+   "2025-12-01 | DeepSeek | DeepSeek-V3.2 and V3.2-Speciale | BrowseCompZh (Pass@1) [Search agent] | thinking mode | score=65.0 | tech_report/main | https://arxiv.org/abs/2512.02556",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | BrowseComp-zh  | Qwen3.5-397B-A17B (thinking, default) | score=70.3 | hf_card/main | https://huggingface.co/Qwen/Qwen3.5-397B-A17B"
+  ]
+ },
+ {
+  "unit": "CVE-Bench",
+  "family": "CVE-Bench",
+  "labs_reporting": [
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 12,
+  "first_lab_report": "2025-11-19",
+  "last_lab_report": "2026-09-21",
+  "raw_names": [
+   "CVE-Bench"
+  ],
+  "lab_reports": [
+   "2025-11-19 | OpenAI | GPT-5.1-Codex-Max | CVE-Bench  |  | score= | system_card/appendix | https://cdn.openai.com/pdf/2a7d98b1-57e5-4147-8d0e-683894d782ae/5p1_codex_max_card_03.pdf",
+   "2025-12-11 | OpenAI | GPT-5.2 (Thinking/Pro) | CVE-Bench  |  | score= | system_card/appendix | https://cdn.openai.com/pdf/3a4153c8-c748-4b71-8e31-aecbde944f8d/oai_5_2_system-card.pdf",
+   "2025-12-18 | OpenAI | GPT-5.2-Codex | CVE-Bench  |  | score= | system_card/appendix | https://cdn.openai.com/pdf/ac7c37ae-7f4c-4442-b741-2eabdeaf77e0/oai_5_2_Codex.pdf",
+   "2026-02-05 | OpenAI | GPT-5.3-Codex | CVE-Bench  |  | score= | system_card/appendix | https://cdn.openai.com/pdf/23eca107-a9b1-4d2c-b156-7deb4fbc697c/GPT-5-3-Codex-System-Card-02.pdf",
+   "2026-03-05 | OpenAI | GPT-5.4 (Thinking/Pro) | CVE-Bench  | pass@1 | score=86.27% | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-4-thinking/gpt-5-4-thinking.pdf",
+   "2026-03-17 | OpenAI | GPT-5.4 mini and nano | CVE-Bench  | pass@1 | score=83.33% | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-4-thinking/gpt-5-4-thinking.pdf",
+   "2026-04-23 | OpenAI | GPT-5.5 | CVE-Bench  |  | score= | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-5/gpt-5-5.pdf",
+   "2026-05-05 | OpenAI | GPT-5.5 Instant | CVE-Bench  |  | score= | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-5-instant",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | CVE-Bench  |  | score= | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf",
+   "2026-08-06 | OpenAI | GPT-5.6 Sol and Luna (August update; ChatGPT default replaci | CVE-Bench  |  | score= | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-6-august-update",
+   "2026-08-12 | xAI | Grok 4.6 | CVE-Bench  | Grok 4.6 (high) | score=39.8% | model_card/main | https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+   "2026-09-21 | xAI | Grok 4.7 | CVE-Bench [reward] | Grok 4.7 (xhigh) | score=36.6% | model_card/main | https://media.x.ai/v1/website/card4p7-3a96f40b.pdf"
+  ]
+ },
+ {
+  "unit": "Claw-Eval",
+  "family": "Claw-Eval",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 5,
+  "first_lab_report": "2026-04",
+  "last_lab_report": "2026-08-03",
+  "raw_names": [
+   "ClawEval",
+   "ClawEval-MM",
+   "Claw-Eval Avg",
+   "Claw-Eval Pass^3",
+   "Claw Eval (pass^3)",
+   "Claw Eval (pass@3)"
+  ],
+  "lab_reports": [
+   "2026-04 | Moonshot AI (Kimi) | Kimi K2.6 | Claw Eval (pass@3) [v1.1] | Kimi K2.6 (thinking) | score=80.9 | hf_card/main | https://huggingface.co/moonshotai/Kimi-K2.6",
+   "2026-04-01 | Alibaba (Qwen) | Qwen3.6-Plus | Claw-Eval Avg  | Qwen3.6-Plus | score=74.8 | blog/main | https://qwen.ai/blog?id=qwen3.6",
+   "2026-05-20 | Alibaba (Qwen) | Qwen3.7-Max | ClawEval  | Qwen3.7-Max | score=65.2 | blog/main | https://qwen.ai/blog?id=qwen3.7",
+   "2026-06-01 | Alibaba (Qwen) | Qwen3.7-Plus | ClawEval  | Qwen3.7-Plus | score=62.7 | blog/main | https://qwen.ai/blog?id=qwen3.7-plus",
+   "2026-08-03 | Alibaba (Qwen) | Qwen3.8-Max (open weights Qwen3.8-2.4T-A95B) | ClawEval-MM [Pass@3 / average score] | Qwen3.8-Max (multimodal) | score=77.2 / 74.8 | blog/main | https://qwen.ai/blog?id=qwen3.8"
+  ]
+ },
+ {
+  "unit": "CyScenarioBench",
+  "family": "CyScenarioBench",
+  "labs_reporting": [
+   "Anthropic",
+   "Meta",
+   "OpenAI"
+  ],
+  "n_releases": 7,
+  "first_lab_report": "2026-04-08",
+  "last_lab_report": "2026-09-28",
+  "raw_names": [
+   "CyScenarioBench",
+   "External Evaluations for Cyber – Irregular: FrontierCyber / CyScenarioBench / Atomic Challenges"
+  ],
+  "lab_reports": [
+   "2026-04-08 | Meta | Muse Spark (1.0; Meta Superintelligence Labs) | CyScenarioBench [10 scenarios] | Thinking configuration; capabilities related to catastrophic | score=0.0 | system_card/main | https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | CyScenarioBench  | success rate | score= | blog/main | https://www.anthropic.com/news/claude-fable-5-mythos-5",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | CyScenarioBench [pass@1 / pass@20, 10 scenarios] | safety/preparedness (Sections 2-4) | score=0.5 / 10.0 | system_card/main | https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report/",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | External Evaluations for Cyber – Irregular: FrontierCyber /  [third-party] |  | score=19/197; 7/11; 22/22 | system_card/appendix | https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf",
+   "2026-07-24 | Anthropic | Claude Opus 5 | CyScenarioBench [private novel scenarios] |  | score= | system_card/appendix | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | CyScenarioBench  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | CyScenarioBench  |  | score= | system_card/appendix | https://www.anthropic.com/claude-sonnet-5-5-system-card"
+  ]
+ },
+ {
+  "unit": "Cybench",
+  "family": "Cybench",
+  "labs_reporting": [
+   "Anthropic",
+   "Meta",
+   "xAI"
+  ],
+  "n_releases": 17,
+  "first_lab_report": "2025-02-24",
+  "last_lab_report": "2026-07-09",
+  "raw_names": [
+   "Cybench",
+   "CyBench",
+   "CyBench (pass@1)"
+  ],
+  "lab_reports": [
+   "2025-02-24 | Anthropic | Claude 3.7 Sonnet | Cybench  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/9ff93dfa8f445c932415d335c88852ef47f1201e.pdf",
+   "2025-05-22 | Anthropic | Claude Opus 4 and Claude Sonnet 4 | Cybench [39 challenges] | pass@30 | score=22/39 | system_card/appendix | https://www-cdn.anthropic.com/07b2a3f9902ee19fe39a36ca638e5ae987bc64dd.pdf",
+   "2025-07-09 | xAI | Grok 4 (and Grok 4 Heavy) | CyBench [unguided success rate] | Grok 4 API | score=0.43 | model_card/main | https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+   "2025-08-05 | Anthropic | Claude Opus 4.1 | Cybench [35-challenge subset] |  | score=18/35 | system_card/appendix | https://www-cdn.anthropic.com/9fa30625273bafdf5af82c93719d7ca606485a16.pdf",
+   "2025-08-28 | xAI | Grok Code Fast 1 | CyBench [unguided success rate] |  | score=22.5 | model_card/main | https://data.x.ai/2025-08-26-grok-code-fast-1-model-card.pdf",
+   "2025-09-19 | xAI | Grok 4 Fast | CyBench [unguided success rate] | Grok 4 Fast | score=30.0 | model_card/main | https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf",
+   "2025-09-29 | Anthropic | Claude Sonnet 4.5 | Cybench  | pass@30 | score=~80% | system_card/appendix | https://www-cdn.anthropic.com/963373e433e489a87a10c823c52a0a013e9172dd.pdf",
+   "2025-10-15 | Anthropic | Claude Haiku 4.5 | Cybench [32-challenge subset] |  | score=15/32 | system_card/appendix | https://www-cdn.anthropic.com/7aad69bf12627d42234e01ee7c36305dc2f6a970.pdf",
+   "2025-11-17 | xAI | Grok 4.1 (Thinking / non-thinking) | CyBench [success rate] | Grok 4.1 Thinking | score=0.39 | model_card/main | https://data.x.ai/2025-11-17-grok-4-1-model-card.pdf",
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | Cybench [RSP subset] | avg pass@1 | score=0.82 | system_card/appendix | https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | Cybench  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+   "2026-02-17 | Anthropic | Claude Sonnet 4.6 | Cybench  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf",
+   "2026-02-17 | xAI | Grok 4.20 (beta; single- and multi-agent) | CyBench [success rate] | Grok 4.20 SA | score=0.53 | system_card/main | https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf",
+   "2026-04-07 | Anthropic | Claude Mythos Preview | Cybench [35-challenge subset] | 10 trials/challenge | score=100% pass@1 | system_card/appendix | https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf",
+   "2026-04-08 | Meta | Muse Spark (1.0; Meta Superintelligence Labs) | CyBench (pass@1) [40 challenges] | Thinking configuration; capabilities related to catastrophic | score=65.4 | system_card/main | https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | Cybench  | pass@1, 10 trials/challenge | score=96% | system_card/appendix | https://www-cdn.anthropic.com/037f06850df7fbe871e206dad004c3db5fd50340/Claude%20Opus%204.7%20System%20Card.pdf",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | Cybench [pass@1 / pass@10, unguided] | safety/preparedness (Sections 2-4) | score=92.9 / 97.0 | system_card/main | https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report/"
+  ]
+ },
+ {
+  "unit": "CyberGym",
+  "family": "CyberGym",
+  "labs_reporting": [
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Moonshot AI (Kimi)",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 21,
+  "first_lab_report": "2025-09-29",
+  "last_lab_report": "2026-09-21",
+  "raw_names": [
+   "CyberGym",
+   "Cybergym",
+   "CyberGym (Pass@1)"
+  ],
+  "lab_reports": [
+   "2025-09-29 | Anthropic | Claude Sonnet 4.5 | CyberGym [vulnerability reproduction / new vulnera] | 1 trial, $2 cost cap; and 30 trials | score= | system_card/appendix | https://www-cdn.anthropic.com/963373e433e489a87a10c823c52a0a013e9172dd.pdf",
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | CyberGym  |  | score=50.63% | system_card/appendix | https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | CyberGym  | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=41.3 | github/main | https://github.com/MoonshotAI/Kimi-K2.5/blob/master/README.md",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | CyberGym [1,507 tasks] | pass@1; no thinking; default effort; think tool | score=66.6% | system_card/main | https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+   "2026-02-17 | Anthropic | Claude Sonnet 4.6 | CyberGym  | pass@1; no thinking | score=65.2% | system_card/appendix | https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf",
+   "2026-04-07 | Anthropic | Claude Mythos Preview | CyberGym [1,507 tasks; targeted vulnerability repr] | pass@1; no thinking; think tool | score=83.1% | blog/main | https://www.anthropic.com/glasswing",
+   "2026-04-08 | Meta | Muse Spark (1.0; Meta Superintelligence Labs) | CyberGym  | Thinking configuration; capabilities related to catastrophic | score=43.5 | system_card/main | https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | CyberGym [1,507 tasks] | pass@1 | score=~Opus 4.6 (0.74) | system_card/appendix | https://www-cdn.anthropic.com/037f06850df7fbe871e206dad004c3db5fd50340/Claude%20Opus%204.7%20System%20Card.pdf",
+   "2026-04-23 | OpenAI | GPT-5.5 | CyberGym  | reasoning effort xhigh | score=81.8% | blog/main | https://openai.com/index/introducing-gpt-5-5/",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | CyberGym [1,507 tasks] | pass@1, no safeguards | score=78.8% | system_card/appendix | https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude-Opus-4.8-System-Card.pdf",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | CyberGym [1,507 tasks] | pass@1 | score=83.8% | system_card/appendix | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | CyberGym  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | CyberGym [pass@1, 1,507 tasks] | safety/preparedness (Sections 2-4) | score=59.0 | system_card/main | https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report/",
+   "2026-07-16 | xAI | Grok 4.5 | CyberGym [mean reproduced] | Grok 4.5 (high) | score=80.4% | model_card/main | https://media.x.ai/v1/website/4p5-5184fdf9.pdf",
+   "2026-07-31 | DeepSeek | DeepSeek-V4-Flash-0731 (official V4-Flash) | Cybergym  | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=76.7 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+   "2026-08-12 | xAI | Grok 4.6 | CyberGym  | Grok 4.6 (high) | score=79.7% | model_card/main | https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+   "2026-08-13 | DeepSeek | DeepSeek-V4-Pro-0813 (V4-Pro GA) | Cybergym  | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=83.3 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+   "2026-08-21 | DeepSeek | DeepSeek-V4-Flash-Vision-Exp | Cybergym [text agent] | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=75.3 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+   "2026-09-02 | Google | Gemini 3.8 Flash | CyberGym [vulnerability discovery] | Gemini 3.8 Flash Cyber (specialized variant) | score= | blog/main | https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | CyberGym (Pass@1)  | max reasoning effort (reasoning_effort=100), temp 1.0, top_p | score=88.1 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+   "2026-09-21 | xAI | Grok 4.7 | CyberGym [mean reproduced] | Grok 4.7 (high) | score=80.3% | model_card/main | https://media.x.ai/v1/website/card4p7-3a96f40b.pdf"
+  ]
+ },
+ {
+  "unit": "DeepSWE",
+  "family": "DeepSWE",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Moonshot AI (Kimi)",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 23,
+  "first_lab_report": "2026-07-09",
+  "last_lab_report": "2026-09-29",
+  "raw_names": [
+   "DeepSWE v1.1",
+   "DeepSWE 1.1",
+   "DeepSWE",
+   "DeepSWE v1.1 (Resolved)",
+   "DeepSWE v1.1 across agent scaffolds",
+   "DeepSWE 1.0",
+   "DeepSWE v1.0"
+  ],
+  "lab_reports": [
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | DeepSWE 1.1 [Long-horizon agentic coding] | highest reasoning effort; Coding | score=53.3 | model_card/main | https://dev.meta.ai/models/muse-spark-1-1/",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | DeepSWE v1.1 [v1.1] |  | score=72.7% | blog/main | https://openai.com/index/gpt-5-6/",
+   "2026-07-16 | Moonshot AI (Kimi) | Kimi K3 | DeepSWE [Coding] | Kimi K3 (max effort); temp 1.0 | score=67.5 | github/main | https://github.com/MoonshotAI/Kimi-K3/blob/main/README.md",
+   "2026-07-16 | xAI | Grok 4.5 | DeepSWE 1.0 [eval created by Datacurve, run with each] | Grok 4.5 | score=62.0% | blog/main | https://media.x.ai/v1/website/4p5-5184fdf9.pdf",
+   "2026-07-21 | Google | Gemini 3.6 Flash | DeepSWE v1.1 [Datacurve] | Gemini 3.6 Flash | score=49% | blog/main | https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+   "2026-07-24 | Anthropic | Claude Opus 5 | DeepSWE v1.1 [113 long-horizon tasks] | avg 5 trials | score=68.8% | system_card/main | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-07-31 | DeepSeek | DeepSeek-V4-Flash-0731 (official V4-Flash) | DeepSWE  | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=54.4 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+   "2026-08-03 | Alibaba (Qwen) | Qwen3.8-Max (open weights Qwen3.8-2.4T-A95B) | DeepSWE 1.1 [best of Claude Code / mini-SWE-agent] | Qwen3.8-Max | score=56.6 | blog/main | https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "2026-08-05 | Meta | Muse Spark 1.2 (+ Muse Code) | DeepSWE 1.1  | Muse Code harness | score=59.3% | model_card/main | https://dev.meta.ai/models/muse-spark-1-2/",
+   "2026-08-12 | xAI | Grok 4.6 | DeepSWE v1.1  | Grok 4.6 (xhigh) | score=67.0% | model_card/main | https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+   "2026-08-13 | DeepSeek | DeepSeek-V4-Pro-0813 (V4-Pro GA) | DeepSWE  | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=62.7 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+   "2026-08-13 | Google | Gemini 3.7 Flash | DeepSWE v1.1 [mini swe agent harness, high thinking] | Gemini 3.7 Flash | score=65.3% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+   "2026-08-21 | DeepSeek | DeepSeek-V4-Flash-Vision-Exp | DeepSWE [text agent] | DeepSeek Harness minimal mode; max effort; temp 1.0, top_p 0 | score=59.3 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | DeepSWE v1.1 [113 tasks] | avg 5 trials | score=67.4% | system_card/appendix | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-02 | Google | Gemini 3.8 Flash | DeepSWE v1.1  | Gemini 3.8 Flash | score=73.7% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-8-flash",
+   "2026-09-02 | Meta | Muse Spark 1.3 | DeepSWE v1.1 [Long-horizon agentic coding] | max reasoning; Coding | score=75.4 | model_card/main | https://dev.meta.ai/models/muse-spark/",
+   "2026-09-03 | OpenAI | GPT-6 Astra | DeepSWE v1.1 [v1.1] |  | score=74.1% | blog/main | https://openai.com/index/gpt-6-astra/",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | DeepSWE v1.1 (Resolved)  | max reasoning effort (reasoning_effort=100), temp 1.0, top_p | score=74.2 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+   "2026-09-21 | xAI | Grok 4.7 | DeepSWE v1.1 [software engineering] | Grok 4.7 (high effort) | score=71.0% | blog/main | https://media.x.ai/v1/website/card4p7-3a96f40b.pdf",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | DeepSWE v1.1 [113 tasks] | avg 5 trials | score=74.2% | system_card/appendix | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-22 | OpenAI | GPT-6 Sol and GPT-6 Luna | DeepSWE v1.1 [v1.1] | reasoning effort max | score=68.8% | blog/main | https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | DeepSWE v1.1  | avg 5 trials | score=71.0% | system_card/appendix | https://www.anthropic.com/claude-sonnet-5-5-system-card",
+   "2026-09-29 | OpenAI | GPT-6.1 Sol | DeepSWE v1.1 [v1.1] |  | score= | blog/main | https://openai.com/index/introducing-gpt-6-1-sol/"
+  ]
+ },
+ {
+  "unit": "DeepSearchQA",
+  "family": "DeepSearchQA",
+  "labs_reporting": [
+   "Anthropic",
+   "Meta",
+   "Moonshot AI (Kimi)",
+   "xAI"
+  ],
+  "n_releases": 14,
+  "first_lab_report": "2026-01",
+  "last_lab_report": "2026-09-02",
+  "raw_names": [
+   "DeepSearchQA",
+   "DeepSearchQA (f1-score)",
+   "DeepSearchQA (accuracy)",
+   "DeepSearchQA (F1)"
+  ],
+  "lab_reports": [
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | DeepSearchQA  | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=77.1 | github/main | https://github.com/MoonshotAI/Kimi-K2.5/blob/master/README.md",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | DeepSearchQA [900 prompts] | single agent with tools; compaction up to 10M | score=91.3% F1 | system_card/main | https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+   "2026-02-17 | Anthropic | Claude Sonnet 4.6 | DeepSearchQA [single / multi-agent] | F1 | score=91.1% (multi-agent) | system_card/appendix | https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf",
+   "2026-04 | Moonshot AI (Kimi) | Kimi K2.6 | DeepSearchQA (f1-score) [no context management] | Kimi K2.6 (thinking) | score=92.5 | hf_card/main | https://huggingface.co/moonshotai/Kimi-K2.6",
+   "2026-04-08 | Meta | Muse Spark (1.0; Meta Superintelligence Labs) | DeepSearchQA [Agentic Search] | Thinking mode | score=74.8 | blog/main | https://ai.meta.com/blog/introducing-muse-spark-msl/",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | DeepSearchQA  | max effort, compaction to 10M | score=89.1% F1 | system_card/appendix | https://www-cdn.anthropic.com/037f06850df7fbe871e206dad004c3db5fd50340/Claude%20Opus%204.7%20System%20Card.pdf",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | DeepSearchQA  | 1M token budget, no compaction | score= | system_card/appendix | https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude-Opus-4.8-System-Card.pdf",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | DeepSearchQA  |  | score= | system_card/appendix | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | DeepSearchQA [F1] | Section 5 general capabilities | score=84.9 | system_card/main | https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report/",
+   "2026-07-16 | Moonshot AI (Kimi) | Kimi K3 | DeepSearchQA (F1) [Agentic] | Kimi K3 (max effort); temp 1.0 | score=95.0 | github/main | https://github.com/MoonshotAI/Kimi-K3/blob/main/README.md",
+   "2026-07-16 | xAI | Grok 4.5 | DeepSearchQA [accuracy] | Grok 4.5 (high) | score=38.4% | model_card/main | https://media.x.ai/v1/website/4p5-5184fdf9.pdf",
+   "2026-07-24 | Anthropic | Claude Opus 5 | DeepSearchQA  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-08-12 | xAI | Grok 4.6 | DeepSearchQA  | Grok 4.6 (high) | score=81.6% | model_card/main | https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+   "2026-09-02 | Meta | Muse Spark 1.3 | DeepSearchQA [Agentic browsing] | max reasoning; Agent | score=90.3 | model_card/main | https://dev.meta.ai/models/muse-spark/"
+  ]
+ },
+ {
+  "unit": "ExploitBench",
+  "family": "ExploitBench",
+  "labs_reporting": [
+   "Anthropic",
+   "OpenAI"
+  ],
+  "n_releases": 11,
+  "first_lab_report": "2026-05-28",
+  "last_lab_report": "2026-09-29",
+  "raw_names": [
+   "ExploitBench",
+   "ExploitBench (June-Aug 2026)",
+   "ExploitBench - Internal Port (June–August 2026)",
+   "ExploitBench - Internal Port"
+  ],
+  "lab_reports": [
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | ExploitBench [41 patched V8 vulnerabilities; plain / A] | 300 turns; max 16 | score=5.45 (AutoNudge) / 5 | system_card/appendix | https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude-Opus-4.8-System-Card.pdf",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | ExploitBench [41 V8 environments] | mean capability flags (plain / AutoNudge) | score=10.44 / 10.75 | system_card/appendix | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-06-26 | OpenAI | GPT-5.6 Sol (preview) | ExploitBench  |  | score= | blog/main | https://openai.com/index/previewing-gpt-5-6-sol/",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | ExploitBench [41 V8 environments] | mean capability flags (plain / AutoNudge) | score=3.96 / 4.18 | system_card/appendix | https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | ExploitBench  | API harness, 5 seeds, reasoning continuity | score=73.5% | blog/main | https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf",
+   "2026-07-24 | Anthropic | Claude Opus 5 | ExploitBench [41 V8 environments] | mean capability flags (plain / AutoNudge) | score=9.62 / 10.14 | system_card/appendix | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | ExploitBench [41 V8 environments] | Mythos 5.1, mean flags plain / AutoNudge | score=11.80 / 12.61 | system_card/appendix | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-03 | OpenAI | GPT-6 Astra | ExploitBench  |  | score=100.0% | blog/main | https://deploymentsafety.openai.com/gpt-6-astra",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | ExploitBench  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | ExploitBench  |  | score= | system_card/appendix | https://www.anthropic.com/claude-sonnet-5-5-system-card",
+   "2026-09-29 | OpenAI | GPT-6.1 Sol | ExploitBench  | max reasoning effort | score=99.7% | system_card/appendix | https://deploymentsafety.openai.com/gpt-6-1-sol"
+  ]
+ },
+ {
+  "unit": "ExploitGym",
+  "family": "ExploitGym",
+  "labs_reporting": [
+   "Anthropic",
+   "DeepSeek",
+   "Meta",
+   "OpenAI"
+  ],
+  "n_releases": 10,
+  "first_lab_report": "2026-06-26",
+  "last_lab_report": "2026-09-29",
+  "raw_names": [
+   "ExploitGym",
+   "ExploitGym honeypot (lower is better)",
+   "Impossible ExploitGym",
+   "Declining to Exploit a Honeypot During Difficult ExploitGym Problems",
+   "Declining to Exploit Honeypot During Difficult ExploitGym Problems",
+   "ExploitGym (Pass@1)"
+  ],
+  "lab_reports": [
+   "2026-06-26 | OpenAI | GPT-5.6 Sol (preview) | ExploitGym  |  | score= | blog/main | https://openai.com/index/previewing-gpt-5-6-sol/",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | ExploitGym [pass@1, 2h / 4h timeout, 869 tasks] | safety/preparedness (Sections 2-4) | score=0.8 / 1.1 | system_card/main | https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report/",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | ExploitGym  | alpha API | score=33.7% | blog/main | https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf",
+   "2026-07-24 | Anthropic | Claude Opus 5 | ExploitGym  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | ExploitGym  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-03 | OpenAI | GPT-6 Astra | Impossible ExploitGym [impossible tasks] |  | score=100.0% | blog/main | https://deploymentsafety.openai.com/gpt-6-astra",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | ExploitGym (Pass@1)  | max reasoning effort (reasoning_effort=100), temp 1.0, top_p | score=15.3 | hf_card/main | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | ExploitGym [869 instances] |  | score= | system_card/appendix | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | ExploitGym  |  | score= | system_card/appendix | https://www.anthropic.com/claude-sonnet-5-5-system-card",
+   "2026-09-29 | OpenAI | GPT-6.1 Sol | ExploitGym  | intended-vulnerability success | score=35.1% | system_card/appendix | https://deploymentsafety.openai.com/gpt-6-1-sol"
+  ]
+ },
+ {
+  "unit": "Finance Agent",
+  "family": "Finance Agent",
+  "labs_reporting": [
+   "Anthropic",
+   "Google",
+   "Meta",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 13,
+  "first_lab_report": "2025-09-29",
+  "last_lab_report": "2026-09-02",
+  "raw_names": [
+   "Finance Agent v2",
+   "Finance Agent",
+   "FinanceAgent v1.1",
+   "FinanceAgent",
+   "Vals Finance Agent v2"
+  ],
+  "lab_reports": [
+   "2025-09-29 | Anthropic | Claude Sonnet 4.5 | Finance Agent [Vals AI] | extended thinking (64K), interleaved thinking; run/published | score=55.3% | secondary/main | https://leanware.co/insights/claude-sonnet-4-5-overview",
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | FinanceAgent [Vals AI] | 64k thinking, 200k context; external (8 trials) / internal ( | score=55.2% (external) | system_card/appendix | https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | Finance Agent [Vals AI] | adaptive thinking, max effort | score=60.7% | system_card/main | https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+   "2026-02-17 | Anthropic | Claude Sonnet 4.6 | Finance Agent [Vals AI] | max effort | score=63.3% | system_card/appendix | https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf",
+   "2026-03-05 | OpenAI | GPT-5.4 (Thinking/Pro) | FinanceAgent v1.1 [v1.1] | reasoning effort xhigh | score=56.0% | blog/main | https://openai.com/index/introducing-gpt-5-4/",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | Finance Agent [v1.1 (Vals AI)] | adaptive thinking, high effort | score=64.4% | system_card/main | https://www-cdn.anthropic.com/037f06850df7fbe871e206dad004c3db5fd50340/Claude%20Opus%204.7%20System%20Card.pdf",
+   "2026-04-23 | OpenAI | GPT-5.5 | FinanceAgent v1.1 [v1.1] | reasoning effort xhigh | score=60.0% | blog/main | https://openai.com/index/introducing-gpt-5-5/",
+   "2026-05-19 | Google | Gemini 3.5 Flash | Finance Agent v2  | Gemini 3.5 Flash | score=57.9% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-5-flash/",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | Finance Agent v2 [Vals AI (v2, May 2026)] |  | score=53.9% | system_card/main | https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude-Opus-4.8-System-Card.pdf",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | Finance Agent v2 [Vals AI] | max effort | score=56.31% | system_card/appendix | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-07-09 | Meta | Muse Spark 1.1 (Meta Superintelligence Labs) | Finance Agent v2 [Agentic financial analysis] | highest reasoning effort; Agents | score=57.2 | model_card/main | https://dev.meta.ai/models/muse-spark-1-1/",
+   "2026-07-16 | Moonshot AI (Kimi) | Kimi K3 | Finance Agent v2 [Agentic] | Kimi K3 (max effort); temp 1.0 | score=54.4 | github/main | https://github.com/MoonshotAI/Kimi-K3/blob/main/README.md",
+   "2026-09-02 | Google | Gemini 3.8 Flash | Vals Finance Agent v2  | Gemini 3.8 Flash | score=61.4% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-8-flash"
+  ]
+ },
+ {
+  "unit": "FrontierCode",
+  "family": "FrontierCode",
+  "labs_reporting": [
+   "Anthropic",
+   "Google",
+   "OpenAI",
+   "xAI"
+  ],
+  "n_releases": 10,
+  "first_lab_report": "2026-06-09",
+  "last_lab_report": "2026-09-28",
+  "raw_names": [
+   "FrontierCode v1.1",
+   "FrontierCode 1.1",
+   "FrontierCode (Cognition)",
+   "FrontierCode v1",
+   "FrontierCode 1.1 Main",
+   "FrontierCode 1.1 Extended (score)",
+   "FrontierCode 1.1 Main (score)",
+   "FrontierCode",
+   "FrontierCode v1.1 (Extended)"
+  ],
+  "lab_reports": [
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | FrontierCode (Cognition) [Diamond subset / Main subset] | xhigh effort; score | score=29.3% / 46.3% | system_card/main | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | FrontierCode v1  |  | score=38.8% | system_card/main | https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+   "2026-07-24 | Anthropic | Claude Opus 5 | FrontierCode 1.1 [Main] | mean@5 | score=53.4% | system_card/main | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-08-12 | xAI | Grok 4.6 | FrontierCode v1.1 (Extended)  | Grok 4.6 High | score=61.3% | blog/main | https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+   "2026-08-13 | Google | Gemini 3.7 Flash | FrontierCode 1.1 Main [score] | Gemini 3.7 Flash | score=43.6% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | FrontierCode 1.1 [Main / Extended] | medium effort | score=50.9% / 63.6% | system_card/appendix | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-03 | OpenAI | GPT-6 Astra | FrontierCode 1.1 Extended (score) [1.1 Extended] | score | score=64.5% | blog/main | https://openai.com/index/gpt-6-astra/",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | FrontierCode v1.1 [Main] |  | score=54.4% | system_card/main | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-22 | OpenAI | GPT-6 Sol and GPT-6 Luna | FrontierCode  |  | score= | blog/main | https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | FrontierCode v1.1 [Main] | max effort | score=46.2% | system_card/main | https://www.anthropic.com/claude-sonnet-5-5-system-card"
+  ]
+ },
+ {
+  "unit": "FrontierSWE",
+  "family": "FrontierSWE",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "Moonshot AI (Kimi)",
+   "xAI"
+  ],
+  "n_releases": 9,
+  "first_lab_report": "2026-05-28",
+  "last_lab_report": "2026-09-28",
+  "raw_names": [
+   "FrontierSWE",
+   "FrontierSWE (Proximal)",
+   "FrontierSWE v2 (Proximal)",
+   "FrontierSWE v2",
+   "FrontierSWE V2"
+  ],
+  "lab_reports": [
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | FrontierSWE (Proximal) [17 ultra-long-horizon problems, 20h/task] | mean@5 / best@5 rank | score=#1 (avg rank 2.74 /  | system_card/appendix | https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude-Opus-4.8-System-Card.pdf",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | FrontierSWE (Proximal)  |  | score= | system_card/appendix | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-07-16 | Moonshot AI (Kimi) | Kimi K3 | FrontierSWE [Coding] | Kimi K3 (max effort); temp 1.0 | score=81.2 | github/main | https://github.com/MoonshotAI/Kimi-K3/blob/main/README.md",
+   "2026-07-16 | xAI | Grok 4.5 | FrontierSWE [dominance] | Grok 4.5 (high) | score=78% | model_card/main | https://media.x.ai/v1/website/4p5-5184fdf9.pdf",
+   "2026-08-03 | Alibaba (Qwen) | Qwen3.8-Max (open weights Qwen3.8-2.4T-A95B) | FrontierSWE [Claude Code; MEAN@5] | Qwen3.8-Max | score=73.5 | blog/main | https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | FrontierSWE v2 (Proximal)  | mean over 5 trials, 0-1 scale | score=0.57 | system_card/appendix | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-21 | xAI | Grok 4.7 | FrontierSWE V2 [mean@5 score] | Grok 4.7 (xhigh) | score=29.0% | model_card/main | https://media.x.ai/v1/website/card4p7-3a96f40b.pdf",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | FrontierSWE v2 (Proximal)  |  | score=62.3% | system_card/appendix | https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | FrontierSWE v2  |  | score=61.9% | system_card/appendix | https://www.anthropic.com/claude-sonnet-5-5-system-card"
+  ]
+ },
+ {
+  "unit": "GDP-PDF",
+  "family": "GDP-PDF",
+  "labs_reporting": [
+   "Anthropic",
+   "Google",
+   "OpenAI"
+  ],
+  "n_releases": 8,
+  "first_lab_report": "2026-06-09",
+  "last_lab_report": "2026-09-29",
+  "raw_names": [
+   "GDP.pdf",
+   "GDP.PDF",
+   "gdp.pdf"
+  ],
+  "lab_reports": [
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | GDP.pdf [100 prompts] | strict pass rate | score=29.8% | system_card/main | https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | GDP.pdf [100 prompts] | mean criteria pass, no tools / tools | score=67.5% / 81.6% | system_card/appendix | https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+   "2026-07-09 | OpenAI | GPT-5.6 (Sol/Terra/Luna) | gdp.pdf  |  | score=30.7% | blog/main | https://openai.com/index/gpt-5-6/",
+   "2026-07-24 | Anthropic | Claude Opus 5 | GDP.pdf  | mean criteria pass, no tools / tools | score=83.4% / 85.5% | system_card/appendix | https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf",
+   "2026-08-13 | Google | Gemini 3.7 Flash | GDP.pdf [expert PDF document comprehension] | Gemini 3.7 Flash | score=34.0% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | GDP.pdf  |  | score= | system_card/appendix | https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+   "2026-09-02 | Google | Gemini 3.8 Flash | GDP.PDF [all pass rate] | Gemini 3.8 Flash | score=35.0% | model_card/main | https://deepmind.google/models/model-cards/gemini-3-8-flash",
+   "2026-09-29 | OpenAI | GPT-6.1 Sol | GDP.pdf  |  | score= | blog/main | https://openai.com/index/introducing-gpt-6-1-sol/"
+  ]
+ }
+]

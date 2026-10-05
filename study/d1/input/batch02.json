@@ -1,0 +1,582 @@
+[
+ {
+  "unit": "QuAC",
+  "family": "QuAC",
+  "labs_reporting": [
+   "Google",
+   "Meta",
+   "Mistral",
+   "OpenAI"
+  ],
+  "n_releases": 8,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2024-09-25",
+  "raw_names": [
+   "QuAC",
+   "QuAC (F1)",
+   "QUAC (f1)",
+   "QuAC (1-shot, F1)",
+   "Quac"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | Quac [dev] | few-shot (K=5); F1 | score=44.3 | paper/main",
+   "2022-01-27 | OpenAI | InstructGPT (\"Training language models to follow instruction | QuAC  | F1; few-shot | score=46.99 | paper/appendix",
+   "2022-04-04 | Google | PaLM | QuAC [F1] | few-shot; PaLM 540B | score=47.7 | paper/main",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | QUAC (f1)  | 0/1-shot; base pretrained | score=42.4/49.3 | paper/appendix",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | QuAC  | pretrained; 0-shot | score= | paper/main",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | QuAC (1-shot, F1)  | 1-shot; F1; base pretrained | score=51.1 | model_card/main",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | QuAC (F1)  | 1-shot; f1; base pretrained | score=53.6 | model_card/main",
+   "2024-09-25 | Meta | Llama 3.2 (1B/3B text; 11B/90B Vision) | QuAC (F1)  | 1-shot; f1; base pretrained | score=42.9 | model_card/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "QuALITY",
+  "family": "QuALITY",
+  "labs_reporting": [
+   "Anthropic",
+   "Meta"
+  ],
+  "n_releases": 4,
+  "first_lab_report": "2023-07-11",
+  "last_lab_report": "2024-07-23",
+  "raw_names": [
+   "QuALITY",
+   "QuALITY (5-shot)"
+  ],
+  "lab_reports": [
+   "2023-07-11 | Anthropic | Claude 2 | QuALITY  | 5-shot | score=83.2% | model_card/main",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | QuALITY [acc] | context-length ablation (small ablation models, 4k context) | score=29.6 | paper/appendix",
+   "2024-03-04 | Anthropic | Claude 3 Opus (Claude 3 family: Opus, Sonnet, Haiku) | QuALITY  | 1-shot | score=90.5% | model_card/appendix",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | QuALITY (5-shot)  | pre-trained; 95% CI reported | score=87.6 | paper/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "RACE",
+  "family": "RACE",
+  "labs_reporting": [
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "OpenAI"
+  ],
+  "n_releases": 16,
+  "first_lab_report": "2018-06-11",
+  "last_lab_report": "2024-12-26",
+  "raw_names": [
+   "RACE-m",
+   "RACE-h",
+   "RACE-H",
+   "RACE",
+   "RACE-Middle",
+   "RACE-High",
+   "RACE-Middle (Acc.)",
+   "RACE-High (Acc.)",
+   "RACE-M",
+   "RACE-middle"
+  ],
+  "lab_reports": [
+   "2018-06-11 | OpenAI | GPT (GPT-1, \"Improving Language Understanding by Generative  | RACE-m [middle] | fine-tuned; accuracy | score=62.9 | paper/main",
+   "2019-07-26 | Meta | RoBERTa (base, large) | RACE [test: Accuracy / Middle / High] | fine-tuned; single model | score=83.2 / 86.5 / 81.3 | paper/main",
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | RACE-m [test] | few-shot (K=10); acc | score=58.1 | paper/main",
+   "2021-12-08 | Google | Gopher | RACE-m [reading comprehension] | few-shot; Gopher 280B | score=75.1 | paper/main",
+   "2022-03-29 | Google | Chinchilla | RACE-m  | few-shot; Chinchilla 70B | score=86.8% | paper/main",
+   "2022-04-04 | Google | PaLM | RACE-m  | few-shot; PaLM 540B | score=72.1 | paper/main",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | RACE-middle [middle] | 0-shot accuracy; base | score=67.9 | paper/main",
+   "2023-05-10 | Google | PaLM 2 | RACE-M  | 1-shot; PaLM 2-L | score=77.0 | tech_report/main",
+   "2023-07-11 | Anthropic | Claude 2 | RACE-H  | 5-shot | score=88.3% | model_card/main",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | RACE-Middle  |  | score=70.9 | github/appendix",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | RACE-middle (Acc.) [base model (internal benchmarks vs DeepS] | 5-shot | score=61.9 | github/main",
+   "2024-03-04 | Anthropic | Claude 3 Opus (Claude 3 family: Opus, Sonnet, Haiku) | RACE-H  | 5-shot | score=92.9% | model_card/main",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | RACE-Middle (Acc.) [base model] | 5-shot | score=73.1 | tech_report/main",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | RACE  | pre-trained; 95% CI reported | score=58.1 | paper/main",
+   "2024-09-12 | OpenAI | o1-preview and o1-mini | Discrimination evaluation (explicit / implicit; age, gender,  | mixed-effects coefficients | score=0.20 (explicit overa | system_card/appendix",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | RACE-Middle (Acc.) [base model] | 5-shot | score=67.1 | github/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "SQuAD 1.1",
+  "family": "SQuAD 1.1",
+  "labs_reporting": [
+   "Google",
+   "Meta"
+  ],
+  "n_releases": 7,
+  "first_lab_report": "2018-10-11",
+  "last_lab_report": "2024-09-25",
+  "raw_names": [
+   "SQuAD",
+   "SQuAD v1.1",
+   "SQuAD 1.1",
+   "SQUAD (EM)",
+   "SQuAD (1-shot)",
+   "Adv SQuAD",
+   "Dynabench SQuAD"
+  ],
+  "lab_reports": [
+   "2018-10-11 | Google | BERT | SQuAD v1.1 [test] | fine-tuned; BERT_LARGE ensemble + TriviaQA; F1 | score=93.2 | paper/main",
+   "2019-07-26 | Meta | RoBERTa (base, large) | SQuAD 1.1 [dev] | fine-tuned; EM / F1 | score=88.9 / 94.6 | paper/main",
+   "2019-10-23 | Google | T5 (Text-to-Text Transfer Transformer) | SQuAD [v1.1, EM/F1] | fine-tuned; T5-11B (fine-tuned) | score= | paper/main",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | SQUAD (EM)  | 0/1/4/5-shot; base pretrained | score=80.7/82.6/81.9/81.9 | paper/appendix",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | SQuAD (1-shot)  | 1-shot; base pretrained | score=85.6 | model_card/main",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | SQuAD  | 1-shot; em; base pretrained | score=89.3 | model_card/main",
+   "2024-09-25 | Meta | Llama 3.2 (1B/3B text; 11B/90B Vision) | SQuAD  | 1-shot; em; base pretrained | score=67.7 | model_card/main"
+  ],
+  "metadata_hints": {
+   "primary_source_url": "https://arxiv.org/abs/1606.05250",
+   "metric": "F1 (bag-of-tokens overlap, max over gold answers) and Exact Match (EM); F1 is the headline metric",
+   "metric_max": "100",
+   "n_items_test": "Hidden test: ~10% of 536 articles (46 articles); exact question count not stated in paper (implied 107,785 - 87,599 train - 10,570 dev = 9,616; unverified). De-facto standard for papers is the public dev set: 10,570 questions / 48 articles (train 87,599 / 442 articles)",
+   "score_at_release": "51.0",
+   "score_at_release_system": "Logistic regression with hand-engineered features (authors' baseline)",
+   "score_at_release_setting": "Supervised, trained on SQuAD train; hidden test F1 51.0 / EM 40.4 (dev F1 51.0 / EM 40.0); sliding-window baseline ~20% F1. No external leaderboard entries at launch (first: Match-LSTM, Aug 27 2016, 70.695 F1)",
+   "human_baseline": "86.8",
+   "human_type": "average human",
+   "test_access": "hidden-labels",
+   "curation": "crowdsourced",
+   "format": "span extraction",
+   "modality": "text",
+   "lineage": "v1.0 released with paper (2016-06); v1.1 revision is what the official leaderboard and public dev JSON use; successor SQuAD 2.0 (2018-06, adds 50k+ adversarial unanswerable questions); derivatives include Adversarial SQuAD (Jia & Liang 2017-07), QNLI task in GLUE (2018-04), XQuAD (translation of v1.1 dev, 2019)",
+   "known_contamination_or_defects": "Adversarial distractor sentences cut 16 published models' average F1 from 75% to 36% (Jia & Liang 2017, https://arxiv.org/abs/1707.07328); creators note the v1 human score (single human) underestimates human accuracy (https://arxiv.org/abs/1806.03822). Source passages are Wikipedia, which is in nearly all LLM pretraining corpora"
+  }
+ },
+ {
+  "unit": "SQuAD 2.0",
+  "family": "SQuAD 2.0",
+  "labs_reporting": [
+   "Google",
+   "Meta",
+   "OpenAI"
+  ],
+  "n_releases": 6,
+  "first_lab_report": "2018-10-11",
+  "last_lab_report": "2023-05-10",
+  "raw_names": [
+   "SQuAD 2.0",
+   "SQuADv2",
+   "SQuAD v2",
+   "SQuAD 2.0 / MNLI-m / SST-2 / RACE (dev)"
+  ],
+  "lab_reports": [
+   "2018-10-11 | Google | BERT | SQuAD 2.0 [test] | fine-tuned; BERT_LARGE single; F1 | score=83.1 | paper/main",
+   "2019-07-26 | Meta | RoBERTa (base, large) | SQuAD 2.0 [test (single model)] | fine-tuned; EM / F1 | score=86.8 / 89.8 | paper/main",
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | SQuADv2 [dev] | few-shot (K=16); F1 | score=69.8 | paper/main",
+   "2022-01-27 | OpenAI | InstructGPT (\"Training language models to follow instruction | SQuADv2  | F1; few-shot | score=69.93 | paper/appendix",
+   "2022-04-04 | Google | PaLM | SQuADv2 [F1] | few-shot; PaLM 540B | score=83.3 | paper/main",
+   "2023-05-10 | Google | PaLM 2 | SQuAD v2 [EM] | 1-shot; PaLM 2-L | score=80.5 | tech_report/main"
+  ],
+  "metadata_hints": {
+   "primary_source_url": "https://arxiv.org/abs/1806.03822",
+   "metric": "F1 and Exact Match (EM), with abstention ('no answer') required for unanswerable questions; F1 headline",
+   "metric_max": "100",
+   "n_items_test": "8,862 (hidden test; 4,332 unanswerable; 28 articles). Public dev (de-facto for papers): 11,873 (5,945 unanswerable; 35 articles). Train 130,319 (43,498 unanswerable)",
+   "score_at_release": "66.3",
+   "score_at_release_system": "DocQA + ELMo (Clark & Gardner BiDAF + self-attention + ELMo, retrained by Stanford)",
+   "score_at_release_setting": "Hidden test, F1 66.3 / EM 63.4 (dev 67.6 / 65.1). Leaderboard launch entries were only the 3 Stanford-run baselines dated 2018-05-30 (BiDAF+SA+ELMo 63.372 EM / 66.251 F1); first external entries late June 2018",
+   "human_baseline": "89.5",
+   "human_type": "crowd aggregate/upper bound",
+   "test_access": "hidden-labels",
+   "curation": "crowdsourced",
+   "format": "span extraction",
+   "modality": "text",
+   "lineage": "Parent: SQuAD 1.1 (2016); SQuAD 2.0 replaced 1.1 as the primary leaderboard benchmark",
+   "known_contamination_or_defects": "None specific found in sources reviewed; Wikipedia passages (shared with SQuAD 1.1) are ubiquitous in LLM pretraining corpora"
+  }
+ },
+ {
+  "unit": "Social IQa",
+  "family": "Social IQa",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Google",
+   "Meta",
+   "Mistral"
+  ],
+  "n_releases": 7,
+  "first_lab_report": "2021-12-08",
+  "last_lab_report": "2024-07-23",
+  "raw_names": [
+   "SIQA",
+   "SiQA"
+  ],
+  "lab_reports": [
+   "2021-12-08 | Google | Gopher | SIQA [common sense] | zero-shot; Gopher 280B | score= | paper/main",
+   "2022-03-29 | Google | Chinchilla | SIQA  | zero-shot; Chinchilla 70B | score=51.3% | paper/main",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | SIQA  | 0-shot; base | score=52.3 | paper/main",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | SIQA  | 0-shot (MMLU 5-shot); base pretrained | score=50.7 | paper/appendix",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | SIQA  | pretrained; 0-shot | score= | paper/main",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | SIQA  | base Qwen-14B | score=77.9 | tech_report/appendix",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | SiQA  | pre-trained; 95% CI reported | score=53.7 | paper/main"
+  ],
+  "metadata_hints": {
+   "primary_source_url": "https://arxiv.org/abs/1904.09728",
+   "metric": "accuracy",
+   "metric_max": "100",
+   "n_items_test": "2,224 (official hidden test, final EMNLP-2019 release); dev 1,954 (public, de-facto for LLM reports); train 33,410. arXiv v1 (2019-04) described an earlier, unfiltered version: train 33,871 / dev 5,369 / test 5,571 (44,811 total)",
+   "score_at_release": "64.5",
+   "score_at_release_system": "BERT-large (fine-tuned)",
+   "score_at_release_setting": "Final official test set (dev 66.0). arXiv v1 reported BERT-large 77.0 test (dev 77.2) on the pre-filtering v1 test set (5,571); dev/test were later reduced by lightweight adversarial filtering with a stylistic classifier. Random 33.3",
+   "human_baseline": "84.4",
+   "human_type": "crowd aggregate/upper bound",
+   "test_access": "hidden-labels",
+   "curation": "crowdsourced",
+   "format": "multiple-choice",
+   "modality": "text",
+   "lineage": "Parent: ATOMIC knowledge graph (Sap et al. 2019); no official successor",
+   "known_contamination_or_defects": "None specific found in sources reviewed"
+  }
+ },
+ {
+  "unit": "StoryCloze",
+  "family": "StoryCloze",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Google",
+   "Meta",
+   "OpenAI"
+  ],
+  "n_releases": 10,
+  "first_lab_report": "2018-06-11",
+  "last_lab_report": "2024-12-19",
+  "raw_names": [
+   "XStoryCloze",
+   "StoryCloze",
+   "Story Cloze"
+  ],
+  "lab_reports": [
+   "2018-06-11 | OpenAI | GPT (GPT-1, \"Improving Language Understanding by Generative  | Story Cloze  | fine-tuned; accuracy | score=86.5 | paper/main",
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | StoryCloze [test] | few-shot (K=70); acc | score=87.7 | paper/main",
+   "2022-04-04 | Google | PaLM | StoryCloze  | few-shot; PaLM 540B | score=89.0 | paper/main",
+   "2022-05-03 | Meta | OPT (125M-175B) | StoryCloze  | zero-shot and few-shot (1/32-shot), GPT-3 prompts; accuracy | score= | paper/main",
+   "2023-05-10 | Google | PaLM 2 | StoryCloze  | 1-shot; PaLM 2-L | score=87.4 | tech_report/main",
+   "2024-02-04 | Alibaba (Qwen) | Qwen1.5 | XStoryCloze [Understanding (ar, es, ru, id)] | base; 0-shot/Acc | score= | blog/main",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | XStoryCloze [component of Multi-Understanding] | base Qwen2-72B; 0-shot | score= | blog/appendix",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | XStoryCloze [component of Understanding] | base Qwen2-72B; 0-shot | score= | tech_report/main",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | XStoryCloze [component of Multi-Understanding] | base Qwen2.5-72B; 0-shot | score= | blog/main",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | XStoryCloze [component of Multi-Understanding] | base Qwen2.5-72B; 0-shot | score= | tech_report/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "SuperGLUE",
+  "family": "SuperGLUE",
+  "labs_reporting": [
+   "Google",
+   "Meta",
+   "OpenAI"
+  ],
+  "n_releases": 4,
+  "first_lab_report": "2019-10-23",
+  "last_lab_report": "2022-05-03",
+  "raw_names": [
+   "SuperGLUE"
+  ],
+  "lab_reports": [
+   "2019-10-23 | Google | T5 (Text-to-Text Transfer Transformer) | SuperGLUE [average] | fine-tuned; T5-11B (fine-tuned) | score= | paper/main",
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | SuperGLUE [average (dev)] | few-shot | score=73.2 | paper/main",
+   "2022-04-04 | Google | PaLM | SuperGLUE [test set (leaderboard), average] | fine-tuned; PaLM 540B | score=90.4 | paper/main",
+   "2022-05-03 | Meta | OPT (125M-175B) | SuperGLUE [BoolQ] | zero-shot and few-shot; accuracy (F1 omitted for MultiRC/ReC | score= | paper/main"
+  ],
+  "metadata_hints": {
+   "primary_source_url": "https://arxiv.org/abs/1905.00537",
+   "metric": "SuperGLUE score = unweighted average over 8 tasks (multi-metric tasks averaged first: CB acc/F1, MultiRC F1a/EM, ReCoRD F1/EM; accuracy otherwise)",
+   "metric_max": "100",
+   "n_items_test": "~17.6k test examples over 8 tasks (BoolQ 3,245; CB 250; COPA 500; MultiRC 1,800; ReCoRD ~10k; RTE 300; WiC 1,400; WSC 146) plus diagnostics AX-b and AX-g. arXiv v1 (2019-05) had only 6 tasks (CB, COPA, MultiRC, RTE, WiC, WSC; 4,396 test examples)",
+   "score_at_release": "71.5",
+   "score_at_release_system": "BERT++ (BERT-large with intermediate training on related tasks, e.g., MNLI)",
+   "score_at_release_setting": "Final 8-task benchmark, test via leaderboard (BERT 69.0). arXiv v1 (6 tasks): BERT++ 69.7, BERT 66.6",
+   "human_baseline": "89.8",
+   "human_type": "crowd aggregate/upper bound",
+   "test_access": "hidden-labels",
+   "curation": "mixed",
+   "format": "other",
+   "modality": "text",
+   "lineage": "Successor to GLUE (2018-04); task set grew from 6 tasks (arXiv v1, 2019-05) to 8 (arXiv v2, 2019, adding BoolQ and ReCoRD); clones include Russian SuperGLUE (2020-10)",
+   "known_contamination_or_defects": "None specific found in sources reviewed; constituent tasks (e.g., RTE, WSC, COPA) predate the benchmark and are widely circulated online"
+  }
+ },
+ {
+  "unit": "TriviaQA",
+  "family": "TriviaQA",
+  "labs_reporting": [
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 25,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2026-04-24",
+  "raw_names": [
+   "TriviaQA",
+   "TriviaQA (EM)",
+   "TriviaQA (1-shot)",
+   "TriviaQA (Wiki)",
+   "TriviaQA-Wiki (5-shot)",
+   "TriviaQA-Wiki",
+   "Disparate performance on voice inputs: TriviaQA"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | TriviaQA [dev] | few-shot (K=64); acc | score=71.2 | paper/main",
+   "2021-12-08 | Google | Gopher | TriviaQA [closed-book QA] | Gopher 280B | score= | paper/main",
+   "2022-03-29 | Google | Chinchilla | TriviaQA [closed-book, unfiltered] | 5-shot; Chinchilla 70B | score=73.2% | paper/main",
+   "2022-04-04 | Google | PaLM | TriviaQA [EM] | few-shot; PaLM 540B | score=81.4 | paper/main",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | TriviaQA [filtered dev set] | exact match; 0/1/5/64-shot; base | score=68.2/71.6/72.6/73.0 | paper/main",
+   "2023-05-10 | Google | PaLM 2 | TriviaQA [EM] | 1-shot; PaLM 2-L | score=86.1 | tech_report/main",
+   "2023-07-11 | Anthropic | Claude 2 | TriviaQA  | 5-shot, T=0 | score=87.5% | model_card/main",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | TriviaQA (1-shot)  | base pretrained | score=85.0 | paper/main",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | TriviaQA  | pretrained; settings per Sec.3 (commonsense 0-shot; NQ/Trivi | score=69.9% | paper/main",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | TriviaQA  | 5-shot | score=81.5 | github/main",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | TriviaQA (EM) [base model (internal benchmarks vs DeepS] | 5-shot | score=64.8 | github/main",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | TriviaQA-Wiki (5-shot) [Wiki] | 5-shot; base pretrained | score=89.7 | model_card/main",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | TriviaQA [chat model] | 5-shot | score=86.7 | tech_report/main",
+   "2024-06-17 | DeepSeek | DeepSeek-Coder-V2 (Instruct / Lite) | TriviaQA [general NL] |  | score=82.3 | github/main",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | TriviaQA-Wiki  | 5-shot; em; base pretrained | score=91.8 | model_card/main",
+   "2024-08-08 | OpenAI | GPT-4o (System Card) | Disparate performance on voice inputs: TriviaQA [audio, diverse accents] |  | score= | system_card/appendix",
+   "2024-10-16 | Mistral | Ministral 3B / Ministral 8B (2410) | TriviaQA  | base pretrained | score=65.5 | hf_card/main",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | TriviaQA (EM) [base model] | 5-shot | score=82.9 | github/main",
+   "2025-01-30 | Mistral | Mistral Small 3 (24B, 2501) | TriviaQA  | 5-shot; base pretrained | score=80.32 | hf_card/main",
+   "2025-02-22 | Moonshot AI (Kimi) | Moonlight-16B-A3B | TriviaQA [full set] | Moonlight (base, 5.7T tokens, Muon); 5-shot | score=66.3 | github/main",
+   "2025-03-17 | Mistral | Mistral Small 3.1 (24B, 2503) | TriviaQA  | base pretrained | score=80.50% | hf_card/main",
+   "2025-07-11 | Moonshot AI (Kimi) | Kimi K2 (Kimi-K2-Instruct / Base) | TriviaQA [EM] | Kimi-K2-Base; 5-shot | score=85.1 | github/main",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | TriviaQA  | Kimi-K2-Base; 5-shot | score=85.09 | tech_report/main",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | TriviaQA  | Kimi-Linear-Base @5.7T (released); 5-shot | score=75.2 | paper/appendix",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | TriviaQA (EM) [base model] | 5-shot | score=85.6 | hf_card/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "TyDiQA",
+  "family": "TyDiQA",
+  "labs_reporting": [
+   "Google",
+   "Meta"
+  ],
+  "n_releases": 4,
+  "first_lab_report": "2022-10-20",
+  "last_lab_report": "2025-04-05",
+  "raw_names": [
+   "TyDi QA",
+   "TydiQA",
+   "TyDiQA"
+  ],
+  "lab_reports": [
+   "2022-10-20 | Google | Flan-PaLM (Scaling Instruction-Finetuned Language Models) | TyDiQA [GoldP (8 languages)] | 1-shot direct; Flan-PaLM 540B | score=67.8 | paper/main",
+   "2023-05-10 | Google | PaLM 2 | TyDi QA [GoldP, average F1] | 1-shot; PaLM 2-L | score=73.6 | tech_report/main",
+   "2023-12-06 | Google | Gemini 1.0 (Ultra/Pro/Nano) | TydiQA [GoldP] | Gemini Nano-2 | score=74.2 | tech_report/main",
+   "2025-04-05 | Meta | Llama 4 Scout / Llama 4 Maverick | TydiQA  | 1-shot; average/f1; base pretrained | score=31.7 | model_card/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "WinoGrande",
+  "family": "WinoGrande",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Anthropic",
+   "DeepSeek",
+   "Google",
+   "Meta",
+   "Mistral",
+   "Moonshot AI (Kimi)",
+   "OpenAI"
+  ],
+  "n_releases": 25,
+  "first_lab_report": "2020-05-28",
+  "last_lab_report": "2026-04-24",
+  "raw_names": [
+   "Winogrande",
+   "WinoGrande",
+   "WinoGrande (Acc.)",
+   "Winogrande (5-shot)",
+   "WinoGrande (5-shot)",
+   "WinoGrande (EM)"
+  ],
+  "lab_reports": [
+   "2020-05-28 | OpenAI | GPT-3 (\"Language Models are Few-Shot Learners\") | Winogrande [dev] | few-shot (K=50); acc | score=77.7 | paper/main",
+   "2021-12-08 | Google | Gopher | Winogrande [common sense] | zero-shot; Gopher 280B | score= | paper/main",
+   "2022-03-29 | Google | Chinchilla | Winogrande  | zero-shot; Chinchilla 70B | score=74.9% | paper/main",
+   "2022-04-04 | Google | PaLM | Winogrande  | few-shot; PaLM 540B | score=85.1 | paper/main",
+   "2022-05-03 | Meta | OPT (125M-175B) | WinoGrande  | zero-shot and few-shot (1/32-shot), GPT-3 prompts; accuracy | score= | paper/main",
+   "2023-02-24 | Meta | LLaMA (7B/13B/33B/65B) | WinoGrande  | 0-shot; base | score=77.0 | paper/main",
+   "2023-03-14 | OpenAI | GPT-4 (Technical Report) | WinoGrande  | 5-shot | score=87.5% | tech_report/main",
+   "2023-05-10 | Google | PaLM 2 | WinoGrande  | 5-shot; PaLM 2-L | score=90.9 | tech_report/main",
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | WinoGrande  | 0-shot (MMLU 5-shot); base pretrained | score=80.2 | paper/appendix",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | WinoGrande  |  | score=76.0 | github/appendix",
+   "2023-12-11 | Mistral | Mixtral 8x7B (base + Instruct) | WinoGrande (5-shot)  | base; 5-shot | score=81.2% | paper/main",
+   "2024-01-11 | DeepSeek | DeepSeekMoE 16B | WinoGrande (Acc.) [base model (internal benchmarks vs DeepS] | 0-shot | score=70.2 | github/main",
+   "2024-03-04 | Anthropic | Claude 3 Opus (Claude 3 family: Opus, Sonnet, Haiku) | WinoGrande  | 5-shot | score=88.5% | model_card/main",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | Winogrande (5-shot)  | 5-shot; base pretrained | score=83.1 | model_card/main",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | WinoGrande (Acc.) [base model] | 5-shot | score=84.9 | tech_report/main",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | Winogrande  | base Qwen2-72B; 5-shot | score=85.1 | blog/appendix",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | Winogrande  | base Qwen2-72B; 5-shot | score=85.1 | tech_report/main",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | Winogrande  | 5-shot; acc_char; base pretrained | score=86.7 | model_card/main",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | Winogrande  | base Qwen2.5-72B; 5-shot | score=83.9 | blog/main",
+   "2024-10-16 | Mistral | Ministral 3B / Ministral 8B (2410) | Winogrande  | base pretrained | score=75.3 | hf_card/main",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | Winogrande  | base Qwen2.5-72B; 5-shot | score=83.9 | tech_report/main",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | WinoGrande (Acc.) [base model] | 5-shot | score=84.9 | github/main",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | WinoGrande  | Kimi-K2-Base; 5-shot | score=85.32 | tech_report/main",
+   "2025-10-30 | Moonshot AI (Kimi) | Kimi Linear (Kimi-Linear-48B-A3B) | WinoGrande  | Kimi-Linear-Base @5.7T (released); 5-shot | score=81.5 | paper/appendix",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | WinoGrande (EM) [base model] | 0-shot | score=81.5 | hf_card/main"
+  ],
+  "metadata_hints": {
+   "primary_source_url": "https://arxiv.org/abs/1907.10641",
+   "metric": "accuracy (2-way fill-in-the-blank); leaderboard also uses AUC over training-set sizes (XS-XL)",
+   "metric_max": "100",
+   "n_items_test": "1,767 (official hidden test, final release); dev 1,267 (de-facto for LLM reports); train XL 40,398 (sizes XS 160 / S 640 / M 2,558 / L 10,234 / XL). arXiv v1 (2019-07): 43,985 total; 'debiased' 25,680 split 18,538 / 2,863 / 4,279",
+   "score_at_release": "79.1",
+   "score_at_release_system": "RoBERTa-large fine-tuned on WinoGrande XL",
+   "score_at_release_setting": "Final official test (dev 79.3); range 59.4-79.1 across training sizes. arXiv v1 (pre-RoBERTa, different debiased split): best BERT-seqft 61.6 test (dev 63.5)",
+   "human_baseline": "94.0",
+   "human_type": "crowd aggregate/upper bound",
+   "test_access": "hidden-labels",
+   "curation": "crowdsourced",
+   "format": "multiple-choice",
+   "modality": "text",
+   "lineage": "Parent: Winograd Schema Challenge (Levesque et al. 2011; WSC273) and related WSC variants (DPR, SuperGLUE-WSC); no official successor",
+   "known_contamination_or_defects": "Elazar et al. 2021 (EMNLP, https://aclanthology.org/2021.emnlp-main.819/) report artifacts in Winograd-schema benchmarks incl. WinoGrande and near-random zero-shot LM performance under stricter twin-sentence evaluation"
+  }
+ },
+ {
+  "unit": "XCOPA",
+  "family": "XCOPA",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Google"
+  ],
+  "n_releases": 6,
+  "first_lab_report": "2023-05-10",
+  "last_lab_report": "2024-12-19",
+  "raw_names": [
+   "XCOPA"
+  ],
+  "lab_reports": [
+   "2023-05-10 | Google | PaLM 2 | XCOPA  | 4-shot; PaLM 2-L | score=94.4 | tech_report/main",
+   "2024-02-04 | Alibaba (Qwen) | Qwen1.5 | XCOPA [Understanding (vi, id, th)] | base; 5-shot/Acc | score= | blog/main",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | XCOPA [component of Multi-Understanding] | base Qwen2-72B; 5-shot | score= | blog/appendix",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | XCOPA [component of Understanding] | base Qwen2-72B; 5-shot | score= | tech_report/main",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | XCOPA [component of Multi-Understanding] | base Qwen2.5-72B; 5-shot | score= | blog/main",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | XCOPA [component of Multi-Understanding] | base Qwen2.5-72B; 5-shot | score= | tech_report/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "XWinograd",
+  "family": "XWinograd",
+  "labs_reporting": [
+   "Alibaba (Qwen)"
+  ],
+  "n_releases": 5,
+  "first_lab_report": "2024-02-04",
+  "last_lab_report": "2024-12-19",
+  "raw_names": [
+   "XWinograd"
+  ],
+  "lab_reports": [
+   "2024-02-04 | Alibaba (Qwen) | Qwen1.5 | XWinograd [Understanding (fr, pt, ru, ja)] | base; 5-shot/Acc | score= | blog/main",
+   "2024-06-07 | Alibaba (Qwen) | Qwen2 (blog) | XWinograd [component of Multi-Understanding] | base Qwen2-72B; 5-shot | score= | blog/appendix",
+   "2024-07-15 | Alibaba (Qwen) | Qwen2 (technical report) | XWinograd [component of Understanding] | base Qwen2-72B; 5-shot | score= | tech_report/main",
+   "2024-09-19 | Alibaba (Qwen) | Qwen2.5 (blog) | XWinograd [component of Multi-Understanding] | base Qwen2.5-72B; 5-shot | score= | blog/main",
+   "2024-12-19 | Alibaba (Qwen) | Qwen2.5 (technical report) | XWinograd [component of Multi-Understanding] | base Qwen2.5-72B; 5-shot | score= | tech_report/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "AA-LCR",
+  "family": "AA-LCR",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 5,
+  "first_lab_report": "2026-01",
+  "last_lab_report": "2026-07-16",
+  "raw_names": [
+   "AA-LCR"
+  ],
+  "lab_reports": [
+   "2026-01 | Moonshot AI (Kimi) | Kimi K2.5 | AA-LCR [avg@3] | Kimi K2.5 (thinking); temp 1.0, 256k ctx | score=70.0 | github/main",
+   "2026-01-25 | Alibaba (Qwen) | Qwen3-Max-Thinking | AA-LCR  | Qwen3-Max-Thinking | score=68.7 | blog/main",
+   "2026-02-16 | Alibaba (Qwen) | Qwen3.5 (Qwen3.5-397B-A17B) | AA-LCR [long context] | Qwen3.5-397B-A17B (thinking, default) | score=68.7 | hf_card/main",
+   "2026-04-01 | Alibaba (Qwen) | Qwen3.6-Plus | AA-LCR  | Qwen3.6-Plus | score=68.3 | blog/main",
+   "2026-07-16 | Moonshot AI (Kimi) | Kimi K3 | AA-LCR [Reasoning & Knowledge] | Kimi K3 (max effort); temp 1.0 | score=74.7 | github/main"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "AA-Omniscience",
+  "family": "AA-Omniscience",
+  "labs_reporting": [
+   "Anthropic"
+  ],
+  "n_releases": 11,
+  "first_lab_report": "2025-11-24",
+  "last_lab_report": "2026-09-28",
+  "raw_names": [
+   "AA-Omniscience"
+  ],
+  "lab_reports": [
+   "2025-11-24 | Anthropic | Claude Opus 4.5 | AA-Omniscience [factual questions] |  | score= | system_card/appendix",
+   "2026-02-05 | Anthropic | Claude Opus 4.6 | AA-Omniscience [factual questions] |  | score= | system_card/appendix",
+   "2026-04-07 | Anthropic | Claude Mythos Preview | AA-Omniscience  | no tools | score= | system_card/appendix",
+   "2026-04-16 | Anthropic | Claude Opus 4.7 | AA-Omniscience  |  | score= | system_card/appendix",
+   "2026-05-28 | Anthropic | Claude Opus 4.8 | AA-Omniscience  |  | score= | system_card/appendix",
+   "2026-06-09 | Anthropic | Claude Mythos 5 / Claude Fable 5 | AA-Omniscience  |  | score= | system_card/appendix",
+   "2026-06-30 | Anthropic | Claude Sonnet 5 | AA-Omniscience [public split; factual hallucinations] | net score | score= | system_card/appendix",
+   "2026-07-24 | Anthropic | Claude Opus 5 | AA-Omniscience  |  | score= | system_card/appendix",
+   "2026-09-01 | Anthropic | Claude Fable 5.1 / Claude Mythos 5.1 | AA-Omniscience  |  | score= | system_card/appendix",
+   "2026-09-22 | Anthropic | Claude Opus 5.5 | AA-Omniscience  |  | score= | system_card/appendix",
+   "2026-09-28 | Anthropic | Claude Sonnet 5.5 | AA-Omniscience  |  | score= | system_card/appendix"
+  ],
+  "metadata_hints": null
+ },
+ {
+  "unit": "AGIEval",
+  "family": "AGIEval",
+  "labs_reporting": [
+   "Alibaba (Qwen)",
+   "DeepSeek",
+   "Meta",
+   "Mistral",
+   "Moonshot AI (Kimi)"
+  ],
+  "n_releases": 17,
+  "first_lab_report": "2023-07-18",
+  "last_lab_report": "2026-09-10",
+  "raw_names": [
+   "AGIEval",
+   "AGI Eval (English)",
+   "AGI Eval",
+   "AGIEval English",
+   "AGIEval (Acc.)",
+   "AGIEval (EM)",
+   "AGIEval English (3-5 shot)"
+  ],
+  "lab_reports": [
+   "2023-07-18 | Meta | Llama 2 / Llama 2-Chat (7B/13B/70B) | AGI Eval (English) [SAT-en] | 3-5 shot; base pretrained | score=86.9 | paper/appendix",
+   "2023-09-27 | Mistral | Mistral 7B (v0.1, base + Instruct) | AGI Eval  | pretrained; 3-5-shot, English multiple-choice only | score= | paper/main",
+   "2023-09-28 | Alibaba (Qwen) | Qwen (Qwen-7B/14B; Qwen Technical Report) | AGIEval  | base Qwen-14B | score=52.3 | tech_report/appendix",
+   "2023-11-29 | DeepSeek | DeepSeek LLM (7B/67B Base & Chat) | AGIEval  |  | score=46.4 | github/appendix",
+   "2023-11-30 | Alibaba (Qwen) | Qwen-72B | AGIEval  | base Qwen-72B | score= | github/main",
+   "2024-03-11 | DeepSeek | DeepSeek-VL (1.3B/7B) | AGIEval [language] |  | score=27.8 | tech_report/main",
+   "2024-04-18 | Meta | Llama 3 (8B, 70B; base + Instruct) | AGIEval English (3-5 shot) [English subset] | 3-5 shot; base pretrained | score=63.0 | model_card/main",
+   "2024-05-06 | DeepSeek | DeepSeek-V2 (and V2-Lite, 2024-05-16) | AGIEval [chat model] | 0-shot | score=61.4 | tech_report/main",
+   "2024-06-17 | DeepSeek | DeepSeek-Coder-V2 (Instruct / Lite) | AGIEval [general NL] |  | score=60 | github/main",
+   "2024-07-23 | Meta | Llama 3.1 (8B, 70B, 405B; base + Instruct) | AGIEval English  | 3-5-shot; average/acc_char; base pretrained | score=71.6 | model_card/main",
+   "2024-09-25 | Meta | Llama 3.2 (1B/3B text; 11B/90B Vision) | AGIEval English  | 3-5-shot; average/acc_char; base pretrained | score=39.2 | model_card/main",
+   "2024-10-16 | Mistral | Ministral 3B / Ministral 8B (2410) | AGIEval  | base pretrained | score=48.3 | hf_card/main",
+   "2024-12-26 | DeepSeek | DeepSeek-V3 | AGIEval (Acc.) [base model] | 0-shot | score=79.6 | github/main",
+   "2025-01-30 | Mistral | Mistral Small 3 (24B, 2501) | AGIEval  | -; base pretrained | score=65.80 | hf_card/main",
+   "2025-07-28 | Moonshot AI (Kimi) | Kimi K2 (technical report) | AGIEval  | Kimi-K2-Base | score=84.23 | tech_report/main",
+   "2026-04-24 | DeepSeek | DeepSeek-V4-Pro / V4-Flash (preview) | AGIEval (EM) [base model] | 0-shot | score=83.1 | hf_card/main",
+   "2026-09-10 | DeepSeek | DeepSeek-V4.1-Flash | AGIEval (EM) [base model] | 3-5-shot | score=83.4 | hf_card/main"
+  ],
+  "metadata_hints": null
+ }
+]
