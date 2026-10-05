@@ -1,0 +1,20 @@
+Benchmark Lifetimes dataset
+Copyright (c) 2026 Nikita Khudov
+
+The data files of this repository (CSV and JSON files under study/, including
+halflife_dataset_v3.csv, decisions_log_v3.csv, d3_matrix_v3.csv, cards_v3.csv,
+headroom_v3.csv and the coder outputs under study/d1/) and the Hugging Face release
+nikitahudov/benchmark-lifetimes are licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+Human-readable summary: https://creativecommons.org/licenses/by-sa/4.0/
+Legal code:             https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Scores, dates and model names are facts reported in the cited public sources.
+Fields ending in _quote contain short excerpts from those sources, kept so that
+each coding decision can be verified; they remain the property of their authors.
+
+study/d4/ contains values derived from two MIT-licensed repositories:
+epoch-research/benchmark-stitching (Copyright (c) 2025 Epoch AI) and
+evaleval/benchmark-saturation (Copyright (c) 2026 Benchmark Saturation contributors).
+Their license texts are in third_party/.
